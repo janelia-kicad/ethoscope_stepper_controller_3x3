@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ethoscope_stepper_controller)(type KiCad)(uri ${KIPRJMOD}/ethoscope_stepper_controller.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KILIBS}/footprints.pretty)(options "")(descr ""))
+)
