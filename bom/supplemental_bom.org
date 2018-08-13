@@ -1,4 +1,9 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | PartNumber | Vendor | Description |
-|------+----------+------------+--------+-------------|
+| Item | Quantity | PartNumber   | Vendor  | Description                     |
+|------+----------+--------------+---------+---------------------------------|
+|    1 |        1 | 102-3697-ND  | digikey | AC/DC DESKTOP ADAPTER 15V 18W   |
+|    2 |        1 | T1166-NA-ND  | digikey | AC CORD NORTH AMER C7 18AWG 6FT |
+|    3 |        1 | 1175-1694-ND | digikey | CABLE USB-A TO MICRO USB-B .5M  |
+|    4 |        2 | 1212-1209-ND | digikey | SOCKET 7 MM SOLDER TAIL SINGLE  |
+|      |          |              |         |                                 |

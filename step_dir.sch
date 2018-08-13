@@ -21,23 +21,6 @@ DIR
 Text HLabel 3550 2900 0    60   Input ~ 0
 ENABLE
 $Comp
-L ethoscope_stepper_controller:26LS31 U2
-U 1 1 58DB685B
-P 4050 2850
-AR Path="/58DAAD90/58DB6271/58DB685B" Ref="U2"  Part="1" 
-AR Path="/58DAAD90/58DBE3E6/58DB685B" Ref="U4"  Part="1" 
-AR Path="/58DAAD90/58DBF0EC/58DB685B" Ref="U6"  Part="1" 
-F 0 "U2" H 4250 3450 60  0000 C CNN
-F 1 "26LS31" H 3800 3450 60  0000 C CNN
-F 2 "ethoscope_stepper_controller:SOIC_16_0.154IN" H 4150 3350 60  0001 C CNN
-F 3 "" H 4050 2850 60  0001 C CNN
-F 4 "digikey" H 4350 3550 60  0001 C CNN "Vendor"
-F 5 "296-1010-1-ND" H 4450 3650 60  0001 C CNN "PartNumber"
-F 6 "IC QUAD DIFF LINE DRIVER 16-SOIC" H 4550 3750 60  0001 C CNN "Description"
-	1    4050 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR018
 U 1 1 58DB6987
 P 4050 3650
@@ -123,23 +106,6 @@ Text Label 4550 2950 0    60   ~ 0
 ENABLE_+
 Text Label 4550 3050 0    60   ~ 0
 ENABLE_-
-$Comp
-L ethoscope_stepper_controller:MAX6817 U3
-U 1 1 58DB7355
-P 7800 5150
-AR Path="/58DAAD90/58DB6271/58DB7355" Ref="U3"  Part="1" 
-AR Path="/58DAAD90/58DBE3E6/58DB7355" Ref="U5"  Part="1" 
-AR Path="/58DAAD90/58DBF0EC/58DB7355" Ref="U7"  Part="1" 
-F 0 "U3" H 7800 5897 60  0000 C CNN
-F 1 "MAX6817" H 7800 5791 60  0000 C CNN
-F 2 "ethoscope_stepper_controller:MAX6817" H 7950 4800 60  0001 C CNN
-F 3 "" H 7800 5150 60  0000 C CNN
-F 4 "digikey" H 8150 5000 60  0001 C CNN "Vendor"
-F 5 "MAX6817EUT+TCT-ND" H 8250 5100 60  0001 C CNN "PartNumber"
-F 6 "IC DEBOUNCER SWITCH DUAL SOT23-6" H 8350 5200 60  0001 C CNN "Description"
-	1    7800 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L ethoscope_stepper_controller:0.1uF C3
 U 1 1 58DB7474
@@ -396,23 +362,6 @@ F 1 "+3V3" H 6765 4923 50  0000 C CNN
 F 2 "" H 6750 4750 50  0001 C CNN
 F 3 "" H 6750 4750 50  0001 C CNN
 	1    6750 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L ethoscope_stepper_controller:HEADER_02X05_SMD P3
-U 1 1 58DC6361
-P 6850 2750
-AR Path="/58DAAD90/58DBF0EC/58DC6361" Ref="P3"  Part="1" 
-AR Path="/58DAAD90/58DB6271/58DC6361" Ref="P1"  Part="1" 
-AR Path="/58DAAD90/58DBE3E6/58DC6361" Ref="P2"  Part="1" 
-F 0 "P1" H 6850 3165 50  0000 C CNN
-F 1 "HEADER_02X05_SMD" H 6850 3074 50  0000 C CNN
-F 2 "ethoscope_stepper_controller:HEADER_02x05_SMD" H 6850 1550 60  0001 C CNN
-F 3 "" H 6850 1550 60  0000 C CNN
-F 4 "digikey" H 6950 3150 60  0001 C CNN "Vendor"
-F 5 "S9185-ND" H 7050 3250 60  0001 C CNN "PartNumber"
-F 6 "CONN_HEADR_2.54MM_10POS_GOLD_SMD" H 7150 3350 60  0001 C CNN "Description"
-	1    6850 2750
 	1    0    0    -1  
 $EndComp
 Connection ~ 6550 2850
