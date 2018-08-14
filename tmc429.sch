@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:ethoscope_stepper_controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -21,7 +20,7 @@ P 2200 2650
 AR Path="/58DAAD90/5B75BAF5" Ref="U1"  Part="1" 
 AR Path="/5B709419/5B75BAF5" Ref="U?"  Part="1" 
 AR Path="/5B70939E/5B75BAF5" Ref="U5"  Part="1" 
-F 0 "U1" H 2550 3600 60  0000 C CNN
+F 0 "U5" H 2550 3600 60  0000 C CNN
 F 1 "TMC429" H 1850 3600 60  0000 C CNN
 F 2 "ethoscope_stepper_controller:QFN-5x5-32" H 2450 3500 60  0001 C CNN
 F 3 "" H 2550 3600 60  0001 C CNN
@@ -118,7 +117,7 @@ P 1300 1300
 AR Path="/58DAAD90/58DAE7A2" Ref="C2"  Part="1" 
 AR Path="/5B709419/58DAE7A2" Ref="C?"  Part="1" 
 AR Path="/5B70939E/58DAE7A2" Ref="C12"  Part="1" 
-F 0 "C2" H 1300 1400 40  0000 L CNN
+F 0 "C12" H 1300 1400 40  0000 L CNN
 F 1 "0.1uF" H 1300 1300 30  0000 C CNN
 F 2 "ethoscope_stepper_controller:SM1210" H 1338 1150 30  0001 C CNN
 F 3 "" H 1300 1300 60  0000 C CNN

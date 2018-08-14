@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ethoscope_stepper_controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -104,7 +103,6 @@ F 6 "TEENSY 3.5" H 2700 3000 60  0001 C CNN "Description"
 	1    2700 1650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1250 900 
 NoConn ~ 4150 1000
 NoConn ~ 4150 1100
 $Comp
@@ -437,5 +435,64 @@ Text Label 8400 3900 2    60   ~ 0
 ENABLE_ALL
 Text Label 8400 5100 2    60   ~ 0
 ENABLE_ALL
-NoConn ~ 4150 900 
+$Comp
+L ethoscope_stepper_controller:MOUNT_HOLE MH1
+U 1 1 5B738AE2
+P 1550 5450
+F 0 "MH1" H 1550 5600 40  0000 C CNN
+F 1 "MOUNT_HOLE" H 1550 5600 40  0001 C CNN
+F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 1550 5450 60  0001 C CNN
+F 3 "" H 1550 5450 60  0001 C CNN
+F 4 "digikey" H 1650 5500 60  0001 C CNN "Vendor"
+F 5 "36-2441-ND" H 1750 5400 60  0001 C CNN "PartNumber"
+F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 1850 5300 60  0001 C CNN "Description"
+	1    1550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ethoscope_stepper_controller:MOUNT_HOLE MH2
+U 1 1 5B738B6D
+P 1700 5450
+F 0 "MH2" H 1700 5600 40  0000 C CNN
+F 1 "MOUNT_HOLE" H 1700 5600 40  0001 C CNN
+F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 1700 5450 60  0001 C CNN
+F 3 "" H 1700 5450 60  0001 C CNN
+F 4 "digikey" H 1800 5500 60  0001 C CNN "Vendor"
+F 5 "36-2441-ND" H 1900 5400 60  0001 C CNN "PartNumber"
+F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 2000 5300 60  0001 C CNN "Description"
+	1    1700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ethoscope_stepper_controller:MOUNT_HOLE MH3
+U 1 1 5B739746
+P 1850 5450
+F 0 "MH3" H 1850 5600 40  0000 C CNN
+F 1 "MOUNT_HOLE" H 1850 5600 40  0001 C CNN
+F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 1850 5450 60  0001 C CNN
+F 3 "" H 1850 5450 60  0001 C CNN
+F 4 "digikey" H 1950 5500 60  0001 C CNN "Vendor"
+F 5 "36-2441-ND" H 2050 5400 60  0001 C CNN "PartNumber"
+F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 2150 5300 60  0001 C CNN "Description"
+	1    1850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ethoscope_stepper_controller:MOUNT_HOLE MH4
+U 1 1 5B73974F
+P 2000 5450
+F 0 "MH4" H 2000 5600 40  0000 C CNN
+F 1 "MOUNT_HOLE" H 2000 5600 40  0001 C CNN
+F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 2000 5450 60  0001 C CNN
+F 3 "" H 2000 5450 60  0001 C CNN
+F 4 "digikey" H 2100 5500 60  0001 C CNN "Vendor"
+F 5 "36-2441-ND" H 2200 5400 60  0001 C CNN "PartNumber"
+F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 2300 5300 60  0001 C CNN "Description"
+	1    2000 5450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1550 5450
+NoConn ~ 1700 5450
+NoConn ~ 1850 5450
+NoConn ~ 2000 5450
 $EndSCHEMATC
