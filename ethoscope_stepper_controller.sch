@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 13
+Sheet 1 11
 Title "ethoscope_stepper_controller"
 Date ""
 Rev "1.0"
@@ -50,7 +50,7 @@ $Sheet
 S 8500 4350 950  1100
 U 5B709419
 F0 "tmc429_2" 60
-F1 "tmc429.sch" 60
+F1 "tmc429_1_motor.sch" 60
 F2 "CLK" I L 8500 4500 60 
 F3 "SCK" I L 8500 4700 60 
 F4 "MOSI" I L 8500 4800 60 
@@ -59,8 +59,6 @@ F6 "MISO" O R 9450 4500 60
 F7 "~INT" O R 9450 4700 60 
 F8 "POSCOMP" O R 9450 4800 60 
 F9 "ENABLE_0" I L 8500 5100 60 
-F10 "ENABLE_1" I L 8500 5200 60 
-F11 "ENABLE_2" I L 8500 5300 60 
 $EndSheet
 $Comp
 L ethoscope_stepper_controller:CLK_32MHZ CLK?
@@ -441,10 +439,6 @@ Wire Wire Line
 	8500 3900 8400 3900
 Wire Wire Line
 	8500 5100 8400 5100
-Wire Wire Line
-	8500 5200 8400 5200
-Wire Wire Line
-	8500 5300 8400 5300
 Text Label 8400 2250 2    60   ~ 0
 ENABLE_ALL
 Text Label 8400 2350 2    60   ~ 0
@@ -458,10 +452,6 @@ ENABLE_ALL
 Text Label 8400 3900 2    60   ~ 0
 ENABLE_ALL
 Text Label 8400 5100 2    60   ~ 0
-ENABLE_ALL
-Text Label 8400 5200 2    60   ~ 0
-ENABLE_ALL
-Text Label 8400 5300 2    60   ~ 0
 ENABLE_ALL
 NoConn ~ 4150 900 
 $EndSCHEMATC
