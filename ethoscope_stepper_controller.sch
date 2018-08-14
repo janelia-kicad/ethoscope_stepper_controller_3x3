@@ -351,7 +351,6 @@ NoConn ~ 1250 1300
 NoConn ~ 1250 1400
 NoConn ~ 1250 1500
 NoConn ~ 4150 1300
-NoConn ~ 4150 1400
 NoConn ~ 4150 1500
 NoConn ~ 4150 1600
 NoConn ~ 4150 1700
@@ -424,4 +423,45 @@ Wire Wire Line
 Connection ~ 1750 4500
 Wire Wire Line
 	1750 4500 1800 4500
+Wire Wire Line
+	4150 1400 4250 1400
+Text Label 4250 1400 0    60   ~ 0
+ENABLE_ALL
+Wire Wire Line
+	8500 2250 8400 2250
+Wire Wire Line
+	8500 2350 8400 2350
+Wire Wire Line
+	8500 2450 8400 2450
+Wire Wire Line
+	8500 3700 8400 3700
+Wire Wire Line
+	8500 3800 8400 3800
+Wire Wire Line
+	8500 3900 8400 3900
+Wire Wire Line
+	8500 5100 8400 5100
+Wire Wire Line
+	8500 5200 8400 5200
+Wire Wire Line
+	8500 5300 8400 5300
+Text Label 8400 2250 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 2350 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 2450 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 3700 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 3800 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 3900 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 5100 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 5200 2    60   ~ 0
+ENABLE_ALL
+Text Label 8400 5300 2    60   ~ 0
+ENABLE_ALL
+NoConn ~ 4150 900 
 $EndSCHEMATC

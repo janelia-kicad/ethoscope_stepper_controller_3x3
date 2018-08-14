@@ -176,8 +176,6 @@ F1 "step_dir.sch" 60
 F2 "STEP" I L 5100 2000 60 
 F3 "DIR" I L 5100 2150 60 
 F4 "ENABLE" I L 5100 2300 60 
-F5 "REF" O R 6150 2000 60 
-F6 "REFR" O R 6150 2150 60 
 $EndSheet
 Wire Wire Line
 	5000 2300 5100 2300
@@ -189,42 +187,10 @@ Text Label 5000 2000 2    60   ~ 0
 STEP_0
 Text Label 5000 2150 2    60   ~ 0
 DIR_0
-Wire Wire Line
-	6150 2000 6250 2000
-Wire Wire Line
-	6150 2150 6250 2150
-Text Label 6250 2000 0    60   ~ 0
-REF_0
-Text Label 6250 2150 0    60   ~ 0
-REFR_0
 Text HLabel 5000 3500 0    60   Input ~ 0
 ENABLE_1
 Text HLabel 5000 4700 0    60   Input ~ 0
 ENABLE_2
-Wire Wire Line
-	2800 2200 2900 2200
-Wire Wire Line
-	2800 2300 2900 2300
-Wire Wire Line
-	2800 2700 2900 2700
-Wire Wire Line
-	2800 2800 2900 2800
-Wire Wire Line
-	2800 3200 2900 3200
-Wire Wire Line
-	2800 3300 2900 3300
-Text Label 2900 2200 0    60   ~ 0
-REF_0
-Text Label 2900 2300 0    60   ~ 0
-REFR_0
-Text Label 2900 2700 0    60   ~ 0
-REF_1
-Text Label 2900 3200 0    60   ~ 0
-REF_2
-Text Label 2900 2800 0    60   ~ 0
-REFR_1
-Text Label 2900 3300 0    60   ~ 0
-REFR_2
 $Sheet
 S 5100 3050 1050 600 
 U 58DBE3E6
@@ -233,8 +199,6 @@ F1 "step_dir.sch" 60
 F2 "STEP" I L 5100 3200 60 
 F3 "DIR" I L 5100 3350 60 
 F4 "ENABLE" I L 5100 3500 60 
-F5 "REF" O R 6150 3200 60 
-F6 "REFR" O R 6150 3350 60 
 $EndSheet
 Wire Wire Line
 	5000 3500 5100 3500
@@ -246,14 +210,6 @@ Text Label 5000 3200 2    60   ~ 0
 STEP_1
 Text Label 5000 3350 2    60   ~ 0
 DIR_1
-Wire Wire Line
-	6150 3200 6250 3200
-Wire Wire Line
-	6150 3350 6250 3350
-Text Label 6250 3200 0    60   ~ 0
-REF_1
-Text Label 6250 3350 0    60   ~ 0
-REFR_1
 $Sheet
 S 5100 4250 1050 600 
 U 58DBF0EC
@@ -262,8 +218,6 @@ F1 "step_dir.sch" 60
 F2 "STEP" I L 5100 4400 60 
 F3 "DIR" I L 5100 4550 60 
 F4 "ENABLE" I L 5100 4700 60 
-F5 "REF" O R 6150 4400 60 
-F6 "REFR" O R 6150 4550 60 
 $EndSheet
 Wire Wire Line
 	5000 4700 5100 4700
@@ -276,14 +230,6 @@ STEP_2
 Text Label 5000 4550 2    60   ~ 0
 DIR_2
 Wire Wire Line
-	6150 4400 6250 4400
-Wire Wire Line
-	6150 4550 6250 4550
-Text Label 6250 4400 0    60   ~ 0
-REF_2
-Text Label 6250 4550 0    60   ~ 0
-REFR_2
-Wire Wire Line
 	2200 1500 2300 1500
 Wire Wire Line
 	2200 1500 2200 1550
@@ -295,4 +241,70 @@ Wire Wire Line
 	2200 3800 2300 3800
 Wire Wire Line
 	2300 3800 2400 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5B76AACF
+P 3350 3350
+F 0 "#PWR?" H 3350 3100 50  0001 C CNN
+F 1 "GND" H 3350 3200 50  0000 C CNN
+F 2 "" H 3350 3350 50  0001 C CNN
+F 3 "" H 3350 3350 50  0001 C CNN
+	1    3350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B76B93C
+P 3350 2850
+F 0 "#PWR?" H 3350 2600 50  0001 C CNN
+F 1 "GND" H 3350 2700 50  0000 C CNN
+F 2 "" H 3350 2850 50  0001 C CNN
+F 3 "" H 3350 2850 50  0001 C CNN
+	1    3350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B76C639
+P 3350 2350
+F 0 "#PWR?" H 3350 2100 50  0001 C CNN
+F 1 "GND" H 3350 2200 50  0000 C CNN
+F 2 "" H 3350 2350 50  0001 C CNN
+F 3 "" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2200 2850 2200
+Wire Wire Line
+	2800 2700 2850 2700
+Wire Wire Line
+	2800 3200 2850 3200
+Wire Wire Line
+	3350 2200 3350 2350
+Wire Wire Line
+	3350 2700 3350 2850
+Wire Wire Line
+	3350 3200 3350 3350
+Wire Wire Line
+	2800 2300 2850 2300
+Wire Wire Line
+	2850 2300 2850 2200
+Connection ~ 2850 2200
+Wire Wire Line
+	2850 2200 3350 2200
+Wire Wire Line
+	2800 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 2700
+Connection ~ 2850 2700
+Wire Wire Line
+	2850 2700 3350 2700
+Wire Wire Line
+	2800 3300 2850 3300
+Wire Wire Line
+	2850 3300 2850 3200
+Connection ~ 2850 3200
+Wire Wire Line
+	2850 3200 3350 3200
 $EndSCHEMATC
