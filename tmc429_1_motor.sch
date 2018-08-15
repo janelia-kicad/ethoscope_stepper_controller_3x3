@@ -115,11 +115,11 @@ AR Path="/58DAAD90/5B75BAF8" Ref="C?"  Part="1"
 AR Path="/5B709419/5B75BAF8" Ref="C22"  Part="1" 
 F 0 "C22" H 1300 1400 40  0000 L CNN
 F 1 "0.1uF" H 1300 1300 30  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM1210" H 1338 1150 30  0001 C CNN
+F 2 "ethoscope_stepper_controller:SM0805" H 1338 1150 30  0001 C CNN
 F 3 "" H 1300 1300 60  0000 C CNN
 F 4 "digikey" H 1400 1500 60  0001 C CNN "Vendor"
-F 5 "399-13229-1-ND" H 1500 1600 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 100V X7R 1210" H 1600 1700 60  0001 C CNN "Description"
+F 5 "399-14636-1-ND" H 1500 1600 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 50V X7R 0805" H 1600 1700 60  0001 C CNN "Description"
 	1    1300 1300
 	1    0    0    -1  
 $EndComp
