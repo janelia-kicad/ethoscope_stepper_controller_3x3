@@ -38,22 +38,22 @@ Text HLabel 1500 2450 0    60   Input ~ 0
 SCK
 Text HLabel 1500 2550 0    60   Input ~ 0
 MOSI
-Text HLabel 1500 2750 0    60   Input ~ 0
+Text HLabel 2950 1300 0    60   Input ~ 0
 ~CS
 Wire Wire Line
 	1600 2450 1500 2450
 Wire Wire Line
 	1600 2550 1500 2550
 Wire Wire Line
-	1600 2750 1500 2750
-Text HLabel 1500 2650 0    60   Output ~ 0
+	1600 2750 1200 2750
+Text HLabel 2250 4750 2    60   Output ~ 0
 MISO
 Text HLabel 1500 2950 0    60   Output ~ 0
 ~INT
 Text HLabel 1500 3050 0    60   Output ~ 0
 POSCOMP
 Wire Wire Line
-	1600 2650 1500 2650
+	1600 2650 1200 2650
 Wire Wire Line
 	1600 2950 1500 2950
 Wire Wire Line
@@ -333,4 +333,103 @@ Wire Wire Line
 Connection ~ 2850 3200
 Wire Wire Line
 	2850 3200 3350 3200
+Text Label 1200 2650 2    60   ~ 0
+MISO
+Text Label 1200 2750 2    60   ~ 0
+CS
+$Comp
+L ethoscope_stepper_controller:BUFFER_TRI_STATE U?
+U 1 1 5B76D9DD
+P 1850 4750
+F 0 "U?" H 1950 5150 40  0000 L CNN
+F 1 "BUFFER_TRI_STATE" H 1900 4350 40  0000 L CNN
+F 2 "ethoscope_stepper_controller:SOT-23-5" H 1850 4750 60  0001 C CNN
+F 3 "" H 1850 4750 60  0001 C CNN
+F 4 "digikey" H 2050 5050 60  0001 C CNN "Vendor"
+F 5 "296-11603-1-ND" H 2150 4950 60  0001 C CNN "PartNumber"
+F 6 "IC BUF NON-INVERT 5.5V SOT23-5" H 2250 4850 60  0001 C CNN "Description"
+	1    1850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B76DA89
+P 1850 4250
+AR Path="/58DAAD90/5B76DA89" Ref="#PWR?"  Part="1" 
+AR Path="/5B709419/5B76DA89" Ref="#PWR?"  Part="1" 
+AR Path="/5B70939E/5B76DA89" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 4100 50  0001 C CNN
+F 1 "+3V3" H 1865 4423 50  0000 C CNN
+F 2 "" H 1850 4250 50  0001 C CNN
+F 3 "" H 1850 4250 50  0001 C CNN
+	1    1850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B76DAAF
+P 1850 5250
+AR Path="/58DAAD90/5B76DAAF" Ref="#PWR?"  Part="1" 
+AR Path="/5B709419/5B76DAAF" Ref="#PWR?"  Part="1" 
+AR Path="/5B70939E/5B76DAAF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 5000 50  0001 C CNN
+F 1 "GND" H 1855 5077 50  0000 C CNN
+F 2 "" H 1850 5250 50  0001 C CNN
+F 3 "" H 1850 5250 50  0001 C CNN
+	1    1850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4250 1850 4300
+Wire Wire Line
+	1850 5200 1850 5250
+Wire Wire Line
+	2150 4750 2250 4750
+Wire Wire Line
+	1550 4850 1450 4850
+Text Label 1450 4850 2    60   ~ 0
+MISO
+Wire Wire Line
+	1550 4650 1450 4650
+Text Label 1450 4650 2    60   ~ 0
+CS
+$Comp
+L ethoscope_stepper_controller:10.0k R?
+U 1 1 5B7791FE
+P 3000 1000
+F 0 "R?" H 3050 1000 40  0000 L CNN
+F 1 "10.0k" V 3000 1000 40  0000 C CNN
+F 2 "ethoscope_stepper_controller:SM0805" V 2930 1000 30  0001 C CNN
+F 3 "" H 3000 1000 30  0000 C CNN
+F 4 "digikey" V 3180 1100 60  0001 C CNN "Vendor"
+F 5 "P10.0KCCT-ND" V 3280 1200 60  0001 C CNN "PartNumber"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" V 3380 1300 60  0001 C CNN "Description"
+	1    3000 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1300 3000 1300
+Wire Wire Line
+	3000 1250 3000 1300
+Connection ~ 3000 1300
+Wire Wire Line
+	3000 1300 3100 1300
+Text Label 3100 1300 0    60   ~ 0
+CS
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B77B378
+P 3000 700
+AR Path="/58DAAD90/5B77B378" Ref="#PWR?"  Part="1" 
+AR Path="/5B709419/5B77B378" Ref="#PWR?"  Part="1" 
+AR Path="/5B70939E/5B77B378" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 550 50  0001 C CNN
+F 1 "+3V3" H 3015 873 50  0000 C CNN
+F 2 "" H 3000 700 50  0001 C CNN
+F 3 "" H 3000 700 50  0001 C CNN
+	1    3000 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 700  3000 750 
 $EndSCHEMATC

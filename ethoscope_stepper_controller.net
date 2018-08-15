@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/polidorop/git/kicad/ethoscope_stepper_controller/ethoscope_stepper_controller.sch)
-    (date "Wed 15 Aug 2018 11:00:07 AM EDT")
+    (date "Wed 15 Aug 2018 12:38:46 PM EDT")
     (tool "Eeschema 6.0.0-rc1-unknown-3eb3db0~66~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -257,7 +257,7 @@
       (tstamp 5B77E47D))
     (comp (ref C5)
       (value 2.2uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805")
         (field (name PartNumber) 1276-2409-1-ND)
@@ -267,7 +267,7 @@
       (tstamp 5B73BABA))
     (comp (ref R1)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -277,7 +277,7 @@
       (tstamp 5B748971))
     (comp (ref R2)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -287,7 +287,7 @@
       (tstamp 5B748A39))
     (comp (ref C4)
       (value 10uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 10UF 35V X5R 0805")
         (field (name PartNumber) 445-14419-1-ND)
@@ -327,7 +327,7 @@
       (tstamp 5B77E47D))
     (comp (ref C8)
       (value 2.2uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805")
         (field (name PartNumber) 1276-2409-1-ND)
@@ -337,7 +337,7 @@
       (tstamp 5B73BABA))
     (comp (ref R3)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -347,7 +347,7 @@
       (tstamp 5B748971))
     (comp (ref R4)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -357,7 +357,7 @@
       (tstamp 5B748A39))
     (comp (ref C7)
       (value 10uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 10UF 35V X5R 0805")
         (field (name PartNumber) 445-14419-1-ND)
@@ -397,7 +397,7 @@
       (tstamp 5B77E47D))
     (comp (ref C11)
       (value 2.2uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805")
         (field (name PartNumber) 1276-2409-1-ND)
@@ -407,7 +407,7 @@
       (tstamp 5B73BABA))
     (comp (ref R5)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -417,7 +417,7 @@
       (tstamp 5B748971))
     (comp (ref R6)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -427,7 +427,7 @@
       (tstamp 5B748A39))
     (comp (ref C10)
       (value 10uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 10UF 35V X5R 0805")
         (field (name PartNumber) 445-14419-1-ND)
@@ -487,7 +487,7 @@
       (tstamp 5B77E47D))
     (comp (ref C15)
       (value 2.2uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805")
         (field (name PartNumber) 1276-2409-1-ND)
@@ -497,7 +497,7 @@
       (tstamp 5B73BABA))
     (comp (ref R7)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -507,7 +507,7 @@
       (tstamp 5B748971))
     (comp (ref R8)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -517,7 +517,7 @@
       (tstamp 5B748A39))
     (comp (ref C14)
       (value 10uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 10UF 35V X5R 0805")
         (field (name PartNumber) 445-14419-1-ND)
@@ -557,7 +557,7 @@
       (tstamp 5B77E47D))
     (comp (ref C18)
       (value 2.2uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805")
         (field (name PartNumber) 1276-2409-1-ND)
@@ -567,7 +567,7 @@
       (tstamp 5B73BABA))
     (comp (ref R9)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -577,7 +577,7 @@
       (tstamp 5B748971))
     (comp (ref R10)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -587,7 +587,7 @@
       (tstamp 5B748A39))
     (comp (ref C17)
       (value 10uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 10UF 35V X5R 0805")
         (field (name PartNumber) 445-14419-1-ND)
@@ -627,7 +627,7 @@
       (tstamp 5B77E47D))
     (comp (ref C21)
       (value 2.2uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805")
         (field (name PartNumber) 1276-2409-1-ND)
@@ -637,7 +637,7 @@
       (tstamp 5B73BABA))
     (comp (ref R11)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -647,7 +647,7 @@
       (tstamp 5B748971))
     (comp (ref R12)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -657,7 +657,7 @@
       (tstamp 5B748A39))
     (comp (ref C20)
       (value 10uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 10UF 35V X5R 0805")
         (field (name PartNumber) 445-14419-1-ND)
@@ -717,7 +717,7 @@
       (tstamp 5B77E47D))
     (comp (ref C25)
       (value 2.2uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805")
         (field (name PartNumber) 1276-2409-1-ND)
@@ -727,7 +727,7 @@
       (tstamp 5B73BABA))
     (comp (ref R13)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -737,7 +737,7 @@
       (tstamp 5B748971))
     (comp (ref R14)
       (value 5.1)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805")
         (field (name PartNumber) RL12S5.1FCT-ND)
@@ -747,7 +747,7 @@
       (tstamp 5B748A39))
     (comp (ref C24)
       (value 10uF)
-      (footprint footprints:SM0805)
+      (footprint ethoscope_stepper_controller:SM0805)
       (fields
         (field (name Description) "CAP CER 10UF 35V X5R 0805")
         (field (name PartNumber) 445-14419-1-ND)
@@ -779,7 +779,7 @@
       (fields
         (field (name Reference) C)
         (field (name Value) 10uF)
-        (field (name Footprint) footprints:SM0805)
+        (field (name Footprint) ethoscope_stepper_controller:SM0805)
         (field (name Vendor) digikey)
         (field (name PartNumber) 445-14419-1-ND)
         (field (name Description) "CAP CER 10UF 35V X5R 0805"))
@@ -794,7 +794,7 @@
       (fields
         (field (name Reference) C)
         (field (name Value) 2.2uF)
-        (field (name Footprint) footprints:SM0805)
+        (field (name Footprint) ethoscope_stepper_controller:SM0805)
         (field (name Vendor) digikey)
         (field (name PartNumber) 1276-2409-1-ND)
         (field (name Description) "CAP CER 2.2UF 50V X5R 0805"))
@@ -811,7 +811,7 @@
       (fields
         (field (name Reference) R)
         (field (name Value) 5.1)
-        (field (name Footprint) footprints:SM0805)
+        (field (name Footprint) ethoscope_stepper_controller:SM0805)
         (field (name Vendor) digikey)
         (field (name PartNumber) RL12S5.1FCT-ND)
         (field (name Description) "RES SMD 5.1 OHM 1% 1/3W 0805"))
