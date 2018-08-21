@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/ethoscope_stepper_controller/ethoscope_stepper_controller.sch</source>
-    <date>Wed 15 Aug 2018 04:11:05 PM EDT</date>
-    <tool>Eeschema 6.0.0-rc1-unknown-3eb3db0~66~ubuntu18.04.1</tool>
+    <date>Tue 21 Aug 2018 01:19:18 PM EDT</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-6db71cd~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ethoscope_stepper_controller</title>
@@ -165,8 +165,8 @@
       <value>TEENSY_3.5_MIN</value>
       <footprint>ethoscope_stepper_controller:TEENSY_3.5_MIN</footprint>
       <fields>
-        <field name="Description">TEENSY 3.5</field>
-        <field name="PartNumber">1568-1443-ND</field>
+        <field name="Description">TEENSY 3.5 (HEADERS)</field>
+        <field name="PartNumber">1568-1464-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="ethoscope_stepper_controller" part="TEENSY_3.5_MIN" description=""/>
@@ -306,14 +306,14 @@
       <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T1">
-      <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
+      <value>TERM_BLK</value>
       <footprint>ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
       <fields>
         <field name="Description">TERM BLOCK HDR 4POS VERT 3.5MM</field>
         <field name="PartNumber">277-5738-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
+      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK" description=""/>
       <sheetpath names="/tmc429_0/stepper_driver_0/" tstamps="/58DAAD90/5B75BAFB/"/>
       <tstamp>58DBDAC6</tstamp>
     </comp>
@@ -390,14 +390,14 @@
       <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T2">
-      <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
+      <value>TERM_BLK</value>
       <footprint>ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
       <fields>
         <field name="Description">TERM BLOCK HDR 4POS VERT 3.5MM</field>
         <field name="PartNumber">277-5738-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
+      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK" description=""/>
       <sheetpath names="/tmc429_0/stepper_driver_1/" tstamps="/58DAAD90/58DBE3E6/"/>
       <tstamp>58DBDAC6</tstamp>
     </comp>
@@ -474,14 +474,14 @@
       <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T3">
-      <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
+      <value>TERM_BLK</value>
       <footprint>ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
       <fields>
         <field name="Description">TERM BLOCK HDR 4POS VERT 3.5MM</field>
         <field name="PartNumber">277-5738-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
+      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK" description=""/>
       <sheetpath names="/tmc429_0/stepper_driver_2/" tstamps="/58DAAD90/58DBF0EC/"/>
       <tstamp>58DBDAC6</tstamp>
     </comp>
@@ -606,14 +606,14 @@
       <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T4">
-      <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
+      <value>TERM_BLK</value>
       <footprint>ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
       <fields>
         <field name="Description">TERM BLOCK HDR 4POS VERT 3.5MM</field>
         <field name="PartNumber">277-5738-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
+      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK" description=""/>
       <sheetpath names="/tmc429_1/stepper_driver_0/" tstamps="/5B70939E/5B75BAFB/"/>
       <tstamp>58DBDAC6</tstamp>
     </comp>
@@ -690,14 +690,14 @@
       <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T5">
-      <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
+      <value>TERM_BLK</value>
       <footprint>ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
       <fields>
         <field name="Description">TERM BLOCK HDR 4POS VERT 3.5MM</field>
         <field name="PartNumber">277-5738-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
+      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK" description=""/>
       <sheetpath names="/tmc429_1/stepper_driver_1/" tstamps="/5B70939E/58DBE3E6/"/>
       <tstamp>58DBDAC6</tstamp>
     </comp>
@@ -774,14 +774,14 @@
       <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T6">
-      <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
+      <value>TERM_BLK</value>
       <footprint>ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
       <fields>
         <field name="Description">TERM BLOCK HDR 4POS VERT 3.5MM</field>
         <field name="PartNumber">277-5738-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
+      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK" description=""/>
       <sheetpath names="/tmc429_1/stepper_driver_2/" tstamps="/5B70939E/58DBF0EC/"/>
       <tstamp>58DBDAC6</tstamp>
     </comp>
@@ -855,7 +855,7 @@
       </fields>
       <libsource lib="ethoscope_stepper_controller" part="TMC429" description=""/>
       <sheetpath names="/tmc429_2/" tstamps="/5B709419/"/>
-      <tstamp>5B74D8EF</tstamp>
+      <tstamp>5B754166</tstamp>
     </comp>
     <comp ref="C22">
       <value>0.1uF</value>
@@ -867,7 +867,7 @@
       </fields>
       <libsource lib="ethoscope_stepper_controller" part="0.1uF" description=""/>
       <sheetpath names="/tmc429_2/" tstamps="/5B709419/"/>
-      <tstamp>5B74D921</tstamp>
+      <tstamp>5B754198</tstamp>
     </comp>
     <comp ref="U12">
       <value>BUFFER_TRI_STATE</value>
@@ -879,7 +879,7 @@
       </fields>
       <libsource lib="ethoscope_stepper_controller" part="BUFFER_TRI_STATE" description=""/>
       <sheetpath names="/tmc429_2/" tstamps="/5B709419/"/>
-      <tstamp>5B74D971</tstamp>
+      <tstamp>5B7541E8</tstamp>
     </comp>
     <comp ref="R15">
       <value>10.0k</value>
@@ -891,7 +891,7 @@
       </fields>
       <libsource lib="ethoscope_stepper_controller" part="10.0k" description=""/>
       <sheetpath names="/tmc429_2/" tstamps="/5B709419/"/>
-      <tstamp>5B74D98E</tstamp>
+      <tstamp>5B754203</tstamp>
     </comp>
     <comp ref="C23">
       <value>0.1uF</value>
@@ -906,14 +906,14 @@
       <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T7">
-      <value>TERM_BLK_HDR_4POS_VERT_0.138IN</value>
+      <value>TERM_BLK</value>
       <footprint>ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</footprint>
       <fields>
         <field name="Description">TERM BLOCK HDR 4POS VERT 3.5MM</field>
         <field name="PartNumber">277-5738-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
+      <libsource lib="ethoscope_stepper_controller" part="TERM_BLK" description=""/>
       <sheetpath names="/tmc429_2/stepper_driver_0/" tstamps="/5B709419/58DB6271/"/>
       <tstamp>58DBDAC6</tstamp>
     </comp>
@@ -1186,8 +1186,8 @@
         <field name="Value">TEENSY_3.5_MIN</field>
         <field name="Footprint">ethoscope_stepper_controller:TEENSY_3.5_MIN</field>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">1568-1443-ND</field>
-        <field name="Description">TEENSY 3.5</field>
+        <field name="PartNumber">1568-1464-ND</field>
+        <field name="Description">TEENSY 3.5 (HEADERS)</field>
       </fields>
       <pins>
         <pin num="0" name="D0/RX1/MOSI1" type="BiDi"/>
@@ -1238,7 +1238,7 @@
         <pin num="V_IN" name="Vin_(3.6_to_6.0_V)" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ethoscope_stepper_controller" part="TERM_BLK_HDR_4POS_VERT_0.138IN">
+    <libpart lib="ethoscope_stepper_controller" part="TERM_BLK">
       <footprints>
         <fp>Pin_Header_Straight_1X*</fp>
         <fp>Pin_Header_Angled_1X*</fp>
@@ -1247,7 +1247,7 @@
       </footprints>
       <fields>
         <field name="Reference">T</field>
-        <field name="Value">TERM_BLK_HDR_4POS_VERT_0.138IN</field>
+        <field name="Value">TERM_BLK</field>
         <field name="Footprint">ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">277-5738-ND</field>
@@ -1314,9 +1314,9 @@
     </net>
     <net code="2" name="/CS_429_0">
       <node ref="U1" pin="7"/>
-      <node ref="U2" pin="1"/>
-      <node ref="TEENSY1" pin="15"/>
       <node ref="R1" pin="2"/>
+      <node ref="TEENSY1" pin="15"/>
+      <node ref="U2" pin="1"/>
     </net>
     <net code="3" name="/tmc429_0/~INT">
       <node ref="U1" pin="14"/>
@@ -1337,9 +1337,9 @@
       <node ref="U11" pin="30"/>
     </net>
     <net code="9" name="/CS_429_1">
-      <node ref="R8" pin="2"/>
       <node ref="TEENSY1" pin="33"/>
       <node ref="U6" pin="7"/>
+      <node ref="R8" pin="2"/>
       <node ref="U7" pin="1"/>
     </net>
     <net code="10" name="Net-(TEENSY1-Pad34)">
@@ -1391,58 +1391,58 @@
       <node ref="TEENSY1" pin="9"/>
     </net>
     <net code="26" name="/SCK">
-      <node ref="U11" pin="8"/>
-      <node ref="U6" pin="8"/>
       <node ref="U1" pin="8"/>
+      <node ref="U11" pin="8"/>
       <node ref="TEENSY1" pin="13"/>
+      <node ref="U6" pin="8"/>
     </net>
     <net code="27" name="+3V3">
-      <node ref="R15" pin="1"/>
       <node ref="R1" pin="1"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U12" pin="5"/>
-      <node ref="U11" pin="21"/>
-      <node ref="U11" pin="22"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C1" pin="1"/>
       <node ref="U1" pin="21"/>
       <node ref="U1" pin="22"/>
       <node ref="U11" pin="3"/>
+      <node ref="U11" pin="22"/>
+      <node ref="U11" pin="21"/>
       <node ref="U1" pin="3"/>
       <node ref="TEENSY1" pin="3V3"/>
-      <node ref="R8" pin="1"/>
-      <node ref="CLK1" pin="4"/>
       <node ref="U7" pin="5"/>
+      <node ref="U12" pin="5"/>
+      <node ref="R15" pin="1"/>
       <node ref="U6" pin="3"/>
-      <node ref="C2" pin="1"/>
+      <node ref="CLK1" pin="4"/>
+      <node ref="U2" pin="5"/>
       <node ref="U6" pin="22"/>
-      <node ref="CLK1" pin="1"/>
       <node ref="C22" pin="1"/>
+      <node ref="CLK1" pin="1"/>
       <node ref="U6" pin="21"/>
       <node ref="C12" pin="1"/>
-      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
     </net>
     <net code="28" name="GND">
-      <node ref="U12" pin="3"/>
-      <node ref="U11" pin="25"/>
-      <node ref="U10" pin="21"/>
-      <node ref="C19" pin="2"/>
-      <node ref="U10" pin="PAD"/>
-      <node ref="C22" pin="2"/>
-      <node ref="U11" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="U11" pin="13"/>
-      <node ref="C20" pin="2"/>
-      <node ref="U11" pin="PAD"/>
-      <node ref="C21" pin="2"/>
-      <node ref="U11" pin="2"/>
       <node ref="U11" pin="23"/>
-      <node ref="U11" pin="28"/>
+      <node ref="U11" pin="25"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U11" pin="PAD"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C22" pin="2"/>
       <node ref="U10" pin="20"/>
-      <node ref="U11" pin="31"/>
       <node ref="U10" pin="18"/>
+      <node ref="U11" pin="28"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U11" pin="31"/>
       <node ref="U11" pin="4"/>
       <node ref="U11" pin="6"/>
+      <node ref="C19" pin="2"/>
       <node ref="U11" pin="29"/>
       <node ref="R13" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U10" pin="PAD"/>
+      <node ref="U10" pin="21"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U11" pin="13"/>
       <node ref="C3" pin="2"/>
       <node ref="U3" pin="PAD"/>
       <node ref="U3" pin="21"/>
@@ -1450,35 +1450,35 @@
       <node ref="U3" pin="18"/>
       <node ref="C4" pin="2"/>
       <node ref="U4" pin="PAD"/>
-      <node ref="U5" pin="20"/>
       <node ref="U5" pin="18"/>
       <node ref="C10" pin="2"/>
+      <node ref="U5" pin="20"/>
       <node ref="U5" pin="21"/>
       <node ref="U5" pin="PAD"/>
-      <node ref="R6" pin="2"/>
       <node ref="R3" pin="2"/>
       <node ref="R2" pin="2"/>
       <node ref="C9" pin="2"/>
       <node ref="C5" pin="2"/>
+      <node ref="R6" pin="2"/>
       <node ref="R7" pin="2"/>
       <node ref="C11" pin="2"/>
       <node ref="U4" pin="18"/>
       <node ref="C6" pin="2"/>
       <node ref="U4" pin="20"/>
       <node ref="U4" pin="21"/>
-      <node ref="C16" pin="2"/>
-      <node ref="R5" pin="2"/>
+      <node ref="C7" pin="2"/>
       <node ref="R12" pin="2"/>
       <node ref="R11" pin="2"/>
       <node ref="C18" pin="2"/>
-      <node ref="C7" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C16" pin="2"/>
       <node ref="U9" pin="PAD"/>
       <node ref="U9" pin="21"/>
       <node ref="U9" pin="20"/>
       <node ref="U9" pin="18"/>
       <node ref="C17" pin="2"/>
       <node ref="C8" pin="2"/>
-      <node ref="R4" pin="2"/>
       <node ref="U1" pin="6"/>
       <node ref="U1" pin="4"/>
       <node ref="U2" pin="3"/>
@@ -1617,39 +1617,37 @@
       <node ref="C16" pin="1"/>
       <node ref="U9" pin="15"/>
       <node ref="C17" pin="1"/>
-      <node ref="C3" pin="1"/>
+      <node ref="C14" pin="1"/>
       <node ref="C4" pin="1"/>
       <node ref="U8" pin="15"/>
       <node ref="C24" pin="1"/>
       <node ref="C13" pin="1"/>
       <node ref="C20" pin="1"/>
-      <node ref="C14" pin="1"/>
+      <node ref="C3" pin="1"/>
       <node ref="U3" pin="15"/>
       <node ref="U4" pin="15"/>
-      <node ref="C6" pin="1"/>
       <node ref="C9" pin="1"/>
-      <node ref="P1" pin="1"/>
+      <node ref="C6" pin="1"/>
       <node ref="C7" pin="1"/>
+      <node ref="P1" pin="1"/>
     </net>
     <net code="54" name="/CLK">
-      <node ref="CLK1" pin="3"/>
-      <node ref="U1" pin="5"/>
       <node ref="U11" pin="5"/>
+      <node ref="CLK1" pin="3"/>
       <node ref="U6" pin="5"/>
+      <node ref="U1" pin="5"/>
     </net>
     <net code="55" name="/MOSI">
-      <node ref="U1" pin="10"/>
-      <node ref="TEENSY1" pin="11"/>
       <node ref="U11" pin="10"/>
       <node ref="U6" pin="10"/>
+      <node ref="TEENSY1" pin="11"/>
+      <node ref="U1" pin="10"/>
     </net>
     <net code="56" name="/MISO">
-      <node ref="U11" pin="12"/>
       <node ref="U7" pin="4"/>
       <node ref="U2" pin="4"/>
       <node ref="U12" pin="4"/>
       <node ref="TEENSY1" pin="12"/>
-      <node ref="U12" pin="2"/>
     </net>
     <net code="57" name="Net-(TEENSY1-PadAGND)">
       <node ref="TEENSY1" pin="AGND"/>
@@ -1662,24 +1660,24 @@
       <node ref="U5" pin="13"/>
     </net>
     <net code="60" name="/tmc429_0/STEP_0">
-      <node ref="U3" pin="12"/>
       <node ref="U1" pin="15"/>
+      <node ref="U3" pin="12"/>
     </net>
     <net code="61" name="/tmc429_0/DIR_0">
       <node ref="U3" pin="13"/>
       <node ref="U1" pin="17"/>
     </net>
     <net code="62" name="/tmc429_0/STEP_1">
-      <node ref="U4" pin="12"/>
       <node ref="U1" pin="18"/>
+      <node ref="U4" pin="12"/>
     </net>
     <net code="63" name="/tmc429_0/DIR_1">
-      <node ref="U1" pin="27"/>
       <node ref="U4" pin="13"/>
+      <node ref="U1" pin="27"/>
     </net>
     <net code="64" name="/tmc429_0/STEP_2">
-      <node ref="U5" pin="12"/>
       <node ref="U1" pin="19"/>
+      <node ref="U5" pin="12"/>
     </net>
     <net code="65" name="/tmc429_0/MISO_UB">
       <node ref="U2" pin="2"/>
@@ -1698,45 +1696,49 @@
       <node ref="U9" pin="13"/>
     </net>
     <net code="69" name="/tmc429_1/STEP_1">
-      <node ref="U9" pin="12"/>
       <node ref="U6" pin="18"/>
+      <node ref="U9" pin="12"/>
     </net>
     <net code="70" name="/tmc429_1/DIR_0">
-      <node ref="U6" pin="17"/>
       <node ref="U8" pin="13"/>
+      <node ref="U6" pin="17"/>
     </net>
     <net code="71" name="/tmc429_1/STEP_0">
-      <node ref="U6" pin="15"/>
       <node ref="U8" pin="12"/>
+      <node ref="U6" pin="15"/>
     </net>
     <net code="72" name="/tmc429_1/MISO_UB">
-      <node ref="U7" pin="2"/>
       <node ref="U6" pin="12"/>
+      <node ref="U7" pin="2"/>
     </net>
-    <net code="73" name="/tmc429_2/DIR_0">
+    <net code="73" name="/tmc429_2/MISO_UB">
+      <node ref="U11" pin="12"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="74" name="/tmc429_2/DIR_0">
       <node ref="U11" pin="17"/>
       <node ref="U13" pin="13"/>
     </net>
-    <net code="74" name="Net-(U11-Pad18)">
+    <net code="75" name="Net-(U11-Pad18)">
       <node ref="U11" pin="18"/>
     </net>
-    <net code="75" name="Net-(U11-Pad19)">
+    <net code="76" name="Net-(U11-Pad19)">
       <node ref="U11" pin="19"/>
     </net>
-    <net code="76" name="/tmc429_2/STEP_0">
+    <net code="77" name="/tmc429_2/STEP_0">
       <node ref="U11" pin="15"/>
       <node ref="U13" pin="12"/>
     </net>
-    <net code="77" name="Net-(U11-Pad20)">
+    <net code="78" name="Net-(U11-Pad20)">
       <node ref="U11" pin="20"/>
     </net>
-    <net code="78" name="Net-(U11-Pad27)">
+    <net code="79" name="Net-(U11-Pad27)">
       <node ref="U11" pin="27"/>
     </net>
-    <net code="79" name="Net-(U4-Pad10)">
+    <net code="80" name="Net-(U4-Pad10)">
       <node ref="U4" pin="10"/>
     </net>
-    <net code="80" name="/tmc429_0/stepper_driver_1/VINT">
+    <net code="81" name="/tmc429_0/stepper_driver_1/VINT">
       <node ref="U4" pin="14"/>
       <node ref="U4" pin="17"/>
       <node ref="U4" pin="19"/>
@@ -1746,80 +1748,80 @@
       <node ref="U4" pin="24"/>
       <node ref="U4" pin="23"/>
     </net>
-    <net code="81" name="Net-(U4-Pad7)">
+    <net code="82" name="Net-(U4-Pad7)">
       <node ref="U4" pin="7"/>
     </net>
-    <net code="82" name="Net-(U4-Pad8)">
+    <net code="83" name="Net-(U4-Pad8)">
       <node ref="U4" pin="8"/>
     </net>
-    <net code="83" name="/tmc429_0/stepper_driver_1/BISEN">
+    <net code="84" name="/tmc429_0/stepper_driver_1/BISEN">
       <node ref="R5" pin="1"/>
       <node ref="U4" pin="5"/>
     </net>
-    <net code="84" name="/tmc429_0/stepper_driver_1/AISEN">
+    <net code="85" name="/tmc429_0/stepper_driver_1/AISEN">
       <node ref="R4" pin="1"/>
       <node ref="U4" pin="2"/>
     </net>
-    <net code="85" name="/tmc429_0/stepper_driver_1/B_-">
+    <net code="86" name="/tmc429_0/stepper_driver_1/B_-">
       <node ref="U4" pin="4"/>
       <node ref="T2" pin="1"/>
     </net>
-    <net code="86" name="/tmc429_0/stepper_driver_1/B_+">
+    <net code="87" name="/tmc429_0/stepper_driver_1/B_+">
       <node ref="U4" pin="6"/>
       <node ref="T2" pin="2"/>
     </net>
-    <net code="87" name="/tmc429_0/stepper_driver_1/A_-">
+    <net code="88" name="/tmc429_0/stepper_driver_1/A_-">
       <node ref="T2" pin="3"/>
       <node ref="U4" pin="3"/>
     </net>
-    <net code="88" name="/tmc429_0/stepper_driver_1/A_+">
+    <net code="89" name="/tmc429_0/stepper_driver_1/A_+">
       <node ref="U4" pin="1"/>
       <node ref="T2" pin="4"/>
     </net>
-    <net code="89" name="/tmc429_0/stepper_driver_2/VINT">
+    <net code="90" name="/tmc429_0/stepper_driver_2/VINT">
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="19"/>
       <node ref="U5" pin="24"/>
       <node ref="U5" pin="23"/>
       <node ref="U5" pin="22"/>
-      <node ref="U5" pin="19"/>
-      <node ref="U5" pin="9"/>
       <node ref="U5" pin="14"/>
       <node ref="C11" pin="1"/>
       <node ref="U5" pin="17"/>
     </net>
-    <net code="90" name="Net-(U5-Pad7)">
+    <net code="91" name="Net-(U5-Pad7)">
       <node ref="U5" pin="7"/>
     </net>
-    <net code="91" name="Net-(U5-Pad8)">
+    <net code="92" name="Net-(U5-Pad8)">
       <node ref="U5" pin="8"/>
     </net>
-    <net code="92" name="/tmc429_0/stepper_driver_2/B_-">
+    <net code="93" name="/tmc429_0/stepper_driver_2/B_-">
       <node ref="U5" pin="4"/>
       <node ref="T3" pin="1"/>
     </net>
-    <net code="93" name="/tmc429_0/stepper_driver_2/A_+">
+    <net code="94" name="/tmc429_0/stepper_driver_2/A_+">
       <node ref="T3" pin="4"/>
       <node ref="U5" pin="1"/>
     </net>
-    <net code="94" name="/tmc429_0/stepper_driver_2/A_-">
+    <net code="95" name="/tmc429_0/stepper_driver_2/A_-">
       <node ref="T3" pin="3"/>
       <node ref="U5" pin="3"/>
     </net>
-    <net code="95" name="/tmc429_0/stepper_driver_2/B_+">
+    <net code="96" name="/tmc429_0/stepper_driver_2/B_+">
       <node ref="U5" pin="6"/>
       <node ref="T3" pin="2"/>
     </net>
-    <net code="96" name="Net-(U5-Pad10)">
+    <net code="97" name="Net-(U5-Pad10)">
       <node ref="U5" pin="10"/>
     </net>
-    <net code="97" name="/tmc429_0/stepper_driver_2/BISEN">
+    <net code="98" name="/tmc429_0/stepper_driver_2/BISEN">
       <node ref="U5" pin="5"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="98" name="/tmc429_0/stepper_driver_2/AISEN">
+    <net code="99" name="/tmc429_0/stepper_driver_2/AISEN">
       <node ref="R6" pin="1"/>
       <node ref="U5" pin="2"/>
     </net>
-    <net code="99" name="/tmc429_0/stepper_driver_0/VINT">
+    <net code="100" name="/tmc429_0/stepper_driver_0/VINT">
       <node ref="U3" pin="19"/>
       <node ref="U3" pin="22"/>
       <node ref="U3" pin="23"/>
@@ -1829,40 +1831,40 @@
       <node ref="U3" pin="14"/>
       <node ref="C5" pin="1"/>
     </net>
-    <net code="100" name="Net-(U3-Pad8)">
+    <net code="101" name="Net-(U3-Pad8)">
       <node ref="U3" pin="8"/>
     </net>
-    <net code="101" name="Net-(U3-Pad7)">
+    <net code="102" name="Net-(U3-Pad7)">
       <node ref="U3" pin="7"/>
     </net>
-    <net code="102" name="/tmc429_0/stepper_driver_0/BISEN">
+    <net code="103" name="/tmc429_0/stepper_driver_0/BISEN">
       <node ref="U3" pin="5"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="103" name="/tmc429_0/stepper_driver_0/AISEN">
+    <net code="104" name="/tmc429_0/stepper_driver_0/AISEN">
       <node ref="R2" pin="1"/>
       <node ref="U3" pin="2"/>
     </net>
-    <net code="104" name="Net-(U3-Pad10)">
+    <net code="105" name="Net-(U3-Pad10)">
       <node ref="U3" pin="10"/>
     </net>
-    <net code="105" name="/tmc429_0/stepper_driver_0/B_-">
+    <net code="106" name="/tmc429_0/stepper_driver_0/B_-">
       <node ref="U3" pin="4"/>
       <node ref="T1" pin="1"/>
     </net>
-    <net code="106" name="/tmc429_0/stepper_driver_0/A_-">
+    <net code="107" name="/tmc429_0/stepper_driver_0/A_-">
       <node ref="T1" pin="3"/>
       <node ref="U3" pin="3"/>
     </net>
-    <net code="107" name="/tmc429_0/stepper_driver_0/A_+">
+    <net code="108" name="/tmc429_0/stepper_driver_0/A_+">
       <node ref="T1" pin="4"/>
       <node ref="U3" pin="1"/>
     </net>
-    <net code="108" name="/tmc429_0/stepper_driver_0/B_+">
+    <net code="109" name="/tmc429_0/stepper_driver_0/B_+">
       <node ref="T1" pin="2"/>
       <node ref="U3" pin="6"/>
     </net>
-    <net code="109" name="/tmc429_1/stepper_driver_1/VINT">
+    <net code="110" name="/tmc429_1/stepper_driver_1/VINT">
       <node ref="C18" pin="1"/>
       <node ref="U9" pin="24"/>
       <node ref="U9" pin="17"/>
@@ -1872,40 +1874,40 @@
       <node ref="U9" pin="9"/>
       <node ref="U9" pin="14"/>
     </net>
-    <net code="110" name="Net-(U9-Pad8)">
+    <net code="111" name="Net-(U9-Pad8)">
       <node ref="U9" pin="8"/>
     </net>
-    <net code="111" name="Net-(U9-Pad7)">
+    <net code="112" name="Net-(U9-Pad7)">
       <node ref="U9" pin="7"/>
     </net>
-    <net code="112" name="/tmc429_1/stepper_driver_1/AISEN">
+    <net code="113" name="/tmc429_1/stepper_driver_1/AISEN">
       <node ref="U9" pin="2"/>
       <node ref="R11" pin="1"/>
     </net>
-    <net code="113" name="/tmc429_1/stepper_driver_1/BISEN">
+    <net code="114" name="/tmc429_1/stepper_driver_1/BISEN">
       <node ref="U9" pin="5"/>
       <node ref="R12" pin="1"/>
     </net>
-    <net code="114" name="Net-(U9-Pad10)">
+    <net code="115" name="Net-(U9-Pad10)">
       <node ref="U9" pin="10"/>
     </net>
-    <net code="115" name="/tmc429_1/stepper_driver_1/B_-">
+    <net code="116" name="/tmc429_1/stepper_driver_1/B_-">
       <node ref="T5" pin="1"/>
       <node ref="U9" pin="4"/>
     </net>
-    <net code="116" name="/tmc429_1/stepper_driver_1/B_+">
+    <net code="117" name="/tmc429_1/stepper_driver_1/B_+">
       <node ref="T5" pin="2"/>
       <node ref="U9" pin="6"/>
     </net>
-    <net code="117" name="/tmc429_1/stepper_driver_1/A_-">
+    <net code="118" name="/tmc429_1/stepper_driver_1/A_-">
       <node ref="U9" pin="3"/>
       <node ref="T5" pin="3"/>
     </net>
-    <net code="118" name="/tmc429_1/stepper_driver_1/A_+">
+    <net code="119" name="/tmc429_1/stepper_driver_1/A_+">
       <node ref="U9" pin="1"/>
       <node ref="T5" pin="4"/>
     </net>
-    <net code="119" name="/tmc429_1/stepper_driver_2/VINT">
+    <net code="120" name="/tmc429_1/stepper_driver_2/VINT">
       <node ref="U10" pin="17"/>
       <node ref="U10" pin="14"/>
       <node ref="U10" pin="19"/>
@@ -1915,73 +1917,73 @@
       <node ref="U10" pin="9"/>
       <node ref="U10" pin="24"/>
     </net>
-    <net code="120" name="Net-(U10-Pad8)">
+    <net code="121" name="Net-(U10-Pad8)">
       <node ref="U10" pin="8"/>
     </net>
-    <net code="121" name="Net-(U10-Pad7)">
+    <net code="122" name="Net-(U10-Pad7)">
       <node ref="U10" pin="7"/>
     </net>
-    <net code="122" name="/tmc429_1/stepper_driver_2/AISEN">
+    <net code="123" name="/tmc429_1/stepper_driver_2/AISEN">
       <node ref="U10" pin="2"/>
       <node ref="R13" pin="1"/>
     </net>
-    <net code="123" name="/tmc429_1/stepper_driver_2/BISEN">
+    <net code="124" name="/tmc429_1/stepper_driver_2/BISEN">
       <node ref="U10" pin="5"/>
       <node ref="R14" pin="1"/>
     </net>
-    <net code="124" name="Net-(U10-Pad10)">
+    <net code="125" name="Net-(U10-Pad10)">
       <node ref="U10" pin="10"/>
     </net>
-    <net code="125" name="/tmc429_1/stepper_driver_2/A_-">
+    <net code="126" name="/tmc429_1/stepper_driver_2/A_-">
       <node ref="T6" pin="3"/>
       <node ref="U10" pin="3"/>
     </net>
-    <net code="126" name="/tmc429_1/stepper_driver_2/B_-">
+    <net code="127" name="/tmc429_1/stepper_driver_2/B_-">
       <node ref="U10" pin="4"/>
       <node ref="T6" pin="1"/>
     </net>
-    <net code="127" name="/tmc429_1/stepper_driver_2/B_+">
+    <net code="128" name="/tmc429_1/stepper_driver_2/B_+">
       <node ref="U10" pin="6"/>
       <node ref="T6" pin="2"/>
     </net>
-    <net code="128" name="/tmc429_1/stepper_driver_2/A_+">
+    <net code="129" name="/tmc429_1/stepper_driver_2/A_+">
       <node ref="T6" pin="4"/>
       <node ref="U10" pin="1"/>
     </net>
-    <net code="129" name="/tmc429_1/stepper_driver_0/A_-">
+    <net code="130" name="/tmc429_1/stepper_driver_0/A_-">
       <node ref="U8" pin="3"/>
       <node ref="T4" pin="3"/>
     </net>
-    <net code="130" name="/tmc429_1/stepper_driver_0/B_-">
+    <net code="131" name="/tmc429_1/stepper_driver_0/B_-">
       <node ref="U8" pin="4"/>
       <node ref="T4" pin="1"/>
     </net>
-    <net code="131" name="/tmc429_1/stepper_driver_0/A_+">
+    <net code="132" name="/tmc429_1/stepper_driver_0/A_+">
       <node ref="U8" pin="1"/>
       <node ref="T4" pin="4"/>
     </net>
-    <net code="132" name="/tmc429_1/stepper_driver_0/B_+">
+    <net code="133" name="/tmc429_1/stepper_driver_0/B_+">
       <node ref="T4" pin="2"/>
       <node ref="U8" pin="6"/>
     </net>
-    <net code="133" name="Net-(U8-Pad10)">
+    <net code="134" name="Net-(U8-Pad10)">
       <node ref="U8" pin="10"/>
     </net>
-    <net code="134" name="Net-(U8-Pad8)">
+    <net code="135" name="Net-(U8-Pad8)">
       <node ref="U8" pin="8"/>
     </net>
-    <net code="135" name="Net-(U8-Pad7)">
+    <net code="136" name="Net-(U8-Pad7)">
       <node ref="U8" pin="7"/>
     </net>
-    <net code="136" name="/tmc429_1/stepper_driver_0/BISEN">
+    <net code="137" name="/tmc429_1/stepper_driver_0/BISEN">
       <node ref="U8" pin="5"/>
       <node ref="R10" pin="1"/>
     </net>
-    <net code="137" name="/tmc429_1/stepper_driver_0/AISEN">
+    <net code="138" name="/tmc429_1/stepper_driver_0/AISEN">
       <node ref="R9" pin="1"/>
       <node ref="U8" pin="2"/>
     </net>
-    <net code="138" name="/tmc429_1/stepper_driver_0/VINT">
+    <net code="139" name="/tmc429_1/stepper_driver_0/VINT">
       <node ref="U8" pin="24"/>
       <node ref="U8" pin="17"/>
       <node ref="U8" pin="14"/>
@@ -1991,7 +1993,7 @@
       <node ref="U8" pin="22"/>
       <node ref="C15" pin="1"/>
     </net>
-    <net code="139" name="/tmc429_2/stepper_driver_0/VINT">
+    <net code="140" name="/tmc429_2/stepper_driver_0/VINT">
       <node ref="U13" pin="14"/>
       <node ref="U13" pin="9"/>
       <node ref="U13" pin="23"/>
@@ -2001,36 +2003,36 @@
       <node ref="U13" pin="17"/>
       <node ref="U13" pin="24"/>
     </net>
-    <net code="140" name="Net-(U13-Pad8)">
+    <net code="141" name="Net-(U13-Pad8)">
       <node ref="U13" pin="8"/>
     </net>
-    <net code="141" name="Net-(U13-Pad7)">
+    <net code="142" name="Net-(U13-Pad7)">
       <node ref="U13" pin="7"/>
     </net>
-    <net code="142" name="/tmc429_2/stepper_driver_0/BISEN">
+    <net code="143" name="/tmc429_2/stepper_driver_0/BISEN">
       <node ref="R17" pin="1"/>
       <node ref="U13" pin="5"/>
     </net>
-    <net code="143" name="/tmc429_2/stepper_driver_0/AISEN">
+    <net code="144" name="/tmc429_2/stepper_driver_0/AISEN">
       <node ref="R16" pin="1"/>
       <node ref="U13" pin="2"/>
     </net>
-    <net code="144" name="Net-(U13-Pad10)">
+    <net code="145" name="Net-(U13-Pad10)">
       <node ref="U13" pin="10"/>
     </net>
-    <net code="145" name="/tmc429_2/stepper_driver_0/A_-">
+    <net code="146" name="/tmc429_2/stepper_driver_0/A_-">
       <node ref="T7" pin="3"/>
       <node ref="U13" pin="3"/>
     </net>
-    <net code="146" name="/tmc429_2/stepper_driver_0/B_-">
+    <net code="147" name="/tmc429_2/stepper_driver_0/B_-">
       <node ref="T7" pin="1"/>
       <node ref="U13" pin="4"/>
     </net>
-    <net code="147" name="/tmc429_2/stepper_driver_0/B_+">
+    <net code="148" name="/tmc429_2/stepper_driver_0/B_+">
       <node ref="U13" pin="6"/>
       <node ref="T7" pin="2"/>
     </net>
-    <net code="148" name="/tmc429_2/stepper_driver_0/A_+">
+    <net code="149" name="/tmc429_2/stepper_driver_0/A_+">
       <node ref="T7" pin="4"/>
       <node ref="U13" pin="1"/>
     </net>
