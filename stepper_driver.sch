@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -34,11 +34,11 @@ AR Path="/5B70939E/58DBE3E6/58DB75FF" Ref="C16"  Part="1"
 AR Path="/5B70939E/58DBF0EC/58DB75FF" Ref="C19"  Part="1" 
 F 0 "C3" H 2700 2100 40  0000 L CNN
 F 1 "0.1uF" H 2700 2000 30  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM0805" H 2738 1850 30  0001 C CNN
+F 2 "ethoscope_stepper_controller:SM0402" H 2738 1850 30  0001 C CNN
 F 3 "" H 2700 2000 60  0000 C CNN
 F 4 "digikey" H 2800 2200 60  0001 C CNN "Vendor"
-F 5 "399-14636-1-ND" H 2900 2300 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 50V X7R 0805" H 3000 2400 60  0001 C CNN "Description"
+F 5 "1276-1739-1-ND" H 2900 2300 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 25V Y5V 0402" H 3000 2400 60  0001 C CNN "Description"
 	1    2700 2000
 	1    0    0    -1  
 $EndComp
@@ -313,11 +313,11 @@ AR Path="/5B70939E/58DBE3E6/5B73BABA" Ref="C18"  Part="1"
 AR Path="/5B70939E/58DBF0EC/5B73BABA" Ref="C21"  Part="1" 
 F 0 "C5" H 3200 2100 40  0000 L CNN
 F 1 "2.2uF" H 3200 2000 30  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM0805" H 3238 1850 30  0001 C CNN
+F 2 "ethoscope_stepper_controller:SM0402" H 3238 1850 30  0001 C CNN
 F 3 "" H 3200 2000 60  0000 C CNN
 F 4 "digikey" H 3300 2200 60  0001 C CNN "Vendor"
-F 5 "1276-2409-1-ND" H 3400 2300 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 2.2UF 50V X5R 0805" H 3500 2400 60  0001 C CNN "Description"
+F 5 "445-9028-1-ND" H 3400 2300 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 2.2UF 35V X5R 0402" H 3500 2400 60  0001 C CNN "Description"
 	1    3200 2000
 	1    0    0    -1  
 $EndComp
@@ -427,11 +427,11 @@ AR Path="/5B70939E/58DBE3E6/5B748971" Ref="R11"  Part="1"
 AR Path="/5B70939E/58DBF0EC/5B748971" Ref="R13"  Part="1" 
 F 0 "R2" H 5450 3250 40  0000 L CNN
 F 1 "5.1" V 5400 3250 40  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM0805" V 5330 3250 30  0001 C CNN
+F 2 "ethoscope_stepper_controller:SM0402" V 5330 3250 30  0001 C CNN
 F 3 "" H 5400 3250 30  0000 C CNN
 F 4 "digikey" V 5580 3350 60  0001 C CNN "Vendor"
-F 5 "RL12S5.1FCT-ND" V 5680 3450 60  0001 C CNN "PartNumber"
-F 6 "RES SMD 5.1 OHM 1% 1/3W 0805" V 5780 3550 60  0001 C CNN "Description"
+F 5 "408-1454-1-ND" V 5680 3450 60  0001 C CNN "PartNumber"
+F 6 "RES SMD 5.1 OHM 1% 1/6W 0402" V 5780 3550 60  0001 C CNN "Description"
 	1    5400 3250
 	1    0    0    -1  
 $EndComp
@@ -448,11 +448,11 @@ AR Path="/5B70939E/58DBE3E6/5B748A39" Ref="R12"  Part="1"
 AR Path="/5B70939E/58DBF0EC/5B748A39" Ref="R14"  Part="1" 
 F 0 "R3" H 5750 3250 40  0000 L CNN
 F 1 "5.1" V 5700 3250 40  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM0805" V 5630 3250 30  0001 C CNN
+F 2 "ethoscope_stepper_controller:SM0402" V 5630 3250 30  0001 C CNN
 F 3 "" H 5700 3250 30  0000 C CNN
 F 4 "digikey" V 5880 3350 60  0001 C CNN "Vendor"
-F 5 "RL12S5.1FCT-ND" V 5980 3450 60  0001 C CNN "PartNumber"
-F 6 "RES SMD 5.1 OHM 1% 1/3W 0805" V 6080 3550 60  0001 C CNN "Description"
+F 5 "408-1454-1-ND" V 5980 3450 60  0001 C CNN "PartNumber"
+F 6 "RES SMD 5.1 OHM 1% 1/6W 0402" V 6080 3550 60  0001 C CNN "Description"
 	1    5700 3250
 	1    0    0    -1  
 $EndComp

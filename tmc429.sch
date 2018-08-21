@@ -120,11 +120,11 @@ AR Path="/5B709419/58DAE7A2" Ref="C?"  Part="1"
 AR Path="/5B70939E/58DAE7A2" Ref="C12"  Part="1" 
 F 0 "C2" H 1300 1400 40  0000 L CNN
 F 1 "0.1uF" H 1300 1300 30  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM0805" H 1338 1150 30  0001 C CNN
+F 2 "ethoscope_stepper_controller:SM0402" H 1338 1150 30  0001 C CNN
 F 3 "" H 1300 1300 60  0000 C CNN
 F 4 "digikey" H 1400 1500 60  0001 C CNN "Vendor"
-F 5 "399-14636-1-ND" H 1500 1600 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 50V X7R 0805" H 1600 1700 60  0001 C CNN "Description"
+F 5 "1276-1739-1-ND" H 1500 1600 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 25V Y5V 0402" H 1600 1700 60  0001 C CNN "Description"
 	1    1300 1300
 	1    0    0    -1  
 $EndComp
@@ -400,11 +400,11 @@ AR Path="/58DAAD90/5B7791FE" Ref="R1"  Part="1"
 AR Path="/5B70939E/5B7791FE" Ref="R8"  Part="1" 
 F 0 "R1" H 3050 1000 40  0000 L CNN
 F 1 "10.0k" V 3000 1000 40  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM0805" V 2930 1000 30  0001 C CNN
+F 2 "ethoscope_stepper_controller:SM0402" V 2930 1000 30  0001 C CNN
 F 3 "" H 3000 1000 30  0000 C CNN
 F 4 "digikey" V 3180 1100 60  0001 C CNN "Vendor"
-F 5 "P10.0KCCT-ND" V 3280 1200 60  0001 C CNN "PartNumber"
-F 6 "RES SMD 10K OHM 1% 1/8W 0805" V 3380 1300 60  0001 C CNN "Description"
+F 5 "P10KJCT-ND" V 3280 1200 60  0001 C CNN "PartNumber"
+F 6 "RES SMD 10K OHM 5% 1/10W 0402" V 3380 1300 60  0001 C CNN "Description"
 	1    3000 1000
 	1    0    0    -1  
 $EndComp

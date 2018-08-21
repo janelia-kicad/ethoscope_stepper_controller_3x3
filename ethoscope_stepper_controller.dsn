@@ -45,50 +45,6 @@
     (component ethoscope_stepper_controller:DCJACK_3PIN_SMD_VERT
       (place P1 165100 -128270 front 180 (PN PWR_JACK_2.1x5.5_SMD_VERT))
     )
-    (component ethoscope_stepper_controller:SM0805
-      (place C1 116840 -86360 front 270 (PN 0.1uF))
-      (place C2 116840 -96520 front 270 (PN 0.1uF))
-      (place C3 160020 -79502 front 180 (PN 0.1uF))
-      (place C6 182880 -96012 front 180 (PN 0.1uF))
-      (place C9 160020 -96012 front 180 (PN 0.1uF))
-      (place C12 116840 -106680 front 270 (PN 0.1uF))
-      (place C13 172720 -96012 front 180 (PN 0.1uF))
-      (place C16 160020 -112522 front 180 (PN 0.1uF))
-      (place C19 172720 -112522 front 180 (PN 0.1uF))
-      (place C22 116840 -116840 front 270 (PN 0.1uF))
-      (place C23 182880 -112522 front 180 (PN 0.1uF))
-      (place C4 160020 -77470 front 180 (PN 10uF))
-      (place C5 165100 -77470 front 0 (PN 2.2uF))
-      (place C7 182880 -93980 front 180 (PN 10uF))
-      (place C8 187960 -93980 front 0 (PN 2.2uF))
-      (place C10 160020 -93980 front 180 (PN 10uF))
-      (place C11 165100 -93980 front 0 (PN 2.2uF))
-      (place C14 172720 -93980 front 180 (PN 10uF))
-      (place C15 177800 -93980 front 0 (PN 2.2uF))
-      (place C17 160020 -110490 front 180 (PN 10uF))
-      (place C18 165100 -110490 front 0 (PN 2.2uF))
-      (place C20 172720 -110490 front 180 (PN 10uF))
-      (place C21 177800 -110490 front 0 (PN 2.2uF))
-      (place C24 182880 -110490 front 180 (PN 10uF))
-      (place C25 187960 -110490 front 0 (PN 2.2uF))
-      (place R1 135890 -96520 front 180 (PN 10.0k))
-      (place R2 163830 -66675 front 90 (PN 5.1))
-      (place R3 161290 -66675 front 90 (PN 5.1))
-      (place R4 186690 -83185 front 90 (PN 5.1))
-      (place R5 184150 -83185 front 90 (PN 5.1))
-      (place R6 163830 -83185 front 90 (PN 5.1))
-      (place R7 161290 -83185 front 90 (PN 5.1))
-      (place R8 135890 -66040 front 180 (PN 10.0k))
-      (place R9 176530 -83185 front 90 (PN 5.1))
-      (place R10 173990 -83185 front 90 (PN 5.1))
-      (place R11 163830 -99695 front 90 (PN 5.1))
-      (place R12 161290 -99695 front 90 (PN 5.1))
-      (place R13 176530 -99695 front 90 (PN 5.1))
-      (place R14 173990 -99695 front 90 (PN 5.1))
-      (place R15 135890 -119380 front 180 (PN 10.0k))
-      (place R16 186690 -99695 front 90 (PN 5.1))
-      (place R17 184150 -99695 front 90 (PN 5.1))
-    )
     (component ethoscope_stepper_controller:CTS_SMD_4_7X5MM
       (place CLK1 123190 -86360 front 270 (PN CLK_32MHZ))
     )
@@ -115,10 +71,58 @@
       (place U9 162560 -105410 front 270 (PN DRV8846))
       (place U13 185420 -105410 front 270 (PN DRV8846))
     )
+    (component ethoscope_stepper_controller:SM0805
+      (place C4 160020 -77470 front 180 (PN 10uF))
+      (place C7 182880 -93980 front 180 (PN 10uF))
+      (place C10 160020 -93980 front 180 (PN 10uF))
+      (place C14 172720 -93980 front 180 (PN 10uF))
+      (place C17 160020 -110490 front 180 (PN 10uF))
+      (place C20 172720 -110490 front 180 (PN 10uF))
+      (place C24 182880 -110490 front 180 (PN 10uF))
+    )
     (component "ethoscope_stepper_controller:SOT-23-5"
       (place U2 128270 -101600 front 0 (PN BUFFER_TRI_STATE))
       (place U7 128270 -111760 front 0 (PN BUFFER_TRI_STATE))
       (place U12 128270 -121920 front 0 (PN BUFFER_TRI_STATE))
+    )
+    (component ethoscope_stepper_controller:SM0402
+      (place C1 116840 -86360 front 270 (PN 0.1uF))
+      (place C6 182880 -96012 front 180 (PN 0.1uF))
+      (place C8 187960 -93980 front 0 (PN 2.2uF))
+      (place C9 160020 -96012 front 180 (PN 0.1uF))
+      (place C12 116840 -106680 front 270 (PN 0.1uF))
+      (place C15 177800 -93980 front 0 (PN 2.2uF))
+      (place C18 165100 -110490 front 0 (PN 2.2uF))
+      (place C21 177800 -110490 front 0 (PN 2.2uF))
+      (place R1 135890 -96520 front 180 (PN 10.0k))
+      (place R2 163830 -66675 front 90 (PN 5.1))
+      (place R4 186690 -83185 front 90 (PN 5.1))
+      (place R5 184150 -83185 front 90 (PN 5.1))
+      (place R7 161290 -83185 front 90 (PN 5.1))
+      (place R10 173990 -83185 front 90 (PN 5.1))
+      (place R12 161290 -99695 front 90 (PN 5.1))
+      (place R14 173990 -99695 front 90 (PN 5.1))
+      (place R15 135890 -119380 front 180 (PN 10.0k))
+      (place R16 186690 -99695 front 90 (PN 5.1))
+    )
+    (component ethoscope_stepper_controller:SM0402::1
+      (place C2 116840 -96520 front 270 (PN 0.1uF))
+      (place C3 160020 -79502 front 180 (PN 0.1uF))
+      (place C5 165100 -77470 front 0 (PN 2.2uF))
+      (place C11 165100 -93980 front 0 (PN 2.2uF))
+      (place C13 172720 -96012 front 180 (PN 0.1uF))
+      (place C16 160020 -112522 front 180 (PN 0.1uF))
+      (place C19 172720 -112522 front 180 (PN 0.1uF))
+      (place C22 116840 -116840 front 270 (PN 0.1uF))
+      (place C23 182880 -112522 front 180 (PN 0.1uF))
+      (place C25 187960 -110490 front 0 (PN 2.2uF))
+      (place R3 161290 -66675 front 90 (PN 5.1))
+      (place R6 163830 -83185 front 90 (PN 5.1))
+      (place R8 135890 -66040 front 180 (PN 10.0k))
+      (place R9 176530 -83185 front 90 (PN 5.1))
+      (place R11 163830 -99695 front 90 (PN 5.1))
+      (place R13 176530 -99695 front 90 (PN 5.1))
+      (place R17 184150 -99695 front 90 (PN 5.1))
     )
   )
   (library
@@ -212,16 +216,6 @@
       (pin Rect[T]Pad_5000x5200_um 1 0 7600)
       (pin Rect[T]Pad_3750x5000_um 2 -2375 -11300)
       (pin Rect[T]Pad_3750x5000_um 3 2375 -11300)
-    )
-    (image ethoscope_stepper_controller:SM0805
-      (outline (path signal 127  1524 -889  635 -889))
-      (outline (path signal 127  1524 889  1524 -889))
-      (outline (path signal 127  635 889  1524 889))
-      (outline (path signal 127  -1524 -889  -635 -889))
-      (outline (path signal 127  -1524 889  -1524 -889))
-      (outline (path signal 127  -635 889  -1524 889))
-      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
-      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
     )
     (image ethoscope_stepper_controller:CTS_SMD_4_7X5MM
       (outline (path signal 381  -646.447 -1750  -729.162 -1977.26  -938.606 -2098.18  -1176.78 -2056.19
@@ -416,6 +410,16 @@
       (pin Rect[T]Pad_2000x250_um 17 2600 750)
       (pin Rect[T]Pad_2000x250_um 18 2600 1250)
     )
+    (image ethoscope_stepper_controller:SM0805
+      (outline (path signal 127  1524 -889  635 -889))
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  635 889  1524 889))
+      (outline (path signal 127  -1524 -889  -635 -889))
+      (outline (path signal 127  -1524 889  -1524 -889))
+      (outline (path signal 127  -635 889  -1524 889))
+      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
+      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
+    )
     (image "ethoscope_stepper_controller:SOT-23-5"
       (outline (path signal 150  -100 1000  -169.098 904.894  -280.902 941.221  -280.902 1058.78
             -169.098 1095.11  -100 1000))
@@ -428,6 +432,26 @@
       (pin Rect[T]Pad_1100x600_um 3 -1300 -950)
       (pin Rect[T]Pad_1100x600_um 2 -1300 0)
       (pin Rect[T]Pad_1100x600_um 1 -1300 950)
+    )
+    (image ethoscope_stepper_controller:SM0402
+      (outline (path signal 200  -200 400  -850 400))
+      (outline (path signal 200  -850 400  -850 -400))
+      (outline (path signal 200  -850 -400  -200 -400))
+      (outline (path signal 200  200 400  850 400))
+      (outline (path signal 200  850 400  850 -400))
+      (outline (path signal 200  850 -400  200 -400))
+      (pin Rect[T]Pad_600x700_um 1 -500 0)
+      (pin Rect[T]Pad_600x700_um 2 500 0)
+    )
+    (image ethoscope_stepper_controller:SM0402::1
+      (outline (path signal 200  850 -400  200 -400))
+      (outline (path signal 200  850 400  850 -400))
+      (outline (path signal 200  200 400  850 400))
+      (outline (path signal 200  -850 -400  -200 -400))
+      (outline (path signal 200  -850 400  -850 -400))
+      (outline (path signal 200  -200 400  -850 400))
+      (pin Rect[T]Pad_600x700_um 2 500 0)
+      (pin Rect[T]Pad_600x700_um 1 -500 0)
     )
     (padstack Round[A]Pad_1900_um
       (shape (circle F.Cu 1900))
@@ -485,6 +509,10 @@
       (shape (rect F.Cu -2500 -2600 2500 2600))
       (attach off)
     )
+    (padstack Rect[T]Pad_600x700_um
+      (shape (rect F.Cu -300 -350 300 350))
+      (attach off)
+    )
     (padstack Rect[T]Pad_787.4x1600.2_um
       (shape (rect F.Cu -393.7 -800.1 393.7 800.1))
       (attach off)
@@ -505,23 +533,23 @@
   )
   (network
     (net +3V3
-      (pins C1-1 C2-1 C12-1 C22-1 CLK1-1 CLK1-4 TEENSY1-3V3 U1-3 U1-21 U1-22 R1-1
-        R8-1 R15-1 U2-5 U6-3 U6-21 U6-22 U7-5 U11-3 U11-21 U11-22 U12-5)
+      (pins CLK1-1 CLK1-4 TEENSY1-3V3 U1-3 U1-21 U1-22 U2-5 U6-3 U6-21 U6-22 U7-5
+        U11-3 U11-21 U11-22 U12-5 C1-1 C2-1 C12-1 C22-1 R1-1 R8-1 R15-1)
     )
     (net GND
-      (pins P1-2 C1-2 C2-2 C3-2 C6-2 C9-2 C12-2 C13-2 C16-2 C19-2 C22-2 C23-2 CLK1-2
-        TEENSY1-GND U1-PAD U1-25 U1-28 U1-29 U1-31 U1-13 U1-1 U1-2 U1-4 U1-6 U1-23
-        U3-PAD U3-20 U3-21 U3-18 U4-PAD U4-20 U4-21 U4-18 U8-PAD U8-20 U8-21 U8-18
-        U10-PAD U10-20 U10-21 U10-18 C4-2 C5-2 C7-2 C8-2 C10-2 C11-2 C14-2 C15-2 C17-2
-        C18-2 C20-2 C21-2 C24-2 C25-2 R2-2 R3-2 R4-2 R5-2 R6-2 R7-2 R9-2 R10-2 R11-2
-        R12-2 R13-2 R14-2 R16-2 R17-2 U2-3 U5-PAD U5-20 U5-21 U5-18 U6-PAD U6-25 U6-28
-        U6-29 U6-31 U6-13 U6-1 U6-2 U6-4 U6-6 U6-23 U7-3 U9-PAD U9-20 U9-21 U9-18
-        U11-PAD U11-25 U11-28 U11-29 U11-31 U11-13 U11-1 U11-2 U11-4 U11-6 U11-23
-        U12-3 U13-PAD U13-20 U13-21 U13-18)
+      (pins P1-2 CLK1-2 TEENSY1-GND U1-PAD U1-25 U1-28 U1-29 U1-31 U1-13 U1-1 U1-2
+        U1-4 U1-6 U1-23 U3-PAD U3-20 U3-21 U3-18 U4-PAD U4-20 U4-21 U4-18 U8-PAD U8-20
+        U8-21 U8-18 U10-PAD U10-20 U10-21 U10-18 C4-2 C7-2 C10-2 C14-2 C17-2 C20-2
+        C24-2 U2-3 U5-PAD U5-20 U5-21 U5-18 U6-PAD U6-25 U6-28 U6-29 U6-31 U6-13 U6-1
+        U6-2 U6-4 U6-6 U6-23 U7-3 U9-PAD U9-20 U9-21 U9-18 U11-PAD U11-25 U11-28 U11-29
+        U11-31 U11-13 U11-1 U11-2 U11-4 U11-6 U11-23 U12-3 U13-PAD U13-20 U13-21 U13-18
+        C1-2 C2-2 C3-2 C5-2 C6-2 C8-2 C9-2 C11-2 C12-2 C13-2 C15-2 C16-2 C18-2 C19-2
+        C21-2 C22-2 C23-2 C25-2 R2-2 R3-2 R4-2 R5-2 R6-2 R7-2 R9-2 R10-2 R11-2 R12-2
+        R13-2 R14-2 R16-2 R17-2)
     )
     (net VAA
-      (pins P1-1 C3-1 C6-1 C9-1 C13-1 C16-1 C19-1 C23-1 U3-15 U4-15 U8-15 U10-15 C4-1
-        C7-1 C10-1 C14-1 C17-1 C20-1 C24-1 U5-15 U9-15 U13-15)
+      (pins P1-1 U3-15 U4-15 U8-15 U10-15 C4-1 C7-1 C10-1 C14-1 C17-1 C20-1 C24-1
+        U5-15 U9-15 U13-15 C3-1 C6-1 C9-1 C13-1 C16-1 C19-1 C23-1)
     )
     (net /tmc429_0/stepper_driver_0/VINT
       (pins U3-19 U3-22 U3-23 U3-24 U3-9 U3-14 U3-17 C5-1)
@@ -530,19 +558,19 @@
       (pins U4-19 U4-22 U4-23 U4-24 U4-9 U4-14 U4-17 C8-1)
     )
     (net /tmc429_0/stepper_driver_2/VINT
-      (pins C11-1 U5-19 U5-22 U5-23 U5-24 U5-9 U5-14 U5-17)
+      (pins U5-19 U5-22 U5-23 U5-24 U5-9 U5-14 U5-17 C11-1)
     )
     (net /tmc429_1/stepper_driver_0/VINT
       (pins U8-19 U8-22 U8-23 U8-24 U8-9 U8-14 U8-17 C15-1)
     )
     (net /tmc429_1/stepper_driver_1/VINT
-      (pins C18-1 U9-19 U9-22 U9-23 U9-24 U9-9 U9-14 U9-17)
+      (pins U9-19 U9-22 U9-23 U9-24 U9-9 U9-14 U9-17 C18-1)
     )
     (net /tmc429_1/stepper_driver_2/VINT
       (pins U10-19 U10-22 U10-23 U10-24 U10-9 U10-14 U10-17 C21-1)
     )
     (net /tmc429_2/stepper_driver_0/VINT
-      (pins C25-1 U13-19 U13-22 U13-23 U13-24 U13-9 U13-14 U13-17)
+      (pins U13-19 U13-22 U13-23 U13-24 U13-9 U13-14 U13-17 C25-1)
     )
     (net /CLK
       (pins CLK1-3 U1-5 U6-5 U11-5)
@@ -560,10 +588,10 @@
       (pins U4-5 R5-1)
     )
     (net /tmc429_0/stepper_driver_2/AISEN
-      (pins R6-1 U5-2)
+      (pins U5-2 R6-1)
     )
     (net /tmc429_0/stepper_driver_2/BISEN
-      (pins R7-1 U5-5)
+      (pins U5-5 R7-1)
     )
     (net /tmc429_1/stepper_driver_0/AISEN
       (pins U8-2 R9-1)
@@ -572,10 +600,10 @@
       (pins U8-5 R10-1)
     )
     (net /tmc429_1/stepper_driver_1/AISEN
-      (pins R11-1 U9-2)
+      (pins U9-2 R11-1)
     )
     (net /tmc429_1/stepper_driver_1/BISEN
-      (pins R12-1 U9-5)
+      (pins U9-5 R12-1)
     )
     (net /tmc429_1/stepper_driver_2/AISEN
       (pins U10-2 R13-1)
@@ -584,10 +612,10 @@
       (pins U10-5 R14-1)
     )
     (net /tmc429_2/stepper_driver_0/AISEN
-      (pins R16-1 U13-2)
+      (pins U13-2 R16-1)
     )
     (net /tmc429_2/stepper_driver_0/BISEN
-      (pins R17-1 U13-5)
+      (pins U13-5 R17-1)
     )
     (net /tmc429_0/stepper_driver_0/A_+
       (pins T1-4 U3-1)
@@ -674,10 +702,10 @@
       (pins T7-4 U13-1)
     )
     (net /CS_429_2
-      (pins TEENSY1-36 R15-2 U11-7 U12-1)
+      (pins TEENSY1-36 U11-7 U12-1 R15-2)
     )
     (net /CS_429_1
-      (pins TEENSY1-33 R8-2 U6-7 U7-1)
+      (pins TEENSY1-33 U6-7 U7-1 R8-2)
     )
     (net /MOSI
       (pins TEENSY1-11 U1-10 U6-10 U11-10)
@@ -689,7 +717,7 @@
       (pins TEENSY1-13 U1-8 U6-8 U11-8)
     )
     (net /CS_429_0
-      (pins TEENSY1-15 U1-7 R1-2 U2-1)
+      (pins TEENSY1-15 U1-7 U2-1 R1-2)
     )
     (net /ENABLE_ALL
       (pins TEENSY1-22 U3-11 U4-11 U8-11 U10-11 U5-11 U9-11 U13-11)
@@ -783,12 +811,29 @@
     )
     (class SIGNAL /CLK /CS_429_0 /CS_429_1 /CS_429_2 /ENABLE_ALL /MISO /MOSI
       /SCK /tmc429_0/DIR_0 /tmc429_0/DIR_1 /tmc429_0/DIR_2 /tmc429_0/MISO_UB
-      /tmc429_0/STEP_0 /tmc429_0/STEP_1 /tmc429_0/STEP_2 /tmc429_0/stepper_driver_0/AISEN
-      /tmc429_0/stepper_driver_0/VINT /tmc429_0/stepper_driver_1/VINT /tmc429_0/stepper_driver_2/VINT
-      /tmc429_1/DIR_0 /tmc429_1/DIR_1 /tmc429_1/DIR_2 /tmc429_1/MISO_UB /tmc429_1/STEP_0
+      /tmc429_0/POSCOMP /tmc429_0/STEP_0 /tmc429_0/STEP_1 /tmc429_0/STEP_2
+      /tmc429_0/stepper_driver_0/AISEN /tmc429_0/stepper_driver_0/VINT /tmc429_0/stepper_driver_1/VINT
+      /tmc429_0/stepper_driver_2/VINT /tmc429_0/~INT /tmc429_1/DIR_0 /tmc429_1/DIR_1
+      /tmc429_1/DIR_2 /tmc429_1/MISO_UB /tmc429_1/POSCOMP /tmc429_1/STEP_0
       /tmc429_1/STEP_1 /tmc429_1/STEP_2 /tmc429_1/stepper_driver_0/VINT /tmc429_1/stepper_driver_1/VINT
-      /tmc429_1/stepper_driver_2/VINT /tmc429_2/DIR_0 /tmc429_2/MISO_UB /tmc429_2/STEP_0
-      /tmc429_2/stepper_driver_0/VINT
+      /tmc429_1/stepper_driver_2/VINT /tmc429_1/~INT /tmc429_2/DIR_0 /tmc429_2/MISO_UB
+      /tmc429_2/POSCOMP /tmc429_2/STEP_0 /tmc429_2/stepper_driver_0/VINT /tmc429_2/~INT
+      "Net-(MH1-Pad1)" "Net-(MH2-Pad1)" "Net-(MH3-Pad1)" "Net-(MH4-Pad1)"
+      "Net-(TEENSY1-Pad0)" "Net-(TEENSY1-Pad1)" "Net-(TEENSY1-Pad10)" "Net-(TEENSY1-Pad14)"
+      "Net-(TEENSY1-Pad16)" "Net-(TEENSY1-Pad17)" "Net-(TEENSY1-Pad18)" "Net-(TEENSY1-Pad19)"
+      "Net-(TEENSY1-Pad2)" "Net-(TEENSY1-Pad20)" "Net-(TEENSY1-Pad21)" "Net-(TEENSY1-Pad23)"
+      "Net-(TEENSY1-Pad24)" "Net-(TEENSY1-Pad25)" "Net-(TEENSY1-Pad26)" "Net-(TEENSY1-Pad27)"
+      "Net-(TEENSY1-Pad28)" "Net-(TEENSY1-Pad29)" "Net-(TEENSY1-Pad3)" "Net-(TEENSY1-Pad30)"
+      "Net-(TEENSY1-Pad31)" "Net-(TEENSY1-Pad32)" "Net-(TEENSY1-Pad34)" "Net-(TEENSY1-Pad35)"
+      "Net-(TEENSY1-Pad37)" "Net-(TEENSY1-Pad38)" "Net-(TEENSY1-Pad39)" "Net-(TEENSY1-Pad4)"
+      "Net-(TEENSY1-Pad5)" "Net-(TEENSY1-Pad6)" "Net-(TEENSY1-Pad7)" "Net-(TEENSY1-Pad8)"
+      "Net-(TEENSY1-Pad9)" "Net-(TEENSY1-PadA21)" "Net-(TEENSY1-PadA22)" "Net-(TEENSY1-PadAGND)"
+      "Net-(TEENSY1-PadV_IN)" "Net-(U10-Pad10)" "Net-(U10-Pad7)" "Net-(U10-Pad8)"
+      "Net-(U11-Pad18)" "Net-(U11-Pad19)" "Net-(U11-Pad20)" "Net-(U11-Pad27)"
+      "Net-(U13-Pad10)" "Net-(U13-Pad7)" "Net-(U13-Pad8)" "Net-(U3-Pad10)"
+      "Net-(U3-Pad7)" "Net-(U3-Pad8)" "Net-(U4-Pad10)" "Net-(U4-Pad7)" "Net-(U4-Pad8)"
+      "Net-(U5-Pad10)" "Net-(U5-Pad7)" "Net-(U5-Pad8)" "Net-(U8-Pad10)" "Net-(U8-Pad7)"
+      "Net-(U8-Pad8)" "Net-(U9-Pad10)" "Net-(U9-Pad7)" "Net-(U9-Pad8)"
       (circuit
         (use_via Via[0-1]_508:254_um)
       )
