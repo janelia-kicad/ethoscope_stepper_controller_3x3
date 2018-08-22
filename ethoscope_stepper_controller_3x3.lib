@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF 0.1uF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "0.1uF" 0 0 30 H V C CNN
-F2 "ethoscope_stepper_controller:SM0402" 38 -150 30 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:SM0402" 38 -150 30 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "1276-1739-1-ND" 200 300 60 H I C CNN "PartNumber"
@@ -29,7 +29,7 @@ ENDDEF
 DEF 10.0k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "10.0k" 7 1 40 V V C CNN
-F2 "ethoscope_stepper_controller:SM0402" -70 0 30 V I C CNN
+F2 "ethoscope_stepper_controller_3x3:SM0402" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "digikey" 180 100 60 V I C CNN "Vendor"
 F5 "P10KJCT-ND" 280 200 60 V I C CNN "PartNumber"
@@ -53,7 +53,7 @@ ENDDEF
 DEF 10uF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "10uF" 0 0 30 H V C CNN
-F2 "ethoscope_stepper_controller:SM0805" 38 -150 30 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:SM0805" 38 -150 30 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "445-14419-1-ND" 200 300 60 H I C CNN "PartNumber"
@@ -76,7 +76,7 @@ ENDDEF
 DEF 2.2uF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "2.2uF" 0 0 30 H V C CNN
-F2 "ethoscope_stepper_controller:SM0402" 38 -150 30 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:SM0402" 38 -150 30 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "445-9028-1-ND" 200 300 60 H I C CNN "PartNumber"
@@ -99,7 +99,7 @@ ENDDEF
 DEF 5.1 R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "5.1" 7 1 40 V V C CNN
-F2 "ethoscope_stepper_controller:SM0402" -70 0 30 V I C CNN
+F2 "ethoscope_stepper_controller_3x3:SM0402" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "digikey" 180 100 60 V I C CNN "Vendor"
 F5 "408-1454-1-ND" 280 200 60 V I C CNN "PartNumber"
@@ -123,7 +123,7 @@ ENDDEF
 DEF BUFFER_TRI_STATE U 0 40 Y Y 1 F N
 F0 "U" 100 400 40 H V C CNN
 F1 "BUFFER_TRI_STATE" 300 -400 40 H V C CNN
-F2 "ethoscope_stepper_controller:SOT-23-5" 0 0 60 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:SOT-23-5" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 200 300 60 H I C CNN "Vendor"
 F5 "296-11603-1-ND" 300 200 60 H I C CNN "PartNumber"
@@ -151,7 +151,7 @@ ENDDEF
 DEF CLK_32MHZ CLK 0 40 Y Y 1 F N
 F0 "CLK" 250 300 60 H V C CNN
 F1 "CLK_32MHZ" -350 300 60 H V C CNN
-F2 "ethoscope_stepper_controller:CTS_SMD_4_7X5MM" 150 200 60 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:CTS_SMD_4_7X5MM" 150 200 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 350 400 60 H I C CNN "Vendor"
 F5 "CTX277LVCT-ND" 450 500 60 H I C CNN "PartNumber"
@@ -170,7 +170,7 @@ ENDDEF
 DEF DRV8846 U 0 40 Y Y 1 F N
 F0 "U" 250 750 40 H V C CNN
 F1 "DRV8846" 0 750 40 H V C CNN
-F2 "ethoscope_stepper_controller:VQFN-4x4-24" 0 0 60 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:VQFN-4x4-24" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 350 650 60 H I C CNN "Vendor"
 F5 "296-40083-1-ND" 450 550 60 H I C CNN "PartNumber"
@@ -209,7 +209,7 @@ ENDDEF
 DEF ~MOUNT_HOLE MH 0 40 Y Y 1 F N
 F0 "MH" 0 150 40 H V C CNN
 F1 "MOUNT_HOLE" 0 150 40 H I C CNN
-F2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" 0 0 60 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 100 50 60 H I C CNN "Vendor"
 F5 "36-2441-ND" 200 -50 60 H I C CNN "PartNumber"
@@ -224,7 +224,7 @@ ENDDEF
 DEF PWR_JACK_2.1x5.5_SMD_VERT P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "PWR_JACK_2.1x5.5_SMD_VERT" 100 0 50 V V C CNN
-F2 "ethoscope_stepper_controller:DCJACK_3PIN_SMD_VERT" -100 50 60 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:DCJACK_3PIN_SMD_VERT" -100 50 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 250 60 H I C CNN "Vendor"
 F5 "CP-015AHPJ-CT-ND" 200 350 60 H I C CNN "PartNumber"
@@ -249,7 +249,7 @@ ENDDEF
 DEF TEENSY_3.5_MIN TEENSY 0 40 Y Y 1 F N
 F0 "TEENSY" 550 850 60 H V C CNN
 F1 "TEENSY_3.5_MIN" -450 850 60 H V C CNN
-F2 "ethoscope_stepper_controller:TEENSY_3.5_MIN" 0 1050 60 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:TEENSY_3.5_MIN" 0 1050 60 H I C CNN
 F3 "" 50 2750 60 H V C CNN
 F4 "digikey" 0 1150 60 H I C CNN "Vendor"
 F5 "1568-1464-ND" 0 1250 60 H I C CNN "PartNumber"
@@ -311,7 +311,7 @@ ENDDEF
 DEF TERM_BLK T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
 F1 "TERM_BLK" 100 0 50 V V C CNN
-F2 "ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN" -100 150 50 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN" -100 150 50 H I C CNN
 F3 "" 0 250 50 H I C CNN
 F4 "digikey" 100 350 60 H I C CNN "Vendor"
 F5 "277-5738-ND" 200 450 60 H I C CNN "PartNumber"
@@ -340,7 +340,7 @@ ENDDEF
 DEF TMC429 U 0 40 Y Y 1 F N
 F0 "U" 350 950 60 H V C CNN
 F1 "TMC429" -350 950 60 H V C CNN
-F2 "ethoscope_stepper_controller:QFN-5x5-32" 250 850 60 H I C CNN
+F2 "ethoscope_stepper_controller_3x3:QFN-5x5-32" 250 850 60 H I C CNN
 F3 "" 350 950 60 H I C CNN
 F4 "1460-1071-1-ND" 450 1050 60 H I C CNN "PartNumber"
 F5 "IC MOTOR CONTROLLER SPI 32QFN" 550 1150 60 H I C CNN "Description"

@@ -1,6 +1,6 @@
 * Header                                                           :noexport:
 
-  #+MACRO: ethoscope_stepper_controller
+  #+MACRO: ethoscope_stepper_controller_3x3
   #+MACRO: version 1.0
   #+MACRO: license Open-Source Hardware
   #+AUTHOR: Peter Polidoro

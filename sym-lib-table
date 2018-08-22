@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
-  (lib (name ethoscope_stepper_controller)(type Legacy)(uri ${KIPRJMOD}/ethoscope_stepper_controller.lib)(options "")(descr ""))
+  (lib (name ethoscope_stepper_controller_3x3)(type Legacy)(uri ${KIPRJMOD}/ethoscope_stepper_controller_3x3.lib)(options "")(descr ""))
   (lib (name components)(type Legacy)(uri ${KILIBS}/components.lib)(options "")(descr ""))
 )

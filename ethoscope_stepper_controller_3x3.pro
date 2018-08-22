@@ -24,7 +24,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ethoscope_stepper_controller.net
+LastNetListRead=ethoscope_stepper_controller_3x3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

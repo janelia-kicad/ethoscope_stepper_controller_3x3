@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:ethoscope_stepper_controller-cache
+LIBS:ethoscope_stepper_controller_3x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 11
-Title "ethoscope_stepper_controller"
+Title "ethoscope_stepper_controller_3x3"
 Date ""
 Rev "1.0"
 Comp "Janelia"
@@ -19,60 +19,60 @@ S 8500 1500 950  1100
 U 58DAAD90
 F0 "tmc429_0" 60
 F1 "tmc429.sch" 60
-F2 "CLK" I L 8500 1650 60 
-F3 "SCK" I L 8500 1850 60 
-F4 "MOSI" I L 8500 1950 60 
-F5 "~CS" I L 8500 2050 60 
-F6 "MISO" O R 9450 1650 60 
-F7 "~INT" O R 9450 1850 60 
-F8 "POSCOMP" O R 9450 1950 60 
-F9 "ENABLE_0" I L 8500 2250 60 
-F10 "ENABLE_1" I L 8500 2350 60 
-F11 "ENABLE_2" I L 8500 2450 60 
+F2 "CLK" I L 8500 1650 60
+F3 "SCK" I L 8500 1850 60
+F4 "MOSI" I L 8500 1950 60
+F5 "~CS" I L 8500 2050 60
+F6 "MISO" O R 9450 1650 60
+F7 "~INT" O R 9450 1850 60
+F8 "POSCOMP" O R 9450 1950 60
+F9 "ENABLE_0" I L 8500 2250 60
+F10 "ENABLE_1" I L 8500 2350 60
+F11 "ENABLE_2" I L 8500 2450 60
 $EndSheet
 $Sheet
 S 8500 2950 950  1100
 U 5B70939E
 F0 "tmc429_1" 60
 F1 "tmc429.sch" 60
-F2 "CLK" I L 8500 3100 60 
-F3 "SCK" I L 8500 3300 60 
-F4 "MOSI" I L 8500 3400 60 
-F5 "~CS" I L 8500 3500 60 
-F6 "MISO" O R 9450 3100 60 
-F7 "~INT" O R 9450 3300 60 
-F8 "POSCOMP" O R 9450 3400 60 
-F9 "ENABLE_0" I L 8500 3700 60 
-F10 "ENABLE_1" I L 8500 3800 60 
-F11 "ENABLE_2" I L 8500 3900 60 
+F2 "CLK" I L 8500 3100 60
+F3 "SCK" I L 8500 3300 60
+F4 "MOSI" I L 8500 3400 60
+F5 "~CS" I L 8500 3500 60
+F6 "MISO" O R 9450 3100 60
+F7 "~INT" O R 9450 3300 60
+F8 "POSCOMP" O R 9450 3400 60
+F9 "ENABLE_0" I L 8500 3700 60
+F10 "ENABLE_1" I L 8500 3800 60
+F11 "ENABLE_2" I L 8500 3900 60
 $EndSheet
 $Sheet
 S 8500 4350 950  1100
 U 5B709419
 F0 "tmc429_2" 60
 F1 "tmc429_1_motor.sch" 60
-F2 "CLK" I L 8500 4500 60 
-F3 "SCK" I L 8500 4700 60 
-F4 "MOSI" I L 8500 4800 60 
-F5 "~CS" I L 8500 4900 60 
-F6 "MISO" O R 9450 4500 60 
-F7 "~INT" O R 9450 4700 60 
-F8 "POSCOMP" O R 9450 4800 60 
-F9 "ENABLE_0" I L 8500 5100 60 
+F2 "CLK" I L 8500 4500 60
+F3 "SCK" I L 8500 4700 60
+F4 "MOSI" I L 8500 4800 60
+F5 "~CS" I L 8500 4900 60
+F6 "MISO" O R 9450 4500 60
+F7 "~INT" O R 9450 4700 60
+F8 "POSCOMP" O R 9450 4800 60
+F9 "ENABLE_0" I L 8500 5100 60
 $EndSheet
 $Comp
-L ethoscope_stepper_controller:CLK_32MHZ CLK1
+L ethoscope_stepper_controller_3x3:CLK_32MHZ CLK1
 U 1 1 5B71ACB6
 P 6650 1950
 F 0 "CLK1" H 6700 2250 60  0000 L CNN
 F 1 "CLK_32MHZ" H 6050 2250 60  0000 L CNN
-F 2 "ethoscope_stepper_controller:CTS_SMD_4_7X5MM" H 6800 2150 60  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:CTS_SMD_4_7X5MM" H 6800 2150 60  0001 C CNN
 F 3 "" H 6650 1950 60  0001 C CNN
 F 4 "digikey" H 7000 2350 60  0001 C CNN "Vendor"
 F 5 "CTX277LVCT-ND" H 7100 2450 60  0001 C CNN "PartNumber"
 F 6 "OSC XO 32.000MHZ HCMOS TTL SMD" H 7200 2550 60  0001 C CNN "Description"
 	1    6650 1950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7000 1950 7100 1950
@@ -91,18 +91,18 @@ CLK
 Text Label 8400 4500 2    60   ~ 0
 CLK
 $Comp
-L ethoscope_stepper_controller:TEENSY_3.5_MIN TEENSY1
+L ethoscope_stepper_controller_3x3:TEENSY_3.5_MIN TEENSY1
 U 1 1 5B72A898
 P 2700 1650
 F 0 "TEENSY1" H 2700 2647 60  0000 C CNN
 F 1 "TEENSY_3.5_MIN" H 2700 2541 60  0000 C CNN
-F 2 "ethoscope_stepper_controller:TEENSY_3.5_MIN" H 2700 2700 60  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:TEENSY_3.5_MIN" H 2700 2700 60  0001 C CNN
 F 3 "" H 2750 4400 60  0000 C CNN
 F 4 "digikey" H 2700 2800 60  0001 C CNN "Vendor"
 F 5 "1568-1464-ND" H 2700 2900 60  0001 C CNN "PartNumber"
 F 6 "TEENSY 3.5 (HEADERS)" H 2700 3000 60  0001 C CNN "Description"
 	1    2700 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 4150 1000
 NoConn ~ 4150 1100
@@ -115,7 +115,7 @@ F 1 "GND" H 700 950 50  0000 C CNN
 F 2 "" H 700 1100 50  0001 C CNN
 F 3 "" H 700 1100 50  0001 C CNN
 	1    700  1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3V3 #PWR04
@@ -125,8 +125,8 @@ F 0 "#PWR04" H 4750 800 50  0001 C CNN
 F 1 "+3V3" H 4765 1123 50  0000 C CNN
 F 2 "" H 4750 950 50  0001 C CNN
 F 3 "" H 4750 950 50  0001 C CNN
-	1    4750 950 
-	1    0    0    -1  
+	1    4750 950
+	1    0    0    -1
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
@@ -136,8 +136,8 @@ F 0 "#FLG01" H 700 825 50  0001 C CNN
 F 1 "PWR_FLAG" H 700 900 50  0000 C CNN
 F 2 "" H 700 750 50  0001 C CNN
 F 3 "~" H 700 750 50  0001 C CNN
-	1    700  750 
-	1    0    0    -1  
+	1    700  750
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1250 1000 700  1000
@@ -149,7 +149,7 @@ Connection ~ 700  1000
 Wire Wire Line
 	4150 1200 4750 1200
 Wire Wire Line
-	4750 1200 4750 950 
+	4750 1200 4750 950
 Wire Wire Line
 	1250 2200 1150 2200
 Wire Wire Line
@@ -207,7 +207,7 @@ F 1 "+3V3" H 6665 1723 50  0000 C CNN
 F 2 "" H 6650 1550 50  0001 C CNN
 F 3 "" H 6650 1550 50  0001 C CNN
 	1    6650 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR09
@@ -218,7 +218,7 @@ F 1 "GND" H 6650 2200 50  0000 C CNN
 F 2 "" H 6650 2350 50  0001 C CNN
 F 3 "" H 6650 2350 50  0001 C CNN
 	1    6650 2350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6650 1550 6650 1600
@@ -233,25 +233,25 @@ F 1 "+3V3" H 6265 2073 50  0000 C CNN
 F 2 "" H 6250 1900 50  0001 C CNN
 F 3 "" H 6250 1900 50  0001 C CNN
 	1    6250 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6250 1900 6250 1950
 Wire Wire Line
 	6250 1950 6300 1950
 $Comp
-L ethoscope_stepper_controller:0.1uF C1
+L ethoscope_stepper_controller_3x3:0.1uF C1
 U 1 1 5B72CF50
 P 5850 1950
 F 0 "C1" H 5850 2050 40  0000 L CNN
 F 1 "0.1uF" H 5850 1950 30  0000 C CNN
-F 2 "ethoscope_stepper_controller:SM0402" H 5888 1800 30  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:SM0402" H 5888 1800 30  0001 C CNN
 F 3 "" H 5850 1950 60  0000 C CNN
 F 4 "digikey" H 5950 2150 60  0001 C CNN "Vendor"
 F 5 "1276-1739-1-ND" H 6050 2250 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 25V Y5V 0402" H 6150 2350 60  0001 C CNN "Description"
 	1    5850 1950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3V3 #PWR05
@@ -262,7 +262,7 @@ F 1 "+3V3" H 5865 1873 50  0000 C CNN
 F 2 "" H 5850 1700 50  0001 C CNN
 F 3 "" H 5850 1700 50  0001 C CNN
 	1    5850 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR06
@@ -273,7 +273,7 @@ F 1 "GND" H 5850 2050 50  0000 C CNN
 F 2 "" H 5850 2200 50  0001 C CNN
 F 3 "" H 5850 2200 50  0001 C CNN
 	1    5850 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5850 1750 5850 1700
@@ -345,18 +345,18 @@ NoConn ~ 4150 2700
 NoConn ~ 4150 2800
 NoConn ~ 4150 2900
 $Comp
-L ethoscope_stepper_controller:PWR_JACK_2.1x5.5_SMD_VERT P1
+L ethoscope_stepper_controller_3x3:PWR_JACK_2.1x5.5_SMD_VERT P1
 U 1 1 5B749BE7
 P 2000 4550
 F 0 "P1" H 2000 4700 50  0000 C CNN
 F 1 "PWR_JACK_2.1x5.5_SMD_VERT" V 2100 4550 50  0000 C CNN
-F 2 "ethoscope_stepper_controller:DCJACK_3PIN_SMD_VERT" H 1900 4600 60  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:DCJACK_3PIN_SMD_VERT" H 1900 4600 60  0001 C CNN
 F 3 "" H 2000 4550 60  0000 C CNN
 F 4 "digikey" H 2100 4800 60  0001 C CNN "Vendor"
 F 5 "CP-015AHPJ-CT-ND" H 2200 4900 60  0001 C CNN "PartNumber"
 F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 2300 5000 60  0001 C CNN "Description"
 	1    2000 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -367,7 +367,7 @@ F 1 "GND" H 1750 4500 50  0000 C CNN
 F 2 "" H 1750 4650 50  0001 C CNN
 F 3 "" H 1750 4650 50  0001 C CNN
 	1    1750 4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1800 4600 1750 4600
@@ -382,7 +382,7 @@ F 1 "VAA" H 1750 4600 50  0000 C CNN
 F 2 "" H 1750 4450 50  0001 C CNN
 F 3 "" H 1750 4450 50  0001 C CNN
 	1    1750 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
@@ -393,7 +393,7 @@ F 1 "PWR_FLAG" H 1600 4500 50  0000 C CNN
 F 2 "" H 1600 4350 50  0001 C CNN
 F 3 "~" H 1600 4350 50  0001 C CNN
 	1    1600 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1600 4350 1600 4500
@@ -437,60 +437,60 @@ ENABLE_ALL
 Text Label 8400 5100 2    60   ~ 0
 ENABLE_ALL
 $Comp
-L ethoscope_stepper_controller:MOUNT_HOLE MH1
+L ethoscope_stepper_controller_3x3:MOUNT_HOLE MH1
 U 1 1 5B738AE2
 P 1550 5450
 F 0 "MH1" H 1550 5600 40  0000 C CNN
 F 1 "MOUNT_HOLE" H 1550 5600 40  0001 C CNN
-F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 1550 5450 60  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40" H 1550 5450 60  0001 C CNN
 F 3 "" H 1550 5450 60  0001 C CNN
 F 4 "digikey" H 1650 5500 60  0001 C CNN "Vendor"
 F 5 "36-2441-ND" H 1750 5400 60  0001 C CNN "PartNumber"
 F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 1850 5300 60  0001 C CNN "Description"
 	1    1550 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L ethoscope_stepper_controller:MOUNT_HOLE MH2
+L ethoscope_stepper_controller_3x3:MOUNT_HOLE MH2
 U 1 1 5B738B6D
 P 1700 5450
 F 0 "MH2" H 1700 5600 40  0000 C CNN
 F 1 "MOUNT_HOLE" H 1700 5600 40  0001 C CNN
-F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 1700 5450 60  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40" H 1700 5450 60  0001 C CNN
 F 3 "" H 1700 5450 60  0001 C CNN
 F 4 "digikey" H 1800 5500 60  0001 C CNN "Vendor"
 F 5 "36-2441-ND" H 1900 5400 60  0001 C CNN "PartNumber"
 F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 2000 5300 60  0001 C CNN "Description"
 	1    1700 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L ethoscope_stepper_controller:MOUNT_HOLE MH3
+L ethoscope_stepper_controller_3x3:MOUNT_HOLE MH3
 U 1 1 5B739746
 P 1850 5450
 F 0 "MH3" H 1850 5600 40  0000 C CNN
 F 1 "MOUNT_HOLE" H 1850 5600 40  0001 C CNN
-F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 1850 5450 60  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40" H 1850 5450 60  0001 C CNN
 F 3 "" H 1850 5450 60  0001 C CNN
 F 4 "digikey" H 1950 5500 60  0001 C CNN "Vendor"
 F 5 "36-2441-ND" H 2050 5400 60  0001 C CNN "PartNumber"
 F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 2150 5300 60  0001 C CNN "Description"
 	1    1850 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L ethoscope_stepper_controller:MOUNT_HOLE MH4
+L ethoscope_stepper_controller_3x3:MOUNT_HOLE MH4
 U 1 1 5B73974F
 P 2000 5450
 F 0 "MH4" H 2000 5600 40  0000 C CNN
 F 1 "MOUNT_HOLE" H 2000 5600 40  0001 C CNN
-F 2 "ethoscope_stepper_controller:MOUNTING_HOLE_4-40" H 2000 5450 60  0001 C CNN
+F 2 "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40" H 2000 5450 60  0001 C CNN
 F 3 "" H 2000 5450 60  0001 C CNN
 F 4 "digikey" H 2100 5500 60  0001 C CNN "Vendor"
 F 5 "36-2441-ND" H 2200 5400 60  0001 C CNN "PartNumber"
 F 6 "SHLDR SCREW RND HEAD HEX 4-40" H 2300 5300 60  0001 C CNN "Description"
 	1    2000 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 1550 5450
 NoConn ~ 1700 5450

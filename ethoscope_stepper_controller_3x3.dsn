@@ -1,4 +1,4 @@
-(pcb /home/polidorop/git/kicad/ethoscope_stepper_controller/ethoscope_stepper_controller.dsn
+(pcb /home/polidorop/git/kicad/ethoscope_stepper_controller_3x3/ethoscope_stepper_controller_3x3.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -33,7 +33,7 @@
     )
   )
   (placement
-    (component ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN
+    (component ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN
       (place T1 156210 -72390 back 90 (PN TERM_BLK))
       (place T2 168910 -72390 back 90 (PN TERM_BLK))
       (place T3 156210 -88900 back 90 (PN TERM_BLK))
@@ -42,27 +42,27 @@
       (place T6 168910 -105410 back 90 (PN TERM_BLK))
       (place T7 156210 -121920 back 90 (PN TERM_BLK))
     )
-    (component ethoscope_stepper_controller:DCJACK_3PIN_SMD_VERT
+    (component ethoscope_stepper_controller_3x3:DCJACK_3PIN_SMD_VERT
       (place P1 165100 -128270 front 180 (PN PWR_JACK_2.1x5.5_SMD_VERT))
     )
-    (component ethoscope_stepper_controller:CTS_SMD_4_7X5MM
+    (component ethoscope_stepper_controller_3x3:CTS_SMD_4_7X5MM
       (place CLK1 123190 -86360 front 270 (PN CLK_32MHZ))
     )
-    (component "ethoscope_stepper_controller:MOUNTING_HOLE_4-40"
+    (component "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40"
       (place MH1 179388 -128588 front 0 (PN MOUNT_HOLE))
       (place MH2 125412 -128588 front 0 (PN MOUNT_HOLE))
       (place MH3 125412 -74612.5 front 0 (PN MOUNT_HOLE))
       (place MH4 179388 -74612.5 front 0 (PN MOUNT_HOLE))
     )
-    (component ethoscope_stepper_controller:TEENSY_3.5_MIN
+    (component ethoscope_stepper_controller_3x3:TEENSY_3.5_MIN
       (place TEENSY1 139700 -107950 front 180 (PN TEENSY_3.5_MIN))
     )
-    (component "ethoscope_stepper_controller:QFN-5x5-32"
+    (component "ethoscope_stepper_controller_3x3:QFN-5x5-32"
       (place U1 123190 -96520 front 0 (PN TMC429))
       (place U6 123190 -106680 front 0 (PN TMC429))
       (place U11 123190 -116840 front 0 (PN TMC429))
     )
-    (component "ethoscope_stepper_controller:VQFN-4x4-24"
+    (component "ethoscope_stepper_controller_3x3:VQFN-4x4-24"
       (place U3 162560 -72390 front 270 (PN DRV8846))
       (place U4 185420 -88900 front 270 (PN DRV8846))
       (place U8 175260 -88900 front 270 (PN DRV8846))
@@ -71,7 +71,7 @@
       (place U9 162560 -105410 front 270 (PN DRV8846))
       (place U13 185420 -105410 front 270 (PN DRV8846))
     )
-    (component ethoscope_stepper_controller:SM0805
+    (component ethoscope_stepper_controller_3x3:SM0805
       (place C4 160020 -77470 front 180 (PN 10uF))
       (place C7 182880 -93980 front 180 (PN 10uF))
       (place C10 160020 -93980 front 180 (PN 10uF))
@@ -80,12 +80,12 @@
       (place C20 172720 -110490 front 180 (PN 10uF))
       (place C24 182880 -110490 front 180 (PN 10uF))
     )
-    (component "ethoscope_stepper_controller:SOT-23-5"
+    (component "ethoscope_stepper_controller_3x3:SOT-23-5"
       (place U2 128270 -101600 front 0 (PN BUFFER_TRI_STATE))
       (place U7 128270 -111760 front 0 (PN BUFFER_TRI_STATE))
       (place U12 128270 -121920 front 0 (PN BUFFER_TRI_STATE))
     )
-    (component ethoscope_stepper_controller:SM0402
+    (component ethoscope_stepper_controller_3x3:SM0402
       (place C1 116840 -86360 front 270 (PN 0.1uF))
       (place C6 182880 -96012 front 180 (PN 0.1uF))
       (place C8 187960 -93980 front 0 (PN 2.2uF))
@@ -105,7 +105,7 @@
       (place R15 135890 -119380 front 180 (PN 10.0k))
       (place R16 186690 -99695 front 90 (PN 5.1))
     )
-    (component ethoscope_stepper_controller:SM0402::1
+    (component ethoscope_stepper_controller_3x3:SM0402::1
       (place C2 116840 -96520 front 270 (PN 0.1uF))
       (place C3 160020 -79502 front 180 (PN 0.1uF))
       (place C5 165100 -77470 front 0 (PN 2.2uF))
@@ -126,7 +126,7 @@
     )
   )
   (library
-    (image ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN
+    (image ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN
       (outline (path signal 381  -5250 -1500  -5250 -3250))
       (outline (path signal 381  -1750 -1500  -1750 -3250))
       (outline (path signal 381  1750 -1500  1750 -3250))
@@ -205,7 +205,7 @@
       (pin Round[A]Pad_2340_um 2 1750 0)
       (pin Round[A]Pad_2340_um 3 -1750 0)
     )
-    (image ethoscope_stepper_controller:DCJACK_3PIN_SMD_VERT
+    (image ethoscope_stepper_controller_3x3:DCJACK_3PIN_SMD_VERT
       (outline (path signal 400  -6500 -9800  6500 -9800))
       (outline (path signal 400  -6500 5900  6500 5900))
       (outline (path signal 400  -6500 5900  -6500 -9800))
@@ -217,7 +217,7 @@
       (pin Rect[T]Pad_3750x5000_um 2 -2375 -11300)
       (pin Rect[T]Pad_3750x5000_um 3 2375 -11300)
     )
-    (image ethoscope_stepper_controller:CTS_SMD_4_7X5MM
+    (image ethoscope_stepper_controller_3x3:CTS_SMD_4_7X5MM
       (outline (path signal 381  -646.447 -1750  -729.162 -1977.26  -938.606 -2098.18  -1176.78 -2056.19
             -1332.23 -1870.92  -1332.23 -1629.08  -1176.78 -1443.81  -938.606 -1401.82
             -729.162 -1522.74  -646.447 -1750))
@@ -230,7 +230,7 @@
       (pin Rect[T]Pad_1800x2000_um 3 2540 2100)
       (pin Rect[T]Pad_1800x2000_um 4 -2540 2100)
     )
-    (image "ethoscope_stepper_controller:MOUNTING_HOLE_4-40"
+    (image "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40"
       (outline (path signal 228.6  4127.5 0  4048.19 -805.235  3813.31 -1579.53  3431.89 -2293.12
             2918.58 -2918.58  2293.12 -3431.89  1579.53 -3813.31  805.235 -4048.19
             0 -4127.5  -805.235 -4048.19  -1579.53 -3813.31  -2293.12 -3431.89
@@ -251,7 +251,7 @@
             4127.5 0))
       (pin Round[A]Pad_3556_um 1 0 0)
     )
-    (image ethoscope_stepper_controller:TEENSY_3.5_MIN
+    (image ethoscope_stepper_controller_3x3:TEENSY_3.5_MIN
       (outline (path signal 228.6  0 -24130  0 15240))
       (outline (path signal 228.6  -8890 -12700  8890 -12700))
       (outline (path signal 381  -5080 -43180  -5080 -30480))
@@ -322,7 +322,7 @@
       (pin Oval[A]Pad_2540x1524_um A21 7620 -24130)
       (pin Oval[A]Pad_2540x1524_um A22 7620 -21590)
     )
-    (image "ethoscope_stepper_controller:QFN-5x5-32"
+    (image "ethoscope_stepper_controller_3x3:QFN-5x5-32"
       (outline (path signal 250  -2250 2500  -2323.22 2323.22  -2500 2250  -2676.78 2323.22
             -2750 2500  -2676.78 2676.78  -2500 2750  -2323.22 2676.78  -2250 2500))
       (outline (path signal 250  2500 2500  2500 2000))
@@ -370,7 +370,7 @@
       (pin Rect[T]Pad_2000x250_um 23 3000 1250)
       (pin Rect[T]Pad_2000x250_um 24 3000 1750)
     )
-    (image "ethoscope_stepper_controller:VQFN-4x4-24"
+    (image "ethoscope_stepper_controller_3x3:VQFN-4x4-24"
       (outline (path signal 250  -1750 2000  -1823.22 1823.22  -2000 1750  -2176.78 1823.22
             -2250 2000  -2176.78 2176.78  -2000 2250  -1823.22 2176.78  -1750 2000))
       (outline (path signal 250  2000 2000  2000 1500))
@@ -410,7 +410,7 @@
       (pin Rect[T]Pad_2000x250_um 17 2600 750)
       (pin Rect[T]Pad_2000x250_um 18 2600 1250)
     )
-    (image ethoscope_stepper_controller:SM0805
+    (image ethoscope_stepper_controller_3x3:SM0805
       (outline (path signal 127  1524 -889  635 -889))
       (outline (path signal 127  1524 889  1524 -889))
       (outline (path signal 127  635 889  1524 889))
@@ -420,7 +420,7 @@
       (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
       (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
     )
-    (image "ethoscope_stepper_controller:SOT-23-5"
+    (image "ethoscope_stepper_controller_3x3:SOT-23-5"
       (outline (path signal 150  -100 1000  -169.098 904.894  -280.902 941.221  -280.902 1058.78
             -169.098 1095.11  -100 1000))
       (outline (path signal 150  500 1500  -500 1500))
@@ -433,7 +433,7 @@
       (pin Rect[T]Pad_1100x600_um 2 -1300 0)
       (pin Rect[T]Pad_1100x600_um 1 -1300 950)
     )
-    (image ethoscope_stepper_controller:SM0402
+    (image ethoscope_stepper_controller_3x3:SM0402
       (outline (path signal 200  -200 400  -850 400))
       (outline (path signal 200  -850 400  -850 -400))
       (outline (path signal 200  -850 -400  -200 -400))
@@ -443,7 +443,7 @@
       (pin Rect[T]Pad_600x700_um 1 -500 0)
       (pin Rect[T]Pad_600x700_um 2 500 0)
     )
-    (image ethoscope_stepper_controller:SM0402::1
+    (image ethoscope_stepper_controller_3x3:SM0402::1
       (outline (path signal 200  850 -400  200 -400))
       (outline (path signal 200  850 400  850 -400))
       (outline (path signal 200  200 400  850 400))

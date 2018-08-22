@@ -1,9 +1,9 @@
 
-(session ethoscope_stepper_controller.ses
-  (base_design ethoscope_stepper_controller.dsn)
+(session ethoscope_stepper_controller_3x3.ses
+  (base_design ethoscope_stepper_controller_3x3.dsn)
   (placement
     (resolution um 10)
-    (component ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN
+    (component ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN
       (place T1 1562100 -723900 back 90)
       (place T2 1689100 -723900 back 90)
       (place T3 1562100 -889000 back 90)
@@ -12,27 +12,27 @@
       (place T6 1689100 -1054100 back 90)
       (place T7 1562100 -1219200 back 90)
     )
-    (component ethoscope_stepper_controller:DCJACK_3PIN_SMD_VERT
+    (component ethoscope_stepper_controller_3x3:DCJACK_3PIN_SMD_VERT
       (place P1 1651000 -1282700 front 180)
     )
-    (component ethoscope_stepper_controller:CTS_SMD_4_7X5MM
+    (component ethoscope_stepper_controller_3x3:CTS_SMD_4_7X5MM
       (place CLK1 1231900 -863600 front 270)
     )
-    (component "ethoscope_stepper_controller:MOUNTING_HOLE_4-40"
+    (component "ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40"
       (place MH1 1793880 -1285880 front 0)
       (place MH2 1254120 -1285880 front 0)
       (place MH3 1254120 -746125 front 0)
       (place MH4 1793880 -746125 front 0)
     )
-    (component ethoscope_stepper_controller:TEENSY_3.5_MIN
+    (component ethoscope_stepper_controller_3x3:TEENSY_3.5_MIN
       (place TEENSY1 1397000 -1079500 front 180)
     )
-    (component "ethoscope_stepper_controller:QFN-5x5-32"
+    (component "ethoscope_stepper_controller_3x3:QFN-5x5-32"
       (place U1 1231900 -965200 front 0)
       (place U6 1231900 -1066800 front 0)
       (place U11 1231900 -1168400 front 0)
     )
-    (component "ethoscope_stepper_controller:VQFN-4x4-24"
+    (component "ethoscope_stepper_controller_3x3:VQFN-4x4-24"
       (place U3 1625600 -723900 front 270)
       (place U4 1854200 -889000 front 270)
       (place U8 1752600 -889000 front 270)
@@ -41,7 +41,7 @@
       (place U9 1625600 -1054100 front 270)
       (place U13 1854200 -1054100 front 270)
     )
-    (component ethoscope_stepper_controller:SM0805
+    (component ethoscope_stepper_controller_3x3:SM0805
       (place C4 1600200 -774700 front 180)
       (place C7 1828800 -939800 front 180)
       (place C10 1600200 -939800 front 180)
@@ -50,12 +50,12 @@
       (place C20 1727200 -1104900 front 180)
       (place C24 1828800 -1104900 front 180)
     )
-    (component "ethoscope_stepper_controller:SOT-23-5"
+    (component "ethoscope_stepper_controller_3x3:SOT-23-5"
       (place U2 1282700 -1016000 front 0)
       (place U7 1282700 -1117600 front 0)
       (place U12 1282700 -1219200 front 0)
     )
-    (component ethoscope_stepper_controller:SM0402
+    (component ethoscope_stepper_controller_3x3:SM0402
       (place C1 1168400 -863600 front 270)
       (place C6 1828800 -960120 front 180)
       (place C8 1879600 -939800 front 0)
@@ -75,7 +75,7 @@
       (place R15 1358900 -1193800 front 180)
       (place R16 1866900 -996950 front 90)
     )
-    (component ethoscope_stepper_controller:SM0402::1
+    (component ethoscope_stepper_controller_3x3:SM0402::1
       (place C2 1168400 -965200 front 270)
       (place C3 1600200 -795020 front 180)
       (place C5 1651000 -774700 front 0)
@@ -97,13 +97,13 @@
   )
   (was_is
   )
-  (routes 
+  (routes
     (resolution um 10)
     (parser
       (host_cad "KiCad's Pcbnew")
       (host_version "6.0.0-rc1-unknown-6db71cd~66~ubuntu18.04.1")
     )
-    (library_out 
+    (library_out
       (padstack "Via[0-1]_508:254_um"
         (shape
           (circle F.Cu 5080 0 0)
@@ -114,7 +114,7 @@
         (attach off)
       )
     )
-    (network_out 
+    (network_out
       (net +3V3
         (wire
           (path F.Cu 2540

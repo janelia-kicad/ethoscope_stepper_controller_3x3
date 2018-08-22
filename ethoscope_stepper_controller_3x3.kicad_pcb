@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title ethoscope_stepper_controller)
+    (title ethoscope_stepper_controller_3x3)
     (rev 1.0)
   )
 
@@ -317,7 +317,7 @@
     (add_net VAA)
   )
 
-  (module ethoscope_stepper_controller:DCJACK_3PIN_SMD_VERT (layer F.Cu) (tedit 5B7D801D) (tstamp 5B74998A)
+  (module ethoscope_stepper_controller_3x3:DCJACK_3PIN_SMD_VERT (layer F.Cu) (tedit 5B7D801D) (tstamp 5B74998A)
     (at 165.1 128.27 180)
     (path /5B749BE7)
     (fp_text reference P1 (at 6.5 -7.75) (layer F.SilkS)
@@ -341,7 +341,7 @@
     (pad "" thru_hole circle (at 0 0 180) (size 4.5 4.5) (drill 4.2) (layers *.Cu *.Mask))
   )
 
-  (module ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F837)
+  (module ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F837)
     (at 156.21 72.39 270)
     (path /58DAAD90/5B75BAFB/58DBDAC6)
     (fp_text reference T1 (at -5.25 -5.75 90) (layer B.SilkS)
@@ -449,7 +449,7 @@
       (net 29 /tmc429_0/stepper_driver_0/A_-))
   )
 
-  (module ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B744FBE)
+  (module ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B744FBE)
     (at 168.91 72.39 270)
     (path /58DAAD90/58DBE3E6/58DBDAC6)
     (fp_text reference T2 (at -5.25 -5.75 90) (layer B.SilkS)
@@ -557,7 +557,7 @@
       (net 30 /tmc429_0/stepper_driver_1/A_-))
   )
 
-  (module ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F8E1)
+  (module ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F8E1)
     (at 156.21 88.9 270)
     (path /58DAAD90/58DBF0EC/58DBDAC6)
     (fp_text reference T3 (at -5.25 -5.75 90) (layer B.SilkS)
@@ -665,7 +665,7 @@
       (net 37 /tmc429_0/stepper_driver_2/A_-))
   )
 
-  (module ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B745135)
+  (module ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B745135)
     (at 168.91 88.9 270)
     (path /5B70939E/5B75BAFB/58DBDAC6)
     (fp_text reference T4 (at -5.25 -5.75 90) (layer B.SilkS)
@@ -773,7 +773,7 @@
       (net 41 /tmc429_1/stepper_driver_0/A_-))
   )
 
-  (module ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F98B)
+  (module ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F98B)
     (at 156.21 105.41 270)
     (path /5B70939E/58DBE3E6/58DBDAC6)
     (fp_text reference T5 (at -5.25 -5.75 90) (layer B.SilkS)
@@ -881,7 +881,7 @@
       (net 42 /tmc429_1/stepper_driver_1/A_-))
   )
 
-  (module ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F9E0)
+  (module ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73F9E0)
     (at 168.91 105.41 270)
     (path /5B70939E/58DBF0EC/58DBDAC6)
     (fp_text reference T6 (at -5.25 -5.75 90) (layer B.SilkS)
@@ -989,7 +989,7 @@
       (net 46 /tmc429_1/stepper_driver_2/A_-))
   )
 
-  (module ethoscope_stepper_controller:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73FA35)
+  (module ethoscope_stepper_controller_3x3:TERM_BLK_HDR_4POS_VERT_0.138IN (layer B.Cu) (tedit 5B7C7F7F) (tstamp 5B73FA35)
     (at 156.21 121.92 270)
     (path /5B709419/58DB6271/58DBDAC6)
     (fp_text reference T7 (at -5.25 -5.75 90) (layer B.SilkS)
@@ -1097,7 +1097,7 @@
       (net 50 /tmc429_2/stepper_driver_0/A_-))
   )
 
-  (module ethoscope_stepper_controller:TEENSY_3.5_MIN (layer F.Cu) (tedit 5B7C7EBD) (tstamp 5B7495E8)
+  (module ethoscope_stepper_controller_3x3:TEENSY_3.5_MIN (layer F.Cu) (tedit 5B7C7EBD) (tstamp 5B7495E8)
     (at 139.7 107.95 180)
     (path /5B72A898)
     (fp_text reference TEENSY1 (at 9.652 12.7 270) (layer F.SilkS)
@@ -1182,7 +1182,7 @@
     (pad A22 thru_hole oval (at 7.62 21.59 180) (size 2.54 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module ethoscope_stepper_controller:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B7C691F)
+  (module ethoscope_stepper_controller_3x3:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B7C691F)
     (at 162.56 72.39 270)
     (path /58DAAD90/5B75BAFB/5B77E47D)
     (fp_text reference U3 (at -2.54 -2.54) (layer F.SilkS)
@@ -1251,7 +1251,7 @@
       (net 2 GND) (solder_mask_margin 0.0375) (clearance 0.07))
   )
 
-  (module ethoscope_stepper_controller:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B73FB24)
+  (module ethoscope_stepper_controller_3x3:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B73FB24)
     (at 185.42 88.9 270)
     (path /58DAAD90/58DBE3E6/5B77E47D)
     (fp_text reference U4 (at -2.54 -2.54) (layer F.SilkS)
@@ -1320,7 +1320,7 @@
       (net 2 GND) (solder_mask_margin 0.0375) (clearance 0.07))
   )
 
-  (module ethoscope_stepper_controller:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B73FBD0)
+  (module ethoscope_stepper_controller_3x3:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B73FBD0)
     (at 175.26 88.9 270)
     (path /5B70939E/5B75BAFB/5B77E47D)
     (fp_text reference U8 (at -2.54 -2.54) (layer F.SilkS)
@@ -1389,7 +1389,7 @@
       (net 2 GND) (solder_mask_margin 0.0375) (clearance 0.07))
   )
 
-  (module ethoscope_stepper_controller:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B73FC2A)
+  (module ethoscope_stepper_controller_3x3:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B73FC2A)
     (at 175.26 105.41 270)
     (path /5B70939E/58DBF0EC/5B77E47D)
     (fp_text reference U10 (at -2.54 -2.54) (layer F.SilkS)
@@ -1458,7 +1458,7 @@
       (net 2 GND) (solder_mask_margin 0.0375) (clearance 0.07))
   )
 
-  (module ethoscope_stepper_controller:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B748A9D)
+  (module ethoscope_stepper_controller_3x3:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B748A9D)
     (at 162.56 88.9 270)
     (path /58DAAD90/58DBF0EC/5B77E47D)
     (fp_text reference U5 (at -2.54 -2.54) (layer F.SilkS)
@@ -1527,7 +1527,7 @@
       (net 2 GND) (solder_mask_margin 0.0375) (clearance 0.07))
   )
 
-  (module ethoscope_stepper_controller:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B748B02)
+  (module ethoscope_stepper_controller_3x3:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B748B02)
     (at 162.56 105.41 270)
     (path /5B70939E/58DBE3E6/5B77E47D)
     (fp_text reference U9 (at -2.54 -2.54) (layer F.SilkS)
@@ -1596,7 +1596,7 @@
       (net 2 GND) (solder_mask_margin 0.0375) (clearance 0.07))
   )
 
-  (module ethoscope_stepper_controller:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B748D56)
+  (module ethoscope_stepper_controller_3x3:VQFN-4x4-24 (layer F.Cu) (tedit 5B7C7EA6) (tstamp 5B748D56)
     (at 185.42 105.41 270)
     (path /5B709419/58DB6271/5B77E47D)
     (fp_text reference U13 (at -2.54 -2.54) (layer F.SilkS)
@@ -1665,7 +1665,7 @@
       (net 2 GND) (solder_mask_margin 0.0375) (clearance 0.07))
   )
 
-  (module ethoscope_stepper_controller:CTS_SMD_4_7X5MM (layer F.Cu) (tedit 5B7459F3) (tstamp 5B73F710)
+  (module ethoscope_stepper_controller_3x3:CTS_SMD_4_7X5MM (layer F.Cu) (tedit 5B7459F3) (tstamp 5B73F710)
     (at 123.19 86.36 270)
     (path /5B71ACB6)
     (fp_text reference CLK1 (at 0 -3.429 270) (layer F.SilkS)
@@ -1692,7 +1692,7 @@
       (net 1 +3V3))
   )
 
-  (module ethoscope_stepper_controller:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F717)
+  (module ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F717)
     (at 179.388 128.588)
     (path /5B738AE2)
     (fp_text reference MH1 (at 0 -3.175) (layer F.SilkS) hide
@@ -1706,7 +1706,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module ethoscope_stepper_controller:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F71E)
+  (module ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F71E)
     (at 125.412 128.588)
     (path /5B738B6D)
     (fp_text reference MH2 (at 0 -3.175) (layer F.SilkS) hide
@@ -1720,7 +1720,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module ethoscope_stepper_controller:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F725)
+  (module ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F725)
     (at 125.412 74.6125)
     (path /5B739746)
     (fp_text reference MH3 (at 0 -3.175) (layer F.SilkS) hide
@@ -1734,7 +1734,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module ethoscope_stepper_controller:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F72C)
+  (module ethoscope_stepper_controller_3x3:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5B733C5C) (tstamp 5B73F72C)
     (at 179.388 74.6125)
     (path /5B73974F)
     (fp_text reference MH4 (at 0 -3.175) (layer F.SilkS) hide
@@ -1748,7 +1748,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module ethoscope_stepper_controller:QFN-5x5-32 (layer F.Cu) (tedit 5B74583D) (tstamp 5B73FAA9)
+  (module ethoscope_stepper_controller_3x3:QFN-5x5-32 (layer F.Cu) (tedit 5B74583D) (tstamp 5B73FAA9)
     (at 123.19 96.52)
     (path /58DAAD90/5B75BAF5)
     (fp_text reference U1 (at 2.032 3.048) (layer F.SilkS)
@@ -1837,7 +1837,7 @@
       (solder_mask_margin 0.0375) (clearance 0.0375))
   )
 
-  (module ethoscope_stepper_controller:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B7C6215)
+  (module ethoscope_stepper_controller_3x3:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B7C6215)
     (at 160.02 77.47 180)
     (tags "CMS SM")
     (path /58DAAD90/5B75BAFB/5B7636E5)
@@ -1865,7 +1865,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747D9F)
+  (module ethoscope_stepper_controller_3x3:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747D9F)
     (at 182.88 93.98 180)
     (tags "CMS SM")
     (path /58DAAD90/58DBE3E6/5B7636E5)
@@ -1893,7 +1893,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DB5)
+  (module ethoscope_stepper_controller_3x3:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DB5)
     (at 160.02 93.98 180)
     (tags "CMS SM")
     (path /58DAAD90/58DBF0EC/5B7636E5)
@@ -1921,7 +1921,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DCB)
+  (module ethoscope_stepper_controller_3x3:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DCB)
     (at 172.72 93.98 180)
     (tags "CMS SM")
     (path /5B70939E/5B75BAFB/5B7636E5)
@@ -1949,7 +1949,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DE1)
+  (module ethoscope_stepper_controller_3x3:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DE1)
     (at 160.02 110.49 180)
     (tags "CMS SM")
     (path /5B70939E/58DBE3E6/5B7636E5)
@@ -1977,7 +1977,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DF7)
+  (module ethoscope_stepper_controller_3x3:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747DF7)
     (at 172.72 110.49 180)
     (tags "CMS SM")
     (path /5B70939E/58DBF0EC/5B7636E5)
@@ -2005,7 +2005,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747E0D)
+  (module ethoscope_stepper_controller_3x3:SM0805 (layer F.Cu) (tedit 5B7449CD) (tstamp 5B747E0D)
     (at 182.88 110.49 180)
     (tags "CMS SM")
     (path /5B709419/58DB6271/5B7636E5)
@@ -2033,7 +2033,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SOT-23-5 (layer F.Cu) (tedit 5B747B05) (tstamp 5B748A90)
+  (module ethoscope_stepper_controller_3x3:SOT-23-5 (layer F.Cu) (tedit 5B747B05) (tstamp 5B748A90)
     (at 128.27 101.6)
     (path /58DAAD90/5B76D9DD)
     (fp_text reference U2 (at 0 2.032) (layer F.SilkS)
@@ -2059,7 +2059,7 @@
       (net 59 /CS_429_0) (solder_mask_margin 0.07) (clearance 0.14))
   )
 
-  (module ethoscope_stepper_controller:QFN-5x5-32 (layer F.Cu) (tedit 5B74583D) (tstamp 5B748AC5)
+  (module ethoscope_stepper_controller_3x3:QFN-5x5-32 (layer F.Cu) (tedit 5B74583D) (tstamp 5B748AC5)
     (at 123.19 106.68)
     (path /5B70939E/5B75BAF5)
     (fp_text reference U6 (at 2.032 3.048) (layer F.SilkS)
@@ -2148,7 +2148,7 @@
       (solder_mask_margin 0.0375) (clearance 0.0375))
   )
 
-  (module ethoscope_stepper_controller:SOT-23-5 (layer F.Cu) (tedit 5B747B05) (tstamp 5B748AF5)
+  (module ethoscope_stepper_controller_3x3:SOT-23-5 (layer F.Cu) (tedit 5B747B05) (tstamp 5B748AF5)
     (at 128.27 111.76)
     (path /5B70939E/5B76D9DD)
     (fp_text reference U7 (at 0 2.032) (layer F.SilkS)
@@ -2174,7 +2174,7 @@
       (net 55 /CS_429_1) (solder_mask_margin 0.07) (clearance 0.14))
   )
 
-  (module ethoscope_stepper_controller:QFN-5x5-32 (layer F.Cu) (tedit 5B74583D) (tstamp 5B748CCE)
+  (module ethoscope_stepper_controller_3x3:QFN-5x5-32 (layer F.Cu) (tedit 5B74583D) (tstamp 5B748CCE)
     (at 123.19 116.84)
     (path /5B709419/5B754166)
     (fp_text reference U11 (at 2.032 3.048) (layer F.SilkS)
@@ -2263,7 +2263,7 @@
       (solder_mask_margin 0.0375) (clearance 0.0375))
   )
 
-  (module ethoscope_stepper_controller:SOT-23-5 (layer F.Cu) (tedit 5B747B05) (tstamp 5B748DB3)
+  (module ethoscope_stepper_controller_3x3:SOT-23-5 (layer F.Cu) (tedit 5B747B05) (tstamp 5B748DB3)
     (at 128.27 121.92)
     (path /5B709419/5B7541E8)
     (fp_text reference U12 (at 0 2.032) (layer F.SilkS)
@@ -2289,7 +2289,7 @@
       (net 54 /CS_429_2) (solder_mask_margin 0.07) (clearance 0.14))
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A46)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A46)
     (at 116.84 86.36 270)
     (tags "CMS SM")
     (path /5B72CF50)
@@ -2317,7 +2317,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A51)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A51)
     (at 116.84 96.52 270)
     (tags "CMS SM")
     (path /58DAAD90/58DAE7A2)
@@ -2345,7 +2345,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A5C)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A5C)
     (at 160.02 79.502 180)
     (tags "CMS SM")
     (path /58DAAD90/5B75BAFB/58DB75FF)
@@ -2373,7 +2373,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A67)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A67)
     (at 165.1 77.47)
     (tags "CMS SM")
     (path /58DAAD90/5B75BAFB/5B73BABA)
@@ -2401,7 +2401,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A72)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A72)
     (at 182.88 96.012 180)
     (tags "CMS SM")
     (path /58DAAD90/58DBE3E6/58DB75FF)
@@ -2429,7 +2429,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A7D)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A7D)
     (at 187.96 93.98)
     (tags "CMS SM")
     (path /58DAAD90/58DBE3E6/5B73BABA)
@@ -2457,7 +2457,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A88)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A88)
     (at 160.02 96.012 180)
     (tags "CMS SM")
     (path /58DAAD90/58DBF0EC/58DB75FF)
@@ -2485,7 +2485,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A93)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A93)
     (at 165.1 93.98)
     (tags "CMS SM")
     (path /58DAAD90/58DBF0EC/5B73BABA)
@@ -2513,7 +2513,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A9E)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7A9E)
     (at 116.84 106.68 270)
     (tags "CMS SM")
     (path /5B70939E/58DAE7A2)
@@ -2541,7 +2541,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AA9)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AA9)
     (at 172.72 96.012 180)
     (tags "CMS SM")
     (path /5B70939E/5B75BAFB/58DB75FF)
@@ -2569,7 +2569,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AB4)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AB4)
     (at 177.8 93.98)
     (tags "CMS SM")
     (path /5B70939E/5B75BAFB/5B73BABA)
@@ -2597,7 +2597,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7ABF)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7ABF)
     (at 160.02 112.522 180)
     (tags "CMS SM")
     (path /5B70939E/58DBE3E6/58DB75FF)
@@ -2625,7 +2625,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7ACA)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7ACA)
     (at 165.1 110.49)
     (tags "CMS SM")
     (path /5B70939E/58DBE3E6/5B73BABA)
@@ -2653,7 +2653,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AD5)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AD5)
     (at 172.72 112.522 180)
     (tags "CMS SM")
     (path /5B70939E/58DBF0EC/58DB75FF)
@@ -2681,7 +2681,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AE0)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AE0)
     (at 177.8 110.49)
     (tags "CMS SM")
     (path /5B70939E/58DBF0EC/5B73BABA)
@@ -2709,7 +2709,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AEB)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AEB)
     (at 116.84 116.84 270)
     (tags "CMS SM")
     (path /5B709419/5B754198)
@@ -2737,7 +2737,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AF6)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7AF6)
     (at 182.88 112.522 180)
     (tags "CMS SM")
     (path /5B709419/58DB6271/58DB75FF)
@@ -2765,7 +2765,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B01)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B01)
     (at 187.96 110.49)
     (tags "CMS SM")
     (path /5B709419/58DB6271/5B73BABA)
@@ -2793,7 +2793,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B0C)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B0C)
     (at 135.89 96.52 180)
     (tags "CMS SM")
     (path /58DAAD90/5B7791FE)
@@ -2821,7 +2821,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B17)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B17)
     (at 163.83 66.675 90)
     (tags "CMS SM")
     (path /58DAAD90/5B75BAFB/5B748971)
@@ -2849,7 +2849,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B22)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B22)
     (at 161.29 66.675 90)
     (tags "CMS SM")
     (path /58DAAD90/5B75BAFB/5B748A39)
@@ -2877,7 +2877,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B2D)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B2D)
     (at 186.69 83.185 90)
     (tags "CMS SM")
     (path /58DAAD90/58DBE3E6/5B748971)
@@ -2905,7 +2905,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B38)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B38)
     (at 184.15 83.185 90)
     (tags "CMS SM")
     (path /58DAAD90/58DBE3E6/5B748A39)
@@ -2933,7 +2933,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B43)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B43)
     (at 163.83 83.185 90)
     (tags "CMS SM")
     (path /58DAAD90/58DBF0EC/5B748971)
@@ -2961,7 +2961,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B4E)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B4E)
     (at 161.29 83.185 90)
     (tags "CMS SM")
     (path /58DAAD90/58DBF0EC/5B748A39)
@@ -2989,7 +2989,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B59)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B59)
     (at 135.89 66.04 180)
     (tags "CMS SM")
     (path /5B70939E/5B7791FE)
@@ -3017,7 +3017,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B64)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B64)
     (at 176.53 83.185 90)
     (tags "CMS SM")
     (path /5B70939E/5B75BAFB/5B748971)
@@ -3045,7 +3045,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B6F)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B6F)
     (at 173.99 83.185 90)
     (tags "CMS SM")
     (path /5B70939E/5B75BAFB/5B748A39)
@@ -3073,7 +3073,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B7A)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B7A)
     (at 163.83 99.695 90)
     (tags "CMS SM")
     (path /5B70939E/58DBE3E6/5B748971)
@@ -3101,7 +3101,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B85)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B85)
     (at 161.29 99.695 90)
     (tags "CMS SM")
     (path /5B70939E/58DBE3E6/5B748A39)
@@ -3129,7 +3129,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B90)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B90)
     (at 176.53 99.695 90)
     (tags "CMS SM")
     (path /5B70939E/58DBF0EC/5B748971)
@@ -3157,7 +3157,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B9B)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7B9B)
     (at 173.99 99.695 90)
     (tags "CMS SM")
     (path /5B70939E/58DBF0EC/5B748A39)
@@ -3185,7 +3185,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7BA6)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7BA6)
     (at 135.89 119.38 180)
     (tags "CMS SM")
     (path /5B709419/5B754203)
@@ -3213,7 +3213,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7BB1)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7BB1)
     (at 186.69 99.695 90)
     (tags "CMS SM")
     (path /5B709419/58DB6271/5B748971)
@@ -3241,7 +3241,7 @@
     )
   )
 
-  (module ethoscope_stepper_controller:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7BBC)
+  (module ethoscope_stepper_controller_3x3:SM0402 (layer F.Cu) (tedit 5B7C6AEC) (tstamp 5B7C7BBC)
     (at 184.15 99.695 90)
     (tags "CMS SM")
     (path /5B709419/58DB6271/5B748A39)
@@ -3279,7 +3279,7 @@
   (gr_text https://github.com/janelia-modular-devices (at 139.7 137.16) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
-  (gr_text "Janelia Modular Device\nethoscope_stepper_controller\npart_number: 2005\n08/2018 ver 1.0 3x3" (at 179.705 118.11) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\nethoscope_stepper_controller_3x3\npart_number: 2005\n08/2018 ver 1.0 3x3" (at 179.705 118.11) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.22225)))
   )
 

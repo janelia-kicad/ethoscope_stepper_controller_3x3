@@ -1,6 +1,6 @@
 
-(rules PCB ethoscope_stepper_controller
-  (snap_angle 
+(rules PCB ethoscope_stepper_controller_3x3
+  (snap_angle
     fortyfive_degree
   )
   (autoroute_settings
@@ -40,25 +40,25 @@
     )
     (attach off)
   )
-  (via 
+  (via
     "Via[0-1]_508:254_um" "Via[0-1]_508:254_um" default
   )
-  (via 
+  (via
     "Via[0-1]_508:254_um-kicad_default" "Via[0-1]_508:254_um" "kicad_default"
   )
-  (via 
+  (via
     "Via[0-1]_508:254_um-GND" "Via[0-1]_508:254_um" GND
   )
-  (via 
+  (via
     "Via[0-1]_508:254_um-LEDPOWER" "Via[0-1]_508:254_um" LEDPOWER
   )
-  (via 
+  (via
     "Via[0-1]_508:254_um-POWER" "Via[0-1]_508:254_um" POWER
   )
-  (via 
+  (via
     "Via[0-1]_508:254_um-SIGNAL" "Via[0-1]_508:254_um" SIGNAL
   )
-  (via 
+  (via
     "Via[0-1]_508:254_um-SUPERPOWER" "Via[0-1]_508:254_um" SUPERPOWER
   )
   (via_rule
@@ -88,7 +88,7 @@
     (rule
       (width 254.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )
@@ -98,7 +98,7 @@
     (rule
       (width 254.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )
@@ -109,7 +109,7 @@
     (rule
       (width 254.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )
@@ -119,7 +119,7 @@
     (rule
       (width 254.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )
@@ -130,7 +130,7 @@
     (rule
       (width 254.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )
@@ -145,7 +145,7 @@
     (rule
       (width 254.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )
@@ -161,7 +161,7 @@
     (rule
       (width 254.0)
     )
-    (circuit 
+    (circuit
       (use_layer F.Cu B.Cu)
     )
   )

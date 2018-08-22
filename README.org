@@ -1,4 +1,4 @@
-#+TITLE: ethoscope_stepper_controller
+#+TITLE: ethoscope_stepper_controller_3x3
 #+AUTHOR: Peter Polidoro
 #+EMAIL: peterpolidoro@gmail.com
 
