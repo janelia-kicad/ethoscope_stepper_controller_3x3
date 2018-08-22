@@ -1,15 +1,16 @@
 * Header                                                           :noexport:
 
-  #+MACRO: ethoscope_stepper_controller_3x3
+  #+MACRO: name ethoscope_stepper_controller_3x3
   #+MACRO: version 1.0
   #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/ethoscope_stepper_controller_3x3
   #+AUTHOR: Peter Polidoro
   #+EMAIL: peterpolidoro@gmail.com
 
 * Description
 
-  This...
+  This device controls the 7 stepper motors on the fly ethoscope rig.
 
 * Assembly Instructions
 
-  - First...
+  - Solder surface mount and through hole components onto the pcb.
