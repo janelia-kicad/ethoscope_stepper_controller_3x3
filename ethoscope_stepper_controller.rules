@@ -1,0 +1,168 @@
+
+(rules PCB ethoscope_stepper_controller
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 23756)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 101.8)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 25.4 (type smd_smd))
+  )
+  (padstack "Via[0-1]_508:254_um"
+    (shape
+      (circle F.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 508.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_508:254_um" "Via[0-1]_508:254_um" default
+  )
+  (via 
+    "Via[0-1]_508:254_um-kicad_default" "Via[0-1]_508:254_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_508:254_um-GND" "Via[0-1]_508:254_um" GND
+  )
+  (via 
+    "Via[0-1]_508:254_um-LEDPOWER" "Via[0-1]_508:254_um" LEDPOWER
+  )
+  (via 
+    "Via[0-1]_508:254_um-POWER" "Via[0-1]_508:254_um" POWER
+  )
+  (via 
+    "Via[0-1]_508:254_um-SIGNAL" "Via[0-1]_508:254_um" SIGNAL
+  )
+  (via 
+    "Via[0-1]_508:254_um-SUPERPOWER" "Via[0-1]_508:254_um" SUPERPOWER
+  )
+  (via_rule
+    default "Via[0-1]_508:254_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_508:254_um-kicad_default"
+  )
+  (via_rule
+    GND "Via[0-1]_508:254_um-GND"
+  )
+  (via_rule
+    LEDPOWER "Via[0-1]_508:254_um-LEDPOWER"
+  )
+  (via_rule
+    POWER "Via[0-1]_508:254_um-POWER"
+  )
+  (via_rule
+    SIGNAL "Via[0-1]_508:254_um-SIGNAL"
+  )
+  (via_rule
+    SUPERPOWER "Via[0-1]_508:254_um-SUPERPOWER"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class LEDPOWER
+    (clearance_class LEDPOWER)
+    (via_rule LEDPOWER)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class POWER
+    +3V3
+    (clearance_class POWER)
+    (via_rule POWER)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class SIGNAL
+    "/tmc429_0/stepper_driver_0/VINT" "/tmc429_0/stepper_driver_1/VINT" "/tmc429_0/stepper_driver_2/VINT" "/tmc429_1/stepper_driver_0/VINT" "/tmc429_1/stepper_driver_1/VINT" "/tmc429_1/stepper_driver_2/VINT" "/tmc429_2/stepper_driver_0/VINT" /CLK
+    "/tmc429_0/stepper_driver_0/AISEN" "/CS_429_2" "/CS_429_1" /MOSI /MISO /SCK "/CS_429_0" "/ENABLE_ALL"
+    "/tmc429_0/STEP_2" "/tmc429_0/STEP_1" "/tmc429_0/STEP_0" "/tmc429_1/STEP_0" "/tmc429_1/STEP_1" "/tmc429_1/STEP_2" "/tmc429_2/STEP_0" "/tmc429_0/DIR_2"
+    "/tmc429_0/DIR_0" "/tmc429_0/DIR_1" "/tmc429_1/DIR_1" "/tmc429_1/DIR_0" "/tmc429_1/DIR_2" "/tmc429_2/DIR_0" "/tmc429_0/MISO_UB" "/tmc429_1/MISO_UB"
+    "/tmc429_2/MISO_UB"
+    (clearance_class SIGNAL)
+    (via_rule SIGNAL)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class SUPERPOWER
+    VAA "/tmc429_0/stepper_driver_0/BISEN" "/tmc429_0/stepper_driver_1/AISEN" "/tmc429_0/stepper_driver_1/BISEN" "/tmc429_0/stepper_driver_2/AISEN" "/tmc429_0/stepper_driver_2/BISEN" "/tmc429_1/stepper_driver_0/AISEN" "/tmc429_1/stepper_driver_0/BISEN"
+    "/tmc429_1/stepper_driver_1/AISEN" "/tmc429_1/stepper_driver_1/BISEN" "/tmc429_1/stepper_driver_2/AISEN" "/tmc429_1/stepper_driver_2/BISEN" "/tmc429_2/stepper_driver_0/AISEN" "/tmc429_2/stepper_driver_0/BISEN" "/tmc429_0/stepper_driver_0/A_+" "/tmc429_0/stepper_driver_0/B_-"
+    "/tmc429_0/stepper_driver_0/B_+" "/tmc429_0/stepper_driver_0/A_-" "/tmc429_0/stepper_driver_1/A_-" "/tmc429_0/stepper_driver_1/B_+" "/tmc429_0/stepper_driver_1/B_-" "/tmc429_0/stepper_driver_1/A_+" "/tmc429_0/stepper_driver_2/A_+" "/tmc429_0/stepper_driver_2/B_-"
+    "/tmc429_0/stepper_driver_2/B_+" "/tmc429_0/stepper_driver_2/A_-" "/tmc429_1/stepper_driver_0/A_+" "/tmc429_1/stepper_driver_0/B_-" "/tmc429_1/stepper_driver_0/B_+" "/tmc429_1/stepper_driver_0/A_-" "/tmc429_1/stepper_driver_1/A_-" "/tmc429_1/stepper_driver_1/B_+"
+    "/tmc429_1/stepper_driver_1/B_-" "/tmc429_1/stepper_driver_1/A_+" "/tmc429_1/stepper_driver_2/A_-" "/tmc429_1/stepper_driver_2/B_+" "/tmc429_1/stepper_driver_2/B_-" "/tmc429_1/stepper_driver_2/A_+" "/tmc429_2/stepper_driver_0/A_-" "/tmc429_2/stepper_driver_0/B_+"
+    "/tmc429_2/stepper_driver_0/B_-" "/tmc429_2/stepper_driver_0/A_+"
+    (clearance_class SUPERPOWER)
+    (via_rule SUPERPOWER)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
