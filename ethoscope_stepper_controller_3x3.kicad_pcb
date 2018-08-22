@@ -3279,7 +3279,7 @@
   (gr_text https://github.com/janelia-modular-devices (at 139.7 137.16) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
-  (gr_text "Janelia Modular Device\nethoscope_stepper_controller_3x3\npart_number: 2005\n08/2018 ver 1.0 3x3" (at 179.705 118.11) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\nethoscope_stepper_controller\npart_number: 2005\n08/2018 ver 1.0 3x3" (at 179.705 118.11) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.22225)))
   )
 
@@ -4739,7 +4739,7 @@
   (segment (start 126.97 121.92) (end 123.766 121.92) (width 0.254) (layer F.Cu) (net 77))
   (segment (start 123.766 121.92) (end 122.94 121.094) (width 0.254) (layer F.Cu) (net 77))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5B7D9943) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5B7D9F26) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5796,7 +5796,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5B7D9940) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5B7D9F23) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
