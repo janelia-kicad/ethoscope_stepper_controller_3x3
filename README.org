@@ -1,4 +1,4 @@
-# Created 2018-08-22 Wed 13:54
+# Created 2018-09-14 Fri 11:19
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -80,7 +80,8 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 |    3 |        1 | 1175-1694-ND | digikey | CABLE USB-A TO MICRO USB-B .5M   |
 |    4 |        2 | 1212-1209-ND | digikey | SOCKET 7 MM SOLDER TAIL SINGLE   |
 |    5 |       28 | 277-2433-ND  | digikey | FERRULES WITH PLASTIC SLEEVE YEL |
-|    6 |        7 | 277-1163-ND  | digikey | TERM BLOCK PLUG 4POS STR 3.81MM  |
+|    6 |        7 | 277-2418-ND  | digikey | TERM BLOCK PLUG 4POS STR 3.5MM   |
+|    7 |        7 | P14333-ND    | digikey | STEP MOTOR PM GEARED BIPOLAR 15V |
 
 ** Vendor Parts Lists
 
