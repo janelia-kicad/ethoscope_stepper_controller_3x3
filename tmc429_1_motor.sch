@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 5000 2300 0    60   Input ~ 0
-~ENABLE_0
+~SLEEP
 $Sheet
 S 5100 1850 1050 600 
 U 58DB6271
@@ -22,7 +22,7 @@ F0 "stepper_driver_0" 60
 F1 "stepper_driver.sch" 60
 F2 "STEP" I L 5100 2000 60 
 F3 "DIR" I L 5100 2150 60 
-F4 "~ENABLE" I L 5100 2300 60 
+F4 "~SLEEP" I L 5100 2300 60 
 $EndSheet
 Wire Wire Line
 	5000 2300 5100 2300

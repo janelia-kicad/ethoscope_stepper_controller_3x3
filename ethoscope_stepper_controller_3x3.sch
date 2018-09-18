@@ -115,7 +115,6 @@ NoConn ~ 1250 1200
 NoConn ~ 1250 1300
 NoConn ~ 1250 1400
 NoConn ~ 1250 1500
-NoConn ~ 4150 1300
 NoConn ~ 4150 1800
 NoConn ~ 4150 1900
 NoConn ~ 4150 2000
@@ -123,7 +122,6 @@ NoConn ~ 4150 2200
 NoConn ~ 4150 2500
 NoConn ~ 4150 2600
 NoConn ~ 4150 2700
-NoConn ~ 4150 1400
 $Sheet
 S 6650 1500 800  1400
 U 5BA14F01
@@ -135,13 +133,7 @@ F4 "MOSI" I L 6650 1600 60
 F5 "~CS_429_0" I L 6650 1900 60 
 F6 "~CS_429_1" I L 6650 2000 60 
 F7 "~CS_429_2" I L 6650 2100 60 
-F8 "~ENABLE_0" I L 6650 2200 60 
-F9 "~ENABLE_1" I L 6650 2300 60 
-F10 "~ENABLE_2" I L 6650 2400 60 
-F11 "~ENABLE_3" I L 6650 2500 60 
-F12 "~ENABLE_4" I L 6650 2600 60 
-F13 "~ENABLE_5" I L 6650 2700 60 
-F14 "~ENABLE_6" I L 6650 2800 60 
+F8 "~SLEEP" I L 6650 2200 60 
 $EndSheet
 Wire Wire Line
 	6650 1600 6600 1600
@@ -155,20 +147,6 @@ Wire Wire Line
 	6650 2000 6600 2000
 Wire Wire Line
 	6650 2100 6600 2100
-Wire Wire Line
-	6650 2200 6600 2200
-Wire Wire Line
-	6650 2300 6600 2300
-Wire Wire Line
-	6650 2400 6600 2400
-Wire Wire Line
-	6650 2500 6600 2500
-Wire Wire Line
-	6650 2600 6600 2600
-Wire Wire Line
-	6650 2700 6600 2700
-Wire Wire Line
-	6650 2800 6600 2800
 Text Label 6600 1600 2    60   ~ 0
 MOSI
 Text Label 6600 1700 2    60   ~ 0
@@ -181,48 +159,22 @@ Text Label 6600 2000 2    60   ~ 0
 ~CS_429_1
 Text Label 6600 2100 2    60   ~ 0
 ~CS_429_2
-Text Label 6600 2200 2    60   ~ 0
-~ENABLE_0
-Text Label 6600 2300 2    60   ~ 0
-~ENABLE_1
-Text Label 6600 2400 2    60   ~ 0
-~ENABLE_2
-Text Label 6600 2500 2    60   ~ 0
-~ENABLE_3
-Text Label 6600 2600 2    60   ~ 0
-~ENABLE_4
-Text Label 6600 2700 2    60   ~ 0
-~ENABLE_5
-Text Label 6600 2800 2    60   ~ 0
-~ENABLE_6
-Wire Wire Line
-	1250 3000 1150 3000
-Wire Wire Line
-	1250 3100 1150 3100
-Wire Wire Line
-	4150 3200 4250 3200
-Wire Wire Line
-	4150 3100 4250 3100
-Wire Wire Line
-	4150 2900 4250 2900
-Wire Wire Line
-	4150 2800 4250 2800
-Wire Wire Line
-	4150 1700 4250 1700
-Text Label 1150 3000 2    60   ~ 0
-~ENABLE_0
-Text Label 1150 3100 2    60   ~ 0
-~ENABLE_1
-Text Label 4250 3200 0    60   ~ 0
-~ENABLE_2
-Text Label 4250 3100 0    60   ~ 0
-~ENABLE_3
-Text Label 4250 2900 0    60   ~ 0
-~ENABLE_4
-Text Label 4250 2800 0    60   ~ 0
-~ENABLE_5
-Text Label 4250 1700 0    60   ~ 0
-~ENABLE_6
 NoConn ~ 4150 1600
 NoConn ~ 4150 1500
+NoConn ~ 4150 1700
+NoConn ~ 4150 2800
+NoConn ~ 4150 2900
+NoConn ~ 4150 3100
+NoConn ~ 4150 3200
+NoConn ~ 1250 3100
+NoConn ~ 1250 3000
+NoConn ~ 4150 1300
+Wire Wire Line
+	4150 1400 4250 1400
+Text Label 4250 1400 0    60   ~ 0
+~SLEEP
+Text Label 6600 2200 2    60   ~ 0
+~SLEEP
+Wire Wire Line
+	6650 2200 6600 2200
 $EndSCHEMATC

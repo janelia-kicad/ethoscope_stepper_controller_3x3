@@ -1,4 +1,4 @@
-update=Tue 21 Aug 2018 04:24:38 PM EDT
+update=Tue 18 Sep 2018 04:56:40 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -55,7 +55,8 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgesAndCourtyardsLineWidth=0.2286
+EdgeCutLineWidth=0.2286
+CourtyardLineWidth=0.05
 OthersLineWidth=0.381
 OthersTextSizeV=1
 OthersTextSizeH=1
@@ -63,7 +64,7 @@ OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0
-SolderMaskMinWidth=0
+SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Netclasses]
@@ -103,7 +104,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=SIGNAL
 Clearance=0.1016
-TrackWidth=0.254
+TrackWidth=0.2032
 ViaDiameter=0.508
 ViaDrill=0.254
 uViaDiameter=0.508
