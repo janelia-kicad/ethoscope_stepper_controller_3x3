@@ -382,4 +382,92 @@ Text HLabel 6900 3700 0    60   Input ~ 0
 ~SLEEP
 Text HLabel 6900 5100 0    60   Input ~ 0
 ~SLEEP
+$Comp
+L ethoscope_stepper_controller_3x3:LED_5V_GRN L2
+U 1 1 5BA29D99
+P 4800 4850
+F 0 "L2" V 4754 4928 50  0000 L CNN
+F 1 "LED_5V_GRN" V 4845 4928 50  0000 L CNN
+F 2 "ethoscope_stepper_controller_3x3:LED_555-3XXX_G" H 4700 4850 60  0001 C CNN
+F 3 "" H 4800 4850 60  0001 C CNN
+F 4 "digikey" H 4900 5050 60  0001 C CNN "Vendor"
+F 5 "350-1726-ND" H 5000 5150 60  0001 C CNN "PartNumber"
+F 6 "LED 2MM 5V VERTICAL GREEN PC MNT" H 5100 5250 60  0001 C CNN "Description"
+	1    4800 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L ethoscope_stepper_controller_3x3:LED_24V_RED L1
+U 1 1 5BA29E91
+P 2550 4850
+F 0 "L1" V 2504 4928 50  0000 L CNN
+F 1 "LED_24V_RED" V 2595 4928 50  0000 L CNN
+F 2 "ethoscope_stepper_controller_3x3:LED_555-3XXX_R" H 2450 4850 60  0001 C CNN
+F 3 "" H 2550 4850 60  0001 C CNN
+F 4 "digikey" H 2650 5050 60  0001 C CNN "Vendor"
+F 5 "350-1723-ND" H 2750 5150 60  0001 C CNN "PartNumber"
+F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 2850 5250 60  0001 C CNN "Description"
+	1    2550 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VAA #PWR?
+U 1 1 5BA29F60
+P 2550 4600
+AR Path="/5BA29F60" Ref="#PWR?"  Part="1" 
+AR Path="/5BA14F01/5BA29F60" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 4450 50  0001 C CNN
+F 1 "VAA" H 2550 4750 50  0000 C CNN
+F 2 "" H 2550 4600 50  0001 C CNN
+F 3 "" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA29FB3
+P 2550 5100
+AR Path="/5BA29FB3" Ref="#PWR?"  Part="1" 
+AR Path="/5BA14F01/5BA29FB3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 4850 50  0001 C CNN
+F 1 "GND" H 2550 4950 50  0000 C CNN
+F 2 "" H 2550 5100 50  0001 C CNN
+F 3 "" H 2550 5100 50  0001 C CNN
+	1    2550 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4600 2550 4650
+Wire Wire Line
+	2550 5050 2550 5100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BA2AB80
+P 4800 4600
+AR Path="/5BA2AB80" Ref="#PWR?"  Part="1" 
+AR Path="/5BA14F01/5BA2AB80" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 4450 50  0001 C CNN
+F 1 "+3V3" H 4800 4750 50  0000 C CNN
+F 2 "" H 4800 4600 50  0001 C CNN
+F 3 "" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA2ABCA
+P 4800 5100
+AR Path="/5BA2ABCA" Ref="#PWR?"  Part="1" 
+AR Path="/5BA14F01/5BA2ABCA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 4850 50  0001 C CNN
+F 1 "GND" H 4800 4950 50  0000 C CNN
+F 2 "" H 4800 5100 50  0001 C CNN
+F 3 "" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4650 4800 4600
+Wire Wire Line
+	4800 5100 4800 5050
 $EndSCHEMATC
