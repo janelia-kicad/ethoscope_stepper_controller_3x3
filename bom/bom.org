@@ -1,18 +1,20 @@
-# Created 2018-09-14 Fri 11:18
+# Created 2018-09-19 Wed 14:39
 * Bill of Materials
 #+RESULTS: pcb-parts
-| Item | Reference(s)                                     | Quantity | PartNumber       | Vendor  | Description                    |
-|------+--------------------------------------------------+----------+------------------+---------+--------------------------------|
-|    1 | C1 C12 C13 C16 C19 C2 C22 C23 C3 C6 C9           |       11 | 1276-1739-1-ND   | digikey | CAP CER 0.1UF 25V Y5V 0402     |
-|    2 | C10 C14 C17 C20 C24 C4 C7                        |        7 | 445-14419-1-ND   | digikey | CAP CER 10UF 35V X5R 0805      |
-|    3 | C11 C15 C18 C21 C25 C5 C8                        |        7 | 445-9028-1-ND    | digikey | CAP CER 2.2UF 35V X5R 0402     |
-|    4 | CLK1                                             |        1 | CTX277LVCT-ND    | digikey | OSC XO 32.000MHZ HCMOS TTL SMD |
-|    5 | MH1 MH2 MH3 MH4                                  |        4 | 36-2441-ND       | digikey | SHLDR SCREW RND HEAD HEX 4-40  |
-|    6 | P1                                               |        1 | CP-015AHPJ-CT-ND | digikey | CONN PWR JACK 2X5.5MM SOLDER   |
-|    7 | R1 R15 R8                                        |        3 | P10KJCT-ND       | digikey | RES SMD 10K OHM 5% 1/10W 0402  |
-|    8 | R10 R11 R12 R13 R14 R16 R17 R2 R3 R4 R5 R6 R7 R9 |       14 | 408-1454-1-ND    | digikey | RES SMD 5.1 OHM 1% 1/6W 0402   |
-|    9 | T1 T2 T3 T4 T5 T6 T7                             |        7 | 277-5738-ND      | digikey | TERM BLOCK HDR 4POS VERT 3.5MM |
-|   10 | TEENSY1                                          |        1 | 1568-1464-ND     | digikey | TEENSY 3.5 (HEADERS)           |
-|   11 | U1 U11 U6                                        |        3 | 1460-1071-1-ND   | digikey | IC MOTOR CONTROLLER SPI 32QFN  |
-|   12 | U10 U13 U3 U4 U5 U8 U9                           |        7 | 296-40083-1-ND   | digikey | IC MOTOR DRIVER PAR 24VQFN     |
-|   13 | U12 U2 U7                                        |        3 | 296-11603-1-ND   | digikey | IC BUF NON-INVERT 5.5V SOT23-5 |
+| Item | Reference(s)                                     | Quantity | PartNumber       | Vendor  | Description                      |
+|------+--------------------------------------------------+----------+------------------+---------+----------------------------------|
+|    1 | C1 C12 C13 C16 C19 C2 C22 C23 C3 C6 C9           |       11 | 1276-1739-1-ND   | digikey | CAP CER 0.1UF 25V Y5V 0402       |
+|    2 | C10 C14 C17 C20 C24 C4 C7                        |        7 | 445-14419-1-ND   | digikey | CAP CER 10UF 35V X5R 0805        |
+|    3 | C11 C15 C18 C21 C25 C5 C8                        |        7 | 445-9028-1-ND    | digikey | CAP CER 2.2UF 35V X5R 0402       |
+|    4 | CLK1                                             |        1 | CTX277LVCT-ND    | digikey | OSC XO 32.000MHZ HCMOS TTL SMD   |
+|    5 | L1                                               |        1 | 350-1723-ND      | digikey | LED 2MM 24V VERTICAL RED PC MNT  |
+|    6 | L2                                               |        1 | 350-1726-ND      | digikey | LED 2MM 5V VERTICAL GREEN PC MNT |
+|    7 | MH1 MH2 MH3 MH4                                  |        4 | 36-2441-ND       | digikey | SHLDR SCREW RND HEAD HEX 4-40    |
+|    8 | P1                                               |        1 | CP-015AHPJ-CT-ND | digikey | CONN PWR JACK 2X5.5MM SOLDER     |
+|    9 | R1 R15 R8                                        |        3 | P10KJCT-ND       | digikey | RES SMD 10K OHM 5% 1/10W 0402    |
+|   10 | R10 R11 R12 R13 R14 R16 R17 R2 R3 R4 R5 R6 R7 R9 |       14 | 408-1454-1-ND    | digikey | RES SMD 5.1 OHM 1% 1/6W 0402     |
+|   11 | T1 T2 T3 T4 T5 T6 T7                             |        7 | 277-5738-ND      | digikey | TERM BLOCK HDR 4POS VERT 3.5MM   |
+|   12 | TEENSY1                                          |        1 | 1568-1464-ND     | digikey | TEENSY 3.5 (HEADERS)             |
+|   13 | U1 U11 U6                                        |        3 | 1460-1071-1-ND   | digikey | IC MOTOR CONTROLLER SPI 32QFN    |
+|   14 | U10 U13 U3 U4 U5 U8 U9                           |        7 | 296-40083-1-ND   | digikey | IC MOTOR DRIVER PAR 24VQFN       |
+|   15 | U12 U2 U7                                        |        3 | 296-11603-1-ND   | digikey | IC BUF NON-INVERT 5.5V SOT23-5   |
