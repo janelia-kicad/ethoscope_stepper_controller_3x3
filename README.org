@@ -1,4 +1,4 @@
-# Created 2018-09-19 Wed 14:41
+# Created 2018-09-19 Wed 14:44
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -47,7 +47,7 @@ This device controls the 7 stepper motors on the fly ethoscope rig.
 
 Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
-[[file:./gerbers/ethoscope_stepper_controller_3x3_v1.0.zip][./gerbers/ethoscope_stepper_controller_3x3_v1.0.zip]]
+[[file:./gerbers/ethoscope_stepper_controller_3x3_v1.1.zip][./gerbers/ethoscope_stepper_controller_3x3_v1.1.zip]]
 
 [[file:./gerbers/images/gerbers00.png]]
 
