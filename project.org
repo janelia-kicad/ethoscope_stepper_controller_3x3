@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name ethoscope_stepper_controller_3x3
-  #+MACRO: version 1.0
+  #+MACRO: version 1.1
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/ethoscope_stepper_controller_3x3
   #+AUTHOR: Peter Polidoro

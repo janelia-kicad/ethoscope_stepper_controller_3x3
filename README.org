@@ -1,9 +1,9 @@
-# Created 2018-09-19 Wed 14:39
+# Created 2018-09-19 Wed 14:41
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
 - Name :: ethoscope_stepper_controller_3x3
-- Version :: 1.0
+- Version :: 1.1
 - License :: Open-Source Hardware
 - URL :: https://github.com/janelia-kicad/ethoscope_stepper_controller_3x3
 - Author :: Peter Polidoro
