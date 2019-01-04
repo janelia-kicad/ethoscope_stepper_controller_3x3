@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 12
 Title "ethoscope_stepper_controller_3x3"
 Date ""
-Rev "1.1"
+Rev "1.2"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
