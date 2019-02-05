@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/ethoscope_stepper_controller_3x3/ethoscope_stepper_controller_3x3.sch</source>
-    <date>Wed 19 Sep 2018 01:30:24 PM EDT</date>
-    <tool>Eeschema 6.0.0-rc1-unknown-d4e4359~66~ubuntu18.04.1</tool>
+    <date>Tue 05 Feb 2019 04:17:24 PM EST</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-4a641ec~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ethoscope_stepper_controller_3x3</title>
         <company>Janelia</company>
-        <rev>1.1</rev>
+        <rev>1.2</rev>
         <date/>
         <source>ethoscope_stepper_controller_3x3.sch</source>
         <comment number="1" value=""/>
@@ -366,30 +366,6 @@
       <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_0/" tstamps="/5BA14F01/5BA151D8/5B75BAFB/"/>
       <tstamp>5B73BABA</tstamp>
     </comp>
-    <comp ref="R2">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_0/" tstamps="/5BA14F01/5BA151D8/5B75BAFB/"/>
-      <tstamp>5B748971</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_0/" tstamps="/5BA14F01/5BA151D8/5B75BAFB/"/>
-      <tstamp>5B748A39</tstamp>
-    </comp>
     <comp ref="C4">
       <value>10uF</value>
       <footprint>ethoscope_stepper_controller_3x3:SM0805</footprint>
@@ -413,6 +389,30 @@
       <libsource lib="ethoscope_stepper_controller_3x3" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
       <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_0/" tstamps="/5BA14F01/5BA151D8/5B75BAFB/"/>
       <tstamp>5BA1B841</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_0/" tstamps="/5BA14F01/5BA151D8/5B75BAFB/"/>
+      <tstamp>5C593742</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_0/" tstamps="/5BA14F01/5BA151D8/5B75BAFB/"/>
+      <tstamp>5C594A50</tstamp>
     </comp>
     <comp ref="C6">
       <value>0.1uF</value>
@@ -450,30 +450,6 @@
       <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_1/" tstamps="/5BA14F01/5BA151D8/58DBE3E6/"/>
       <tstamp>5B73BABA</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_1/" tstamps="/5BA14F01/5BA151D8/58DBE3E6/"/>
-      <tstamp>5B748971</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_1/" tstamps="/5BA14F01/5BA151D8/58DBE3E6/"/>
-      <tstamp>5B748A39</tstamp>
-    </comp>
     <comp ref="C7">
       <value>10uF</value>
       <footprint>ethoscope_stepper_controller_3x3:SM0805</footprint>
@@ -497,6 +473,30 @@
       <libsource lib="ethoscope_stepper_controller_3x3" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
       <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_1/" tstamps="/5BA14F01/5BA151D8/58DBE3E6/"/>
       <tstamp>5BA1B841</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_1/" tstamps="/5BA14F01/5BA151D8/58DBE3E6/"/>
+      <tstamp>5C593742</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_1/" tstamps="/5BA14F01/5BA151D8/58DBE3E6/"/>
+      <tstamp>5C594A50</tstamp>
     </comp>
     <comp ref="C9">
       <value>0.1uF</value>
@@ -534,30 +534,6 @@
       <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_2/" tstamps="/5BA14F01/5BA151D8/58DBF0EC/"/>
       <tstamp>5B73BABA</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_2/" tstamps="/5BA14F01/5BA151D8/58DBF0EC/"/>
-      <tstamp>5B748971</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_2/" tstamps="/5BA14F01/5BA151D8/58DBF0EC/"/>
-      <tstamp>5B748A39</tstamp>
-    </comp>
     <comp ref="C10">
       <value>10uF</value>
       <footprint>ethoscope_stepper_controller_3x3:SM0805</footprint>
@@ -581,6 +557,30 @@
       <libsource lib="ethoscope_stepper_controller_3x3" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
       <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_2/" tstamps="/5BA14F01/5BA151D8/58DBF0EC/"/>
       <tstamp>5BA1B841</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_2/" tstamps="/5BA14F01/5BA151D8/58DBF0EC/"/>
+      <tstamp>5C593742</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_0/stepper_driver_2/" tstamps="/5BA14F01/5BA151D8/58DBF0EC/"/>
+      <tstamp>5C594A50</tstamp>
     </comp>
     <comp ref="U6">
       <value>TMC429</value>
@@ -666,30 +666,6 @@
       <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_0/" tstamps="/5BA14F01/5BA151E4/5B75BAFB/"/>
       <tstamp>5B73BABA</tstamp>
     </comp>
-    <comp ref="R9">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_0/" tstamps="/5BA14F01/5BA151E4/5B75BAFB/"/>
-      <tstamp>5B748971</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_0/" tstamps="/5BA14F01/5BA151E4/5B75BAFB/"/>
-      <tstamp>5B748A39</tstamp>
-    </comp>
     <comp ref="C14">
       <value>10uF</value>
       <footprint>ethoscope_stepper_controller_3x3:SM0805</footprint>
@@ -713,6 +689,30 @@
       <libsource lib="ethoscope_stepper_controller_3x3" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
       <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_0/" tstamps="/5BA14F01/5BA151E4/5B75BAFB/"/>
       <tstamp>5BA1B841</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_0/" tstamps="/5BA14F01/5BA151E4/5B75BAFB/"/>
+      <tstamp>5C593742</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_0/" tstamps="/5BA14F01/5BA151E4/5B75BAFB/"/>
+      <tstamp>5C594A50</tstamp>
     </comp>
     <comp ref="C16">
       <value>0.1uF</value>
@@ -750,30 +750,6 @@
       <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_1/" tstamps="/5BA14F01/5BA151E4/58DBE3E6/"/>
       <tstamp>5B73BABA</tstamp>
     </comp>
-    <comp ref="R11">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_1/" tstamps="/5BA14F01/5BA151E4/58DBE3E6/"/>
-      <tstamp>5B748971</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_1/" tstamps="/5BA14F01/5BA151E4/58DBE3E6/"/>
-      <tstamp>5B748A39</tstamp>
-    </comp>
     <comp ref="C17">
       <value>10uF</value>
       <footprint>ethoscope_stepper_controller_3x3:SM0805</footprint>
@@ -797,6 +773,30 @@
       <libsource lib="ethoscope_stepper_controller_3x3" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
       <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_1/" tstamps="/5BA14F01/5BA151E4/58DBE3E6/"/>
       <tstamp>5BA1B841</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_1/" tstamps="/5BA14F01/5BA151E4/58DBE3E6/"/>
+      <tstamp>5C593742</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_1/" tstamps="/5BA14F01/5BA151E4/58DBE3E6/"/>
+      <tstamp>5C594A50</tstamp>
     </comp>
     <comp ref="C19">
       <value>0.1uF</value>
@@ -834,30 +834,6 @@
       <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_2/" tstamps="/5BA14F01/5BA151E4/58DBF0EC/"/>
       <tstamp>5B73BABA</tstamp>
     </comp>
-    <comp ref="R13">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_2/" tstamps="/5BA14F01/5BA151E4/58DBF0EC/"/>
-      <tstamp>5B748971</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_2/" tstamps="/5BA14F01/5BA151E4/58DBF0EC/"/>
-      <tstamp>5B748A39</tstamp>
-    </comp>
     <comp ref="C20">
       <value>10uF</value>
       <footprint>ethoscope_stepper_controller_3x3:SM0805</footprint>
@@ -881,6 +857,30 @@
       <libsource lib="ethoscope_stepper_controller_3x3" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
       <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_2/" tstamps="/5BA14F01/5BA151E4/58DBF0EC/"/>
       <tstamp>5BA1B841</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_2/" tstamps="/5BA14F01/5BA151E4/58DBF0EC/"/>
+      <tstamp>5C593742</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc429_1/stepper_driver_2/" tstamps="/5BA14F01/5BA151E4/58DBF0EC/"/>
+      <tstamp>5C594A50</tstamp>
     </comp>
     <comp ref="U11">
       <value>TMC429</value>
@@ -966,30 +966,6 @@
       <sheetpath names="/ethoscope_3x3/tmc_429_2/stepper_driver_0/" tstamps="/5BA14F01/5BA151EE/58DB6271/"/>
       <tstamp>5B73BABA</tstamp>
     </comp>
-    <comp ref="R16">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc_429_2/stepper_driver_0/" tstamps="/5BA14F01/5BA151EE/58DB6271/"/>
-      <tstamp>5B748971</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>5.1</value>
-      <footprint>ethoscope_stepper_controller_3x3:SM0402</footprint>
-      <fields>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="ethoscope_stepper_controller_3x3" part="5.1" description=""/>
-      <sheetpath names="/ethoscope_3x3/tmc_429_2/stepper_driver_0/" tstamps="/5BA14F01/5BA151EE/58DB6271/"/>
-      <tstamp>5B748A39</tstamp>
-    </comp>
     <comp ref="C24">
       <value>10uF</value>
       <footprint>ethoscope_stepper_controller_3x3:SM0805</footprint>
@@ -1013,6 +989,30 @@
       <libsource lib="ethoscope_stepper_controller_3x3" part="TERM_BLK_HDR_4POS_VERT_0.138IN" description=""/>
       <sheetpath names="/ethoscope_3x3/tmc_429_2/stepper_driver_0/" tstamps="/5BA14F01/5BA151EE/58DB6271/"/>
       <tstamp>5BA1B841</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc_429_2/stepper_driver_0/" tstamps="/5BA14F01/5BA151EE/58DB6271/"/>
+      <tstamp>5C593742</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2.2</value>
+      <footprint>footprints:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="ethoscope_stepper_controller_3x3" part="2.2" description=""/>
+      <sheetpath names="/ethoscope_3x3/tmc_429_2/stepper_driver_0/" tstamps="/5BA14F01/5BA151EE/58DB6271/"/>
+      <tstamp>5C594A50</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1075,6 +1075,27 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="ethoscope_stepper_controller_3x3" part="2.2">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2.2</field>
+        <field name="Footprint">footprints:SM0402</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">RL05S2.2FCT-ND</field>
+        <field name="Description">RES SMD 2.2 OHM 1% 1/6W 0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="ethoscope_stepper_controller_3x3" part="2.2uF">
       <footprints>
         <fp>SM*</fp>
@@ -1088,27 +1109,6 @@
         <field name="Vendor">digikey</field>
         <field name="PartNumber">445-9028-1-ND</field>
         <field name="Description">CAP CER 2.2UF 35V X5R 0402</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="ethoscope_stepper_controller_3x3" part="5.1">
-      <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">5.1</field>
-        <field name="Footprint">ethoscope_stepper_controller_3x3:SM0402</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">408-1454-1-ND</field>
-        <field name="Description">RES SMD 5.1 OHM 1% 1/6W 0402</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1466,23 +1466,23 @@
     </net>
     <net code="26" name="/~CS_429_2">
       <node ref="TEENSY1" pin="36"/>
-      <node ref="R15" pin="2"/>
       <node ref="U11" pin="7"/>
       <node ref="U12" pin="1"/>
+      <node ref="R15" pin="2"/>
     </net>
     <net code="27" name="/~CS_429_1">
       <node ref="R8" pin="2"/>
-      <node ref="U6" pin="7"/>
       <node ref="TEENSY1" pin="33"/>
+      <node ref="U6" pin="7"/>
       <node ref="U7" pin="1"/>
     </net>
     <net code="28" name="/~SLEEP">
-      <node ref="U8" pin="23"/>
-      <node ref="U4" pin="23"/>
-      <node ref="U9" pin="23"/>
-      <node ref="U3" pin="23"/>
       <node ref="U5" pin="23"/>
+      <node ref="U9" pin="23"/>
       <node ref="U10" pin="23"/>
+      <node ref="U8" pin="23"/>
+      <node ref="U3" pin="23"/>
+      <node ref="U4" pin="23"/>
       <node ref="TEENSY1" pin="22"/>
       <node ref="U13" pin="23"/>
     </net>
@@ -1517,155 +1517,155 @@
       <node ref="TEENSY1" pin="20"/>
     </net>
     <net code="39" name="/SCK">
-      <node ref="U11" pin="8"/>
       <node ref="U6" pin="8"/>
-      <node ref="TEENSY1" pin="13"/>
       <node ref="U1" pin="8"/>
+      <node ref="TEENSY1" pin="13"/>
+      <node ref="U11" pin="8"/>
     </net>
     <net code="40" name="/MISO">
-      <node ref="U7" pin="4"/>
       <node ref="TEENSY1" pin="12"/>
-      <node ref="U12" pin="4"/>
+      <node ref="U7" pin="4"/>
       <node ref="U2" pin="4"/>
+      <node ref="U12" pin="4"/>
     </net>
     <net code="41" name="/MOSI">
       <node ref="U6" pin="10"/>
-      <node ref="U11" pin="10"/>
-      <node ref="U1" pin="10"/>
       <node ref="TEENSY1" pin="11"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U11" pin="10"/>
     </net>
     <net code="42" name="/~CS_429_0">
-      <node ref="U2" pin="1"/>
       <node ref="TEENSY1" pin="15"/>
       <node ref="R1" pin="2"/>
+      <node ref="U2" pin="1"/>
       <node ref="U1" pin="7"/>
     </net>
     <net code="43" name="+3V3">
-      <node ref="U5" pin="22"/>
-      <node ref="U9" pin="19"/>
-      <node ref="U11" pin="21"/>
-      <node ref="U11" pin="22"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U5" pin="19"/>
-      <node ref="U11" pin="3"/>
-      <node ref="U5" pin="9"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U5" pin="24"/>
-      <node ref="C12" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="U6" pin="21"/>
-      <node ref="U3" pin="19"/>
-      <node ref="U7" pin="5"/>
-      <node ref="C22" pin="1"/>
-      <node ref="U3" pin="22"/>
-      <node ref="U3" pin="24"/>
-      <node ref="U3" pin="9"/>
-      <node ref="U9" pin="9"/>
-      <node ref="U9" pin="22"/>
-      <node ref="U9" pin="24"/>
+      <node ref="U12" pin="5"/>
       <node ref="U6" pin="22"/>
       <node ref="U6" pin="3"/>
-      <node ref="U13" pin="19"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U11" pin="22"/>
+      <node ref="U11" pin="21"/>
+      <node ref="U9" pin="19"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U9" pin="8"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U9" pin="24"/>
+      <node ref="U9" pin="22"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U3" pin="24"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="24"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U6" pin="21"/>
+      <node ref="U5" pin="22"/>
+      <node ref="U5" pin="19"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U13" pin="8"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U10" pin="24"/>
+      <node ref="U13" pin="24"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U13" pin="22"/>
+      <node ref="U8" pin="24"/>
+      <node ref="U8" pin="22"/>
+      <node ref="U10" pin="19"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U10" pin="22"/>
       <node ref="CLK1" pin="1"/>
       <node ref="CLK1" pin="4"/>
-      <node ref="U13" pin="9"/>
-      <node ref="U13" pin="24"/>
-      <node ref="U4" pin="19"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U4" pin="9"/>
-      <node ref="U4" pin="22"/>
-      <node ref="U4" pin="24"/>
-      <node ref="L2" pin="1"/>
-      <node ref="U13" pin="22"/>
       <node ref="R1" pin="1"/>
-      <node ref="U12" pin="5"/>
-      <node ref="U8" pin="22"/>
-      <node ref="U10" pin="22"/>
       <node ref="U8" pin="19"/>
       <node ref="TEENSY1" pin="3V3"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U10" pin="19"/>
-      <node ref="U1" pin="22"/>
-      <node ref="U1" pin="21"/>
-      <node ref="U8" pin="24"/>
-      <node ref="U8" pin="9"/>
-      <node ref="R15" pin="1"/>
-      <node ref="U10" pin="24"/>
-      <node ref="U10" pin="9"/>
+      <node ref="U13" pin="19"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="1"/>
     </net>
     <net code="44" name="GND">
-      <node ref="R7" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U5" pin="PAD"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U5" pin="18"/>
       <node ref="C11" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="R3" pin="2"/>
+      <node ref="U5" pin="18"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U5" pin="PAD"/>
       <node ref="U5" pin="21"/>
-      <node ref="C8" pin="2"/>
       <node ref="U5" pin="20"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C9" pin="2"/>
+      <node ref="U13" pin="18"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C7" pin="2"/>
       <node ref="R5" pin="2"/>
       <node ref="R4" pin="2"/>
-      <node ref="U4" pin="PAD"/>
-      <node ref="C13" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="U8" pin="PAD"/>
-      <node ref="U8" pin="21"/>
-      <node ref="U8" pin="20"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="U10" pin="18"/>
-      <node ref="U8" pin="18"/>
-      <node ref="C24" pin="2"/>
-      <node ref="U13" pin="20"/>
       <node ref="U13" pin="21"/>
-      <node ref="U13" pin="PAD"/>
-      <node ref="C23" pin="2"/>
-      <node ref="U13" pin="18"/>
-      <node ref="R16" pin="2"/>
-      <node ref="C25" pin="2"/>
+      <node ref="U13" pin="20"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C10" pin="2"/>
       <node ref="R17" pin="2"/>
-      <node ref="R12" pin="2"/>
+      <node ref="U4" pin="PAD"/>
+      <node ref="U13" pin="PAD"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C19" pin="2"/>
       <node ref="R11" pin="2"/>
-      <node ref="C18" pin="2"/>
+      <node ref="R12" pin="2"/>
       <node ref="C17" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U3" pin="21"/>
-      <node ref="U3" pin="PAD"/>
-      <node ref="U9" pin="21"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U3" pin="18"/>
-      <node ref="U3" pin="20"/>
-      <node ref="R13" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="U10" pin="21"/>
-      <node ref="U10" pin="20"/>
       <node ref="U10" pin="PAD"/>
+      <node ref="U10" pin="20"/>
+      <node ref="U10" pin="21"/>
+      <node ref="U9" pin="21"/>
       <node ref="U9" pin="20"/>
       <node ref="U9" pin="PAD"/>
+      <node ref="U10" pin="18"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C20" pin="2"/>
       <node ref="C16" pin="2"/>
       <node ref="U9" pin="18"/>
-      <node ref="U11" pin="25"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U11" pin="28"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U8" pin="20"/>
+      <node ref="U8" pin="21"/>
+      <node ref="U3" pin="21"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U3" pin="PAD"/>
+      <node ref="U8" pin="PAD"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U8" pin="18"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="18"/>
       <node ref="U1" pin="29"/>
+      <node ref="U11" pin="28"/>
+      <node ref="C2" pin="2"/>
       <node ref="U11" pin="31"/>
       <node ref="U11" pin="4"/>
+      <node ref="U1" pin="28"/>
       <node ref="U11" pin="6"/>
       <node ref="U11" pin="29"/>
       <node ref="C12" pin="2"/>
       <node ref="U11" pin="1"/>
       <node ref="U11" pin="13"/>
-      <node ref="U12" pin="3"/>
       <node ref="U11" pin="2"/>
+      <node ref="U11" pin="23"/>
       <node ref="U2" pin="3"/>
       <node ref="U1" pin="4"/>
       <node ref="U1" pin="6"/>
@@ -1674,14 +1674,14 @@
       <node ref="U1" pin="1"/>
       <node ref="U1" pin="13"/>
       <node ref="U1" pin="2"/>
+      <node ref="U11" pin="25"/>
       <node ref="U1" pin="23"/>
-      <node ref="U11" pin="23"/>
       <node ref="U1" pin="25"/>
-      <node ref="U1" pin="28"/>
       <node ref="U7" pin="3"/>
       <node ref="U6" pin="29"/>
-      <node ref="U11" pin="PAD"/>
       <node ref="U6" pin="31"/>
+      <node ref="U11" pin="PAD"/>
+      <node ref="U12" pin="3"/>
       <node ref="U6" pin="28"/>
       <node ref="U6" pin="25"/>
       <node ref="U6" pin="23"/>
@@ -1692,16 +1692,16 @@
       <node ref="U6" pin="PAD"/>
       <node ref="U6" pin="6"/>
       <node ref="C22" pin="2"/>
-      <node ref="CLK1" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="L2" pin="2"/>
       <node ref="C1" pin="2"/>
-      <node ref="P1" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="L1" pin="2"/>
       <node ref="C6" pin="2"/>
-      <node ref="U4" pin="18"/>
-      <node ref="U4" pin="20"/>
-      <node ref="U4" pin="21"/>
       <node ref="TEENSY1" pin="GND"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U4" pin="20"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U4" pin="18"/>
+      <node ref="CLK1" pin="2"/>
     </net>
     <net code="45" name="Net-(TEENSY1-PadAGND)">
       <node ref="TEENSY1" pin="AGND"/>
@@ -1711,28 +1711,28 @@
     </net>
     <net code="47" name="VAA">
       <node ref="U3" pin="15"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C3" pin="1"/>
       <node ref="U13" pin="15"/>
       <node ref="C23" pin="1"/>
-      <node ref="C19" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C3" pin="1"/>
       <node ref="U8" pin="15"/>
       <node ref="U10" pin="15"/>
+      <node ref="C14" pin="1"/>
       <node ref="C13" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="P1" pin="1"/>
+      <node ref="C19" pin="1"/>
       <node ref="C17" pin="1"/>
       <node ref="U9" pin="15"/>
-      <node ref="L1" pin="1"/>
-      <node ref="C14" pin="1"/>
       <node ref="C20" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C9" pin="1"/>
       <node ref="C7" pin="1"/>
-      <node ref="U4" pin="15"/>
       <node ref="C6" pin="1"/>
       <node ref="U5" pin="15"/>
-      <node ref="C9" pin="1"/>
       <node ref="C10" pin="1"/>
+      <node ref="U4" pin="15"/>
     </net>
     <net code="48" name="Net-(MH1-Pad1)">
       <node ref="MH1" pin="1"/>
@@ -1747,10 +1747,10 @@
       <node ref="MH4" pin="1"/>
     </net>
     <net code="52" name="/ethoscope_3x3/CLK">
-      <node ref="U6" pin="5"/>
-      <node ref="U11" pin="5"/>
       <node ref="CLK1" pin="3"/>
+      <node ref="U11" pin="5"/>
       <node ref="U1" pin="5"/>
+      <node ref="U6" pin="5"/>
     </net>
     <net code="53" name="/ethoscope_3x3/tmc_429_2/~INT">
       <node ref="U11" pin="14"/>
@@ -1775,44 +1775,44 @@
       <node ref="U1" pin="20"/>
     </net>
     <net code="60" name="/ethoscope_3x3/tmc429_0/STEP_0">
-      <node ref="U3" pin="12"/>
       <node ref="U1" pin="15"/>
+      <node ref="U3" pin="12"/>
     </net>
     <net code="61" name="/ethoscope_3x3/tmc429_0/DIR_0">
-      <node ref="U1" pin="17"/>
       <node ref="U3" pin="13"/>
+      <node ref="U1" pin="17"/>
     </net>
     <net code="62" name="/ethoscope_3x3/tmc429_0/STEP_1">
-      <node ref="U4" pin="12"/>
       <node ref="U1" pin="18"/>
+      <node ref="U4" pin="12"/>
     </net>
     <net code="63" name="/ethoscope_3x3/tmc429_0/DIR_1">
       <node ref="U1" pin="27"/>
       <node ref="U4" pin="13"/>
     </net>
     <net code="64" name="/ethoscope_3x3/tmc429_0/STEP_2">
-      <node ref="U1" pin="19"/>
       <node ref="U5" pin="12"/>
+      <node ref="U1" pin="19"/>
     </net>
     <net code="65" name="/ethoscope_3x3/tmc429_0/MISO_UB">
       <node ref="U2" pin="2"/>
       <node ref="U1" pin="12"/>
     </net>
     <net code="66" name="/ethoscope_3x3/tmc429_1/DIR_2">
-      <node ref="U6" pin="20"/>
       <node ref="U10" pin="13"/>
+      <node ref="U6" pin="20"/>
     </net>
     <net code="67" name="/ethoscope_3x3/tmc429_1/STEP_2">
-      <node ref="U10" pin="12"/>
       <node ref="U6" pin="19"/>
+      <node ref="U10" pin="12"/>
     </net>
     <net code="68" name="/ethoscope_3x3/tmc429_1/DIR_1">
-      <node ref="U6" pin="27"/>
       <node ref="U9" pin="13"/>
+      <node ref="U6" pin="27"/>
     </net>
     <net code="69" name="/ethoscope_3x3/tmc429_1/STEP_1">
-      <node ref="U9" pin="12"/>
       <node ref="U6" pin="18"/>
+      <node ref="U9" pin="12"/>
     </net>
     <net code="70" name="/ethoscope_3x3/tmc429_1/DIR_0">
       <node ref="U6" pin="17"/>
@@ -1855,8 +1855,8 @@
       <node ref="U4" pin="3"/>
     </net>
     <net code="81" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/B_+">
-      <node ref="T2" pin="2"/>
       <node ref="U4" pin="6"/>
+      <node ref="T2" pin="2"/>
     </net>
     <net code="82" name="Net-(U4-Pad11)">
       <node ref="U4" pin="11"/>
@@ -1864,28 +1864,28 @@
     <net code="83" name="Net-(U4-Pad10)">
       <node ref="U4" pin="10"/>
     </net>
-    <net code="84" name="Net-(U4-Pad8)">
-      <node ref="U4" pin="8"/>
-    </net>
-    <net code="85" name="Net-(U4-Pad7)">
+    <net code="84" name="Net-(U4-Pad7)">
       <node ref="U4" pin="7"/>
     </net>
-    <net code="86" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/BISEN">
-      <node ref="R5" pin="1"/>
+    <net code="85" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/BISEN">
       <node ref="U4" pin="5"/>
+      <node ref="R5" pin="1"/>
     </net>
-    <net code="87" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/AISEN">
-      <node ref="R4" pin="1"/>
+    <net code="86" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/AISEN">
       <node ref="U4" pin="2"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="88" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/VINT">
-      <node ref="U4" pin="17"/>
+    <net code="87" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/VINT">
       <node ref="U4" pin="14"/>
       <node ref="C8" pin="1"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="88" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
     </net>
     <net code="89" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/A_+">
-      <node ref="T2" pin="4"/>
       <node ref="U4" pin="1"/>
+      <node ref="T2" pin="4"/>
     </net>
     <net code="90" name="/ethoscope_3x3/tmc429_0/stepper_driver_1/B_-">
       <node ref="T2" pin="1"/>
@@ -1898,8 +1898,8 @@
       <node ref="U5" pin="10"/>
     </net>
     <net code="93" name="/ethoscope_3x3/tmc429_0/stepper_driver_2/AISEN">
-      <node ref="R6" pin="1"/>
       <node ref="U5" pin="2"/>
+      <node ref="R6" pin="1"/>
     </net>
     <net code="94" name="/ethoscope_3x3/tmc429_0/stepper_driver_2/BISEN">
       <node ref="R7" pin="1"/>
@@ -1910,27 +1910,27 @@
       <node ref="U5" pin="3"/>
     </net>
     <net code="96" name="/ethoscope_3x3/tmc429_0/stepper_driver_2/A_+">
-      <node ref="T3" pin="4"/>
       <node ref="U5" pin="1"/>
+      <node ref="T3" pin="4"/>
     </net>
     <net code="97" name="/ethoscope_3x3/tmc429_0/stepper_driver_2/VINT">
-      <node ref="C11" pin="1"/>
-      <node ref="U5" pin="14"/>
       <node ref="U5" pin="17"/>
+      <node ref="U5" pin="14"/>
+      <node ref="C11" pin="1"/>
     </net>
-    <net code="98" name="Net-(U5-Pad8)">
-      <node ref="U5" pin="8"/>
-    </net>
-    <net code="99" name="Net-(U5-Pad7)">
+    <net code="98" name="Net-(U5-Pad7)">
       <node ref="U5" pin="7"/>
+    </net>
+    <net code="99" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
     </net>
     <net code="100" name="/ethoscope_3x3/tmc429_0/stepper_driver_2/B_+">
       <node ref="U5" pin="6"/>
       <node ref="T3" pin="2"/>
     </net>
     <net code="101" name="/ethoscope_3x3/tmc429_0/stepper_driver_2/B_-">
-      <node ref="T3" pin="1"/>
       <node ref="U5" pin="4"/>
+      <node ref="T3" pin="1"/>
     </net>
     <net code="102" name="Net-(U3-Pad10)">
       <node ref="U3" pin="10"/>
@@ -1940,19 +1940,19 @@
       <node ref="R2" pin="1"/>
     </net>
     <net code="104" name="/ethoscope_3x3/tmc429_0/stepper_driver_0/BISEN">
-      <node ref="U3" pin="5"/>
       <node ref="R3" pin="1"/>
+      <node ref="U3" pin="5"/>
     </net>
     <net code="105" name="/ethoscope_3x3/tmc429_0/stepper_driver_0/VINT">
       <node ref="C5" pin="1"/>
-      <node ref="U3" pin="17"/>
       <node ref="U3" pin="14"/>
+      <node ref="U3" pin="17"/>
     </net>
-    <net code="106" name="Net-(U3-Pad8)">
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="107" name="Net-(U3-Pad7)">
+    <net code="106" name="Net-(U3-Pad7)">
       <node ref="U3" pin="7"/>
+    </net>
+    <net code="107" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
     </net>
     <net code="108" name="Net-(U3-Pad11)">
       <node ref="U3" pin="11"/>
@@ -1974,28 +1974,28 @@
       <node ref="T1" pin="4"/>
     </net>
     <net code="113" name="/ethoscope_3x3/tmc429_1/stepper_driver_1/AISEN">
-      <node ref="R11" pin="1"/>
       <node ref="U9" pin="2"/>
+      <node ref="R11" pin="1"/>
     </net>
     <net code="114" name="/ethoscope_3x3/tmc429_1/stepper_driver_1/BISEN">
-      <node ref="U9" pin="5"/>
       <node ref="R12" pin="1"/>
+      <node ref="U9" pin="5"/>
     </net>
-    <net code="115" name="Net-(U9-Pad10)">
+    <net code="115" name="Net-(U9-Pad7)">
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="116" name="Net-(U9-Pad10)">
       <node ref="U9" pin="10"/>
     </net>
-    <net code="116" name="Net-(U9-Pad8)">
-      <node ref="U9" pin="8"/>
-    </net>
-    <net code="117" name="Net-(U9-Pad7)">
-      <node ref="U9" pin="7"/>
+    <net code="117" name="Net-(U9-Pad9)">
+      <node ref="U9" pin="9"/>
     </net>
     <net code="118" name="Net-(U9-Pad11)">
       <node ref="U9" pin="11"/>
     </net>
     <net code="119" name="/ethoscope_3x3/tmc429_1/stepper_driver_1/B_-">
-      <node ref="U9" pin="4"/>
       <node ref="T5" pin="1"/>
+      <node ref="U9" pin="4"/>
     </net>
     <net code="120" name="/ethoscope_3x3/tmc429_1/stepper_driver_1/B_+">
       <node ref="U9" pin="6"/>
@@ -2007,29 +2007,29 @@
       <node ref="C18" pin="1"/>
     </net>
     <net code="122" name="/ethoscope_3x3/tmc429_1/stepper_driver_1/A_+">
-      <node ref="U9" pin="1"/>
       <node ref="T5" pin="4"/>
+      <node ref="U9" pin="1"/>
     </net>
     <net code="123" name="/ethoscope_3x3/tmc429_1/stepper_driver_1/A_-">
       <node ref="U9" pin="3"/>
       <node ref="T5" pin="3"/>
     </net>
     <net code="124" name="/ethoscope_3x3/tmc429_1/stepper_driver_2/AISEN">
-      <node ref="R13" pin="1"/>
       <node ref="U10" pin="2"/>
+      <node ref="R13" pin="1"/>
     </net>
     <net code="125" name="/ethoscope_3x3/tmc429_1/stepper_driver_2/BISEN">
       <node ref="R14" pin="1"/>
       <node ref="U10" pin="5"/>
     </net>
-    <net code="126" name="Net-(U10-Pad10)">
+    <net code="126" name="Net-(U10-Pad7)">
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="127" name="Net-(U10-Pad10)">
       <node ref="U10" pin="10"/>
     </net>
-    <net code="127" name="Net-(U10-Pad8)">
-      <node ref="U10" pin="8"/>
-    </net>
-    <net code="128" name="Net-(U10-Pad7)">
-      <node ref="U10" pin="7"/>
+    <net code="128" name="Net-(U10-Pad9)">
+      <node ref="U10" pin="9"/>
     </net>
     <net code="129" name="Net-(U10-Pad11)">
       <node ref="U10" pin="11"/>
@@ -2039,13 +2039,13 @@
       <node ref="T6" pin="1"/>
     </net>
     <net code="131" name="/ethoscope_3x3/tmc429_1/stepper_driver_2/B_+">
-      <node ref="U10" pin="6"/>
       <node ref="T6" pin="2"/>
+      <node ref="U10" pin="6"/>
     </net>
     <net code="132" name="/ethoscope_3x3/tmc429_1/stepper_driver_2/VINT">
-      <node ref="C21" pin="1"/>
       <node ref="U10" pin="17"/>
       <node ref="U10" pin="14"/>
+      <node ref="C21" pin="1"/>
     </net>
     <net code="133" name="/ethoscope_3x3/tmc429_1/stepper_driver_2/A_+">
       <node ref="U10" pin="1"/>
@@ -2064,8 +2064,8 @@
       <node ref="T4" pin="2"/>
     </net>
     <net code="137" name="/ethoscope_3x3/tmc429_1/stepper_driver_0/A_-">
-      <node ref="U8" pin="3"/>
       <node ref="T4" pin="3"/>
+      <node ref="U8" pin="3"/>
     </net>
     <net code="138" name="/ethoscope_3x3/tmc429_1/stepper_driver_0/A_+">
       <node ref="T4" pin="4"/>
@@ -2077,24 +2077,24 @@
     <net code="140" name="Net-(U8-Pad11)">
       <node ref="U8" pin="11"/>
     </net>
-    <net code="141" name="Net-(U8-Pad8)">
-      <node ref="U8" pin="8"/>
-    </net>
-    <net code="142" name="Net-(U8-Pad7)">
-      <node ref="U8" pin="7"/>
-    </net>
-    <net code="143" name="/ethoscope_3x3/tmc429_1/stepper_driver_0/BISEN">
-      <node ref="U8" pin="5"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="144" name="/ethoscope_3x3/tmc429_1/stepper_driver_0/AISEN">
+    <net code="141" name="/ethoscope_3x3/tmc429_1/stepper_driver_0/AISEN">
       <node ref="U8" pin="2"/>
       <node ref="R9" pin="1"/>
     </net>
+    <net code="142" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="143" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="144" name="/ethoscope_3x3/tmc429_1/stepper_driver_0/BISEN">
+      <node ref="R10" pin="1"/>
+      <node ref="U8" pin="5"/>
+    </net>
     <net code="145" name="/ethoscope_3x3/tmc429_1/stepper_driver_0/VINT">
-      <node ref="U8" pin="14"/>
-      <node ref="U8" pin="17"/>
       <node ref="C15" pin="1"/>
+      <node ref="U8" pin="17"/>
+      <node ref="U8" pin="14"/>
     </net>
     <net code="146" name="Net-(U13-Pad10)">
       <node ref="U13" pin="10"/>
@@ -2110,15 +2110,15 @@
     <net code="149" name="Net-(U13-Pad7)">
       <node ref="U13" pin="7"/>
     </net>
-    <net code="150" name="Net-(U13-Pad8)">
-      <node ref="U13" pin="8"/>
-    </net>
-    <net code="151" name="Net-(U13-Pad11)">
+    <net code="150" name="Net-(U13-Pad11)">
       <node ref="U13" pin="11"/>
     </net>
+    <net code="151" name="Net-(U13-Pad9)">
+      <node ref="U13" pin="9"/>
+    </net>
     <net code="152" name="/ethoscope_3x3/tmc_429_2/stepper_driver_0/B_+">
-      <node ref="U13" pin="6"/>
       <node ref="T7" pin="2"/>
+      <node ref="U13" pin="6"/>
     </net>
     <net code="153" name="/ethoscope_3x3/tmc_429_2/stepper_driver_0/A_-">
       <node ref="T7" pin="3"/>

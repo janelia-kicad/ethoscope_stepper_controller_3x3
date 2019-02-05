@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ethoscope_stepper_controller_3x3-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268

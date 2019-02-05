@@ -1,4 +1,4 @@
-(module CTS_SMD_4_7X5MM (layer F.Cu) (tedit 5B7459F3)
+(module CTS_SMD_4_7X5MM (layer F.Cu) (tedit 5C59C7BB)
   (fp_text reference REF** (at 0 -3.429) (layer F.SilkS)
     (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
