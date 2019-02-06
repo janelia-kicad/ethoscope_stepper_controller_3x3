@@ -1,42 +1,42 @@
-- [Repository Information](#orgfe8c0ad)
-  - [Description](#org835b7ae)
-- [Images](#orgb3ac2a3)
-- [Schematic](#orgc04fbb4)
-- [Gerbers](#orgf4d3cf5)
-- [Bill of Materials](#orgdffa3b2)
-  - [PCB Parts](#org689a3a4)
-  - [Supplemental Parts](#org6ad8ffb)
-  - [Vendor Parts Lists](#orgcbe00a5)
-- [Supplemental Documentation](#org37ef636)
-  - [Assembly Instructions](#org069a54f)
+- [Repository Information](#org758a3eb)
+  - [Description](#orgeb4be27)
+- [Images](#org71172c4)
+- [Schematic](#org945219d)
+- [Gerbers](#org1d6248d)
+- [Bill of Materials](#orgcc7b03c)
+  - [PCB Parts](#orga3dccca)
+  - [Supplemental Parts](#org7db11a9)
+  - [Vendor Parts Lists](#orgad09c1d)
+- [Supplemental Documentation](#org79a2346)
+  - [Assembly Instructions](#org838f5a4)
 
 
 
-<a id="orgfe8c0ad"></a>
+<a id="org758a3eb"></a>
 
 # Repository Information
 
 -   **Name:** ethoscope\_stepper\_controller\_3x3
--   **Version:** 1.1
+-   **Version:** 1.2
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/ethoscope_stepper_controller_3x3>
 -   **Author:** Peter Polidoro
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org835b7ae"></a>
+<a id="orgeb4be27"></a>
 
 ## Description
 
 This device controls the 7 stepper motors on the fly ethoscope rig.
 
 
-<a id="orgb3ac2a3"></a>
+<a id="org71172c4"></a>
 
 # Images
 
 
-<a id="orgc04fbb4"></a>
+<a id="org945219d"></a>
 
 # Schematic
 
@@ -67,25 +67,25 @@ This device controls the 7 stepper motors on the fly ethoscope rig.
 ![img](./schematic/images/schematic11.png)
 
 
-<a id="orgf4d3cf5"></a>
+<a id="org1d6248d"></a>
 
 # Gerbers
 
 Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
-[./gerbers/ethoscope\_stepper\_controller\_3x3\_v1.1.zip](./gerbers/ethoscope_stepper_controller_3x3_v1.1.zip)
+[./gerbers/ethoscope\_stepper\_controller\_3x3\_v1.2.zip](./gerbers/ethoscope_stepper_controller_3x3_v1.2.zip)
 
 ![img](./gerbers/images/gerbers00.png)
 
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="orgdffa3b2"></a>
+<a id="orgcc7b03c"></a>
 
 # Bill of Materials
 
 
-<a id="org689a3a4"></a>
+<a id="orga3dccca"></a>
 
 ## PCB Parts
 
@@ -100,7 +100,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 | 7    | MH1 MH2 MH3 MH4                                  | 4        | 36-2441-ND       | digikey | SHLDR SCREW RND HEAD HEX 4-40    |
 | 8    | P1                                               | 1        | CP-015AHPJ-CT-ND | digikey | CONN PWR JACK 2X5.5MM SOLDER     |
 | 9    | R1 R15 R8                                        | 3        | P10KJCT-ND       | digikey | RES SMD 10K OHM 5% 1/10W 0402    |
-| 10   | R10 R11 R12 R13 R14 R16 R17 R2 R3 R4 R5 R6 R7 R9 | 14       | 408-1454-1-ND    | digikey | RES SMD 5.1 OHM 1% 1/6W 0402     |
+| 10   | R10 R11 R12 R13 R14 R16 R17 R2 R3 R4 R5 R6 R7 R9 | 14       | RL05S2.2FCT-ND   | digikey | RES SMD 2.2 OHM 1% 1/6W 0402     |
 | 11   | T1 T2 T3 T4 T5 T6 T7                             | 7        | 277-5738-ND      | digikey | TERM BLOCK HDR 4POS VERT 3.5MM   |
 | 12   | TEENSY1                                          | 1        | 1568-1464-ND     | digikey | TEENSY 3.5 (HEADERS)             |
 | 13   | U1 U11 U6                                        | 3        | 1460-1071-1-ND   | digikey | IC MOTOR CONTROLLER SPI 32QFN    |
@@ -108,7 +108,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 | 15   | U12 U2 U7                                        | 3        | 296-11603-1-ND   | digikey | IC BUF NON-INVERT 5.5V SOT23-5   |
 
 
-<a id="org6ad8ffb"></a>
+<a id="org7db11a9"></a>
 
 ## Supplemental Parts
 
@@ -123,7 +123,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 | 7    | 7        | P14333-ND    | digikey | STEP MOTOR PM GEARED BIPOLAR 15V |
 
 
-<a id="orgcbe00a5"></a>
+<a id="orgad09c1d"></a>
 
 ## Vendor Parts Lists
 
@@ -132,12 +132,12 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 [./bom/supplemental\_digikey\_parts.csv](./bom/supplemental_digikey_parts.csv)
 
 
-<a id="org37ef636"></a>
+<a id="org79a2346"></a>
 
 # Supplemental Documentation
 
 
-<a id="org069a54f"></a>
+<a id="org838f5a4"></a>
 
 ## Assembly Instructions
 
