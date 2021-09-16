@@ -21,7 +21,7 @@
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/ethoscope_stepper_controller_3x3>
 -   **Author:** Peter Polidoro
--   **Email:** peterpolidoro@gmail.com
+-   **Email:** peter@polidoro.io
 
 
 <a id="orgeb4be27"></a>
